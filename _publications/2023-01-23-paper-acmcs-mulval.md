@@ -1,7 +1,7 @@
 ---
 title: "A Framework for Evaluating the Cybersecurity Risk of Real World, Machine Learning Production Systems"
 collection: publications
-permalink: ['https://dl.acm.org/doi/abs/10.1145/3559104']
+permalink: /publication/2023-01-23-paper-acmcs-mulval
 excerpt: 'This paper is propose a framework for evaluating the cybersecurity risk of real world, machine learning production systems.'
 date: 2023-01-13
 venue: 'ACM Computing Surveys'
