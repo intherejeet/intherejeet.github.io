@@ -1,9 +1,9 @@
 ---
 title: "Simultaneous Adversarial Attacks On Multiple Face Recognition System Components"
 collection: publications
-permalink: /publication/2023-04-11-paper-title-number-1
+permalink: /publication/2023-04-11-simultaneous-attacks-frs
 excerpt: 'In this work, we investigate the potential threat of adversarial examples to the security of face recognition systems.'
-date: 2009-10-01
+date: 2023-04-11
 venue: 'arXiv'
 paperurl: 'https://arxiv.org/abs/2304.05048'
 
