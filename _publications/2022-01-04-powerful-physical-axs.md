@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/2022-01-04-powerful-physical-axs
 excerpt: 'This paper aims to the generation of robust physical AXs against face recognition systems.'
 date: 2022-01-04
-venue: 'arXiv'
+venue: 'IEEE/CVF WACV MAP'
 paperurl: 'https://openaccess.thecvf.com/content/WACV2022W/MAP-A/papers/Singh_Powerful_Physical_Adversarial_Examples_Against_Practical_Face_Recognition_Systems_WACVW_2022_paper.pdf'
 
 ---
