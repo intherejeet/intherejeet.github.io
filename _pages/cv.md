@@ -11,9 +11,8 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* B.Tech. in Agricultural Engineering, VNMKV, Parbhani, 2017
+* M.Tech in Industrial Engineering and Operations Research, Indian Institute of Technology Bombay, Mumbai, 2019
 
 Work experience
 ======
@@ -29,12 +28,13 @@ Work experience
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Machine Learning
+  * Classical ML 
+  * Deep Learning
+  * Online Learning (Reinforcement Learning)
+  * Capsule Networks
+* Image Processing
+* Computer Vision
 
 Publications
 ======
