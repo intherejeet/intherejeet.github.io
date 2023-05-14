@@ -1,0 +1,14 @@
+---
+title: "Advancing Deep Metric Learning Through Multiple Batch Norms And Multi-Targeted Adversarial Examples"
+collection: publications
+permalink: /publication/2022-12-06-mdprop
+excerpt: 'This paper proposes MDProp, a framework to simultaneously improve the performance of DML models on clean data and inputs following multiple distributions.'
+date: 2022-12-06
+venue: 'arXiv'
+paperurl: 'https://arxiv.org/abs/2211.16253'
+
+---
+Deep Metric Learning (DML) is a prominent field in machine learning with extensive practical applications that concentrate on learning visual similarities. It is known that inputs such as Adversarial Examples (AXs), which follow a distribution different from that of clean data, result in false predictions from DML systems. This paper proposes MDProp, a framework to simultaneously improve the performance of DML models on clean data and inputs following multiple distributions. MDProp utilizes multi-distribution data through an AX generation process while leveraging disentangled learning through multiple batch normalization layers during the training of a DML model. MDProp is the first to generate feature space multi-targeted AXs to perform targeted regularization on the training model's denser embedding space regions, resulting in improved embedding space densities contributing to the improved generalization in the trained models. From a comprehensive experimental analysis, we show that MDProp results in up to 2.95% increased clean data Recall@1 scores and up to 2.12 times increased robustness against different input distributions compared to the conventional methods.
+
+
+[Download paper here]('https://arxiv.org/abs/2211.16253')
