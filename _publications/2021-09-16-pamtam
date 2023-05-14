@@ -1,0 +1,13 @@
+---
+title: "Toward Practical Adversarial Attacks on Face Verification Systems"
+collection: publications
+permalink: /publication/2021-09-16-pamtam
+excerpt: 'We propose a simple and effective method, PAMTAM, to improve the attack success rate for probe-agnostic attacks.'
+date: 2021-09-16
+venue: 'IEEE BIOSIG'
+paperurl: 'https://ieeexplore.ieee.org/document/9548310'
+
+---
+DNN-based face verification systems are vulnerable to adversarial examples. The previous paper's evaluation protocol (scenario), which we called the probe-dependent attack scenario, was unrealistic. We define a more practical attack scenario, the probe-agnostic attack. We empirically show that these attacks are more challenging than probe-dependent ones. We propose a simple and effective method, PAMTAM, to improve the attack success rate for probe-agnostic attacks. We show that PAMTAM successfully improves the attack success rate in a wide variety of experimental settings.
+
+[Download paper here]('https://ieeexplore.ieee.org/document/9548310')
