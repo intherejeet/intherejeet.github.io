@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/2021-09-16-brightness-agnostic-axs
 excerpt: 'This paper introduces a novel adversarial example generation method against face recognition systems (FRSs) to generate adversarial examples agnostic to practical brightness changes.'
 date: 2021-09-16
-venue: 'arXiv'
+venue: 'IEEE BIOSIG'
 paperurl: 'https://ieeexplore.ieee.org/document/9548291'
 
 ---
