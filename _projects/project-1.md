@@ -1,5 +1,5 @@
 ---
-title: "Anomaly Detection using Capsule Networks for High-dimensional Datasets"
+title: "dshsksvd"
 collection: projects
 permalink: /projects/project-1
 excerpt: 'This paper presents the use of capsule networks for anomaly detection.'
