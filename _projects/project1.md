@@ -1,4 +1,3 @@
-
 ---
 title: "Anomaly Detection using Capsule Networks for High-dimensional Datasets"
 collection: publications
