@@ -14,9 +14,19 @@ main:
         
 #   - title: "Blog Posts"
 #     url: /year-archive/
+  
+  - title: "Other Projects"
+    url: /projects/
     
   - title: "CV"
     url: /cv/
+    
+  - title: "Extracurricular"
+    url: /extracurricular/
+    
+  - title: "Hobbies"
+    url: /hobbies/
+
     
   - title: "Guide"
     url: /markdown/
