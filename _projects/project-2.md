@@ -1,7 +1,7 @@
 ---
-title: "dfd"
+title: "dfgdf"
 collection: projects
-permalink: /projects/project-1
+permalink: /projects/project-2
 excerpt: 'This paper presents the use of capsule networks for anomaly detection.'
 date: 2019-03-31
 venue: 'arXiv'
