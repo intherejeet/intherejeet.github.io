@@ -2,7 +2,7 @@
 ---
 title: "Anomaly Detection using Capsule Networks for High-dimensional Datasets"
 collection: publications
-permalink: /publication/2019-03-31-capsulenet-anomaly
+permalink: /projects/project1
 excerpt: 'This paper presents the use of capsule networks for anomaly detection.'
 date: 2019-03-31
 venue: 'arXiv'
