@@ -1,5 +1,5 @@
 ---
-title: "dfgdf"
+title: "dfngdfndnnlnhdldlhdnl"
 collection: projects
 permalink: /projects/project-2
 excerpt: 'This paper presents the use of capsule networks for anomaly detection.'
