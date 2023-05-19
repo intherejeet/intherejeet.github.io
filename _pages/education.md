@@ -13,13 +13,13 @@ author_profile: true
 **Master of Technology in Industrial Engineering and Operations Research**
 * Mumbai, India
 * 2017 – 2019
-* Awarded Institute Silver Medal.
+* Awarded **Institute Silver Medal**.
 
 ## Vasantrao Naik Marathwada Krishi Vidyapeeth
 **Bachelor of Technology in Agricultural Engineering**
 * Parbhani, India
 * 2013 – 2017
-* Awarded University Gold Medal.
+* Awarded **University Gold Medal**.
 
   
 ## Skills
