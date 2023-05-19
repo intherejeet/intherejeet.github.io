@@ -8,8 +8,6 @@ author_profile: true
 
 {% include base_path %}
 
-# Sporting Achievements
-
 - **National Level Badminton Player**  
 Represented the university at National Level West-Zone and Inter-Zonal Tournaments 2015-16 held at Lakshmibai National Institute of Physical Education, Gwalior, India.
 
