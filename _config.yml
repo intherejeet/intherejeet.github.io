@@ -187,6 +187,9 @@ collections:
   education:
     output: true
     permalink: /:collection/:path/
+  sports:
+    output: true
+    permalink: /:collection/:path/
   portfolio:
     output: false
     permalink: /:collection/:path/
@@ -246,6 +249,15 @@ defaults:
   - scope:
       path: ""
       type: education
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+  # _sports
+  - scope:
+      path: ""
+      type: sports
     values:
       layout: single
       author_profile: true
