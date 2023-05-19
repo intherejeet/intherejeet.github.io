@@ -58,9 +58,3 @@ Developed DNNs, Random Forest, XGBoost, and SVM models while using PCA and SMOTE
 Examined IoT, its background, different architectures and comparison to Industry 4.0, and evaluated a use-case of IoT application in drug supply chain information transfer.
 
 
-
-<!-- {% include base_path %}
-
-{% for post in site.projects reversed %}
-  {% include archive-single.html %}
-{% endfor %} -->
