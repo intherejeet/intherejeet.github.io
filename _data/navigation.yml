@@ -18,9 +18,12 @@ main:
   - title: "Other Projects"
     url: /projects/
     
-  - title: "Education, Skills, and Scholastic Achievements"
+  - title: "Education and Skills"
     url: /education/
     
+  - title: "Scholastic Achievements"
+    url: /scholastic/  
+
   - title: "Honors and Awards"
     url: /awards/
     
