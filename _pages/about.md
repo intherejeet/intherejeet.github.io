@@ -8,19 +8,61 @@ redirect_from:
   - /about.html
 ---
 
-Hello and welcome! I'm **Inderjeet**, a Senior AI Researcher at **Fujitsu Research Europe**, where I'm driving the frontier of AI towards security, reliability, and practicality. My work is at the intersection of generative AI and trustworthy computing, with a particular focus on computer vision.
+Hello and welcome! I'm **Inderjeet**, a Senior AI Researcher at **Fujitsu Research Europe**, where I'm driving the frontier of AI towards security, reliability, and practicality. My work is at the intersection of generative and trustworthy AI.
 
-## Achievements 🏆
+## Profession Achievements 🏆🔬
 
-I take immense pride in my contributions to the scientific community, which include filing **8 patents** and publishing **7 papers** in esteemed international conferences and journals. My journey in AI is far from monolithic; I've explored multiple domains ranging from sensor fusion to federated learning, deep metric learning, and AI for healthcare. But what fuels my drive is not just theory; it's the transformation of theoretical frameworks into actionable, real-world solutions that elevate both business operations and societal well-being.
+My contributions to the scientific community stand as pillars of my commitment to elevating the field of artificial intelligence. These achievements aren't just milestones, but small steps in an ongoing journey toward creating transformative and reliable AI solutions.
 
-## Education 🎓
+### Intellectual Property 📑
+- **Patents**: Successfully filed **8 patents**, covering a diverse range of innovative techniques in AI and computer vision.
 
-I hold a postgraduate degree in Operations Research from the **Indian Institute of Technology Bombay**, where I was honored with the **Institute Silver Medal**. During my undergraduate studies, I set the academic benchmark by earning a **University Gold Medal** for achieving the highest grade point average across the university.
+### Scholarly Contributions 📝
+- **Publications**: Authored **7 peer-reviewed papers** presented at esteemed international conferences and top-tier journals.
 
-## Sports & Beyond 🏸
+### Research Philosophy 🤔
+My work in AI extends beyond academic theory; it involves the practical implementation of these theories into functional applications. My goal is to contribute to solutions that address both complex business issues and societal challenges.
 
-Sports have been a cornerstone in my life, complementing my professional journey. I competed in badminton at the national level during my undergraduate studies in India, earning **silver medals twice**. I was also selected for national-level **Kho-Kho games**. My postgraduate life was no different, adding a **gold medal** in Kho-Kho during my tenure at IIT Bombay.
+
+## Academic Excellence: The Foundation of My Journey 🎓🏅
+
+My academic pursuits have laid a solid foundation for my research and professional accomplishments, earning me distinguished accolades along the way.
+
+### Postgraduate Studies 📘
+- **Degree**: Master's in Operations Research
+- **Institution**: Indian Institute of Technology Bombay, Mumbai
+- **Honors**: Awarded the **Institute Silver Medal** for highest grade in the batch
+
+### Undergraduate Studies 📙
+- **Degree**: Bachelor's in Agricultural Engineering
+- **Institution**: Vasantrao Naik Marathawada Agricultural University, Parbhani
+- **Accolades**: Awarded **University Gold Medal**, symbolizing the highest grade point average across the entire university.
+
+
+## Sports & Beyond: A Complementary Journey 🏸🥇🏏🏓🎾
+
+My engagement with sports has been a defining aspect of my life, skillfully balancing and enriching my professional and academic endeavors. 
+
+- **Badminton 🏸:** 
+  - *Level*: National-Level Player (Seniors)
+  - *Accolades*: Won **silver medals twice** at university games
+  
+- **Kho-Kho 🏃:**
+  - *Level*: Selected for National-Level Games (Seniors)
+  - *Accolades*: 
+    - Selected for **National-Level Kho-Kho games** during undergraduate studies
+    - Clinched a **gold medal in Kho-Kho** while representing **IIT Bombay**
+
+- **Cricket 🏏:**
+  - *Team*: Represented Alpha Quashers Yokohama Cricket Club, Japan's Division-1 team
+  - *Tenure*: 2021-2023
+
+- **Table Tennis 🏓:**
+  - *Level*: District-Level Player (Under-14)
+  - *Accolades*: Won **silver medal at district level**
+
+- **Other Sports 🎾:**
+  - Competent in tennis and various other sports.
 
 ## Let's Connect! 🌐
 
