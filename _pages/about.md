@@ -44,7 +44,7 @@ My academic pursuits have laid a solid foundation for my research and profession
 My engagement with sports has been a defining aspect of my life, skillfully balancing and enriching my professional and academic endeavors. 
 
 - **Badminton 🏸:** 
-  - *Level*: National-Level Player (Seniors)
+  - *Level*: **National-Level Player (Seniors)**
   - *Accolades*: Won **silver medals twice** at university games
   
 - **Kho-Kho 🏃:**
