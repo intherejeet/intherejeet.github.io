@@ -10,7 +10,7 @@ redirect_from:
 
 Hello and welcome! I'm **Inderjeet**, a Senior Researcher at **Fujitsu Research Europe**, where I'm driving the frontier of AI towards security, reliability, and practicality. My work is at the intersection of generative and trustworthy AI.
 
-## Profession Achievements 🏆🔬
+## Professional Achievements 🏆🔬
 
 My contributions to the scientific community stand as pillars of my commitment to elevating the field of artificial intelligence. These achievements aren't just milestones, but small steps in an ongoing journey toward creating transformative and reliable AI solutions.
 
