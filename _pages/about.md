@@ -54,7 +54,7 @@ My engagement with sports has been a defining aspect of my life, skillfully bala
     - Clinched a **gold medal in Kho-Kho** while representing **IIT Bombay**
 
 - **Cricket 🏏:**
-  - *Team*: Represented Alpha Quashers Yokohama Cricket Club, Japan's Division-1 team
+  - *Team*: Alpha Quashers Yokohama Cricket Club Japan's Division-1 team
   - *Tenure*: 2021-2023
 
 - **Table Tennis 🏓:**
