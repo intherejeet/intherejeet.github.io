@@ -12,10 +12,10 @@ Hello and welcome! I'm **Inderjeet**, a Senior Researcher at **Fujitsu Research 
 
 ## Professional Achievements 🏆🔬
 
-My contributions to the scientific community stand as pillars of my commitment to elevating the field of artificial intelligence. These achievements aren't just milestones, but small steps in an ongoing journey toward creating transformative and reliable AI solutions.
+My contributions to the scientific community stand as pillars of my commitment to elevating the field of AI. These achievements aren't just milestones, but small steps in an ongoing journey toward creating transformative and reliable AI solutions.
 
 ### Intellectual Property 📑
-- **Patents**: Successfully filed **8 patents**, covering a diverse range of innovative techniques in AI and computer vision.
+- **Patents**: Successfully filed **8 patents**, covering a diverse range of innovative techniques in AI, computer vision, and network security.
 
 ### Scholarly Contributions 📝
 - **Publications**: Authored **7 peer-reviewed papers** presented at esteemed international conferences and top-tier journals.
@@ -36,7 +36,7 @@ My academic pursuits have laid a solid foundation for my research and profession
 ### Undergraduate Studies 📙
 - **Degree**: Bachelor's in Agricultural Engineering
 - **Institution**: Vasantrao Naik Marathawada Agricultural University, Parbhani
-- **Accolades**: Awarded **University Gold Medal**, symbolizing the highest grade point average across the entire university.
+- **Accolades**: Awarded **University Gold Medal**, for the highest grade across the university.
 
 
 ## Sports & Beyond: A Complementary Journey 🏸🥇🏏🏓🎾
@@ -48,9 +48,8 @@ My engagement with sports has been a defining aspect of my life, skillfully bala
   - *Accolades*: Won **silver medals twice** at university games
   
 - **Kho-Kho 🏃:**
-  - *Level*: Selected for National-Level Games (Seniors)
+  - *Level*: Selected for National-Level Games (Seniors, during undergrad)
   - *Accolades*: 
-    - Selected for **National-Level Kho-Kho games** during undergraduate studies
     - Clinched a **gold medal in Kho-Kho** while representing **IIT Bombay**
 
 - **Cricket 🏏:**
