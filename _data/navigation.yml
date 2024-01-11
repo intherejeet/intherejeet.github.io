@@ -27,6 +27,6 @@ main:
   - title: "Sports"
     url: /sports/
     
-  - title: "Hobbies"
-    url: /hobbies/
+  # - title: "Hobbies"
+  #   url: /hobbies/
 
