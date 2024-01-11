@@ -18,7 +18,7 @@ My contributions to the scientific community stand as pillars of my commitment t
 - **Patents**: Successfully filed **8 patents**, covering a diverse range of innovative techniques in AI, computer vision, and network security.
 
 ### Scholarly Contributions 📝
-- **Publications**: Authored **7 peer-reviewed papers** presented at esteemed international conferences and top-tier journals.
+- **Publications**: Authored **9 research papers** presented at esteemed international conferences and top-tier journals.
 
 ### Research Philosophy 🤔
 My work in AI extends beyond academic theory; it involves the practical implementation of these theories into functional applications. My goal is to contribute to solutions that address both complex business issues and societal challenges.
@@ -31,12 +31,12 @@ My academic pursuits have laid a solid foundation for my research and profession
 ### Postgraduate Studies 📘
 - **Degree**: Master's in Operations Research
 - **Institution**: Indian Institute of Technology Bombay, Mumbai
-- **Honors**: Awarded the **Institute Silver Medal** for highest grade in the batch
+- **Honors**: Awarded the **Institute Silver Medal** for highest grade
 
 ### Undergraduate Studies 📙
 - **Degree**: Bachelor's in Agricultural Engineering
 - **Institution**: Vasantrao Naik Marathawada Agricultural University, Parbhani
-- **Accolades**: Awarded **University Gold Medal**, for the highest grade across the university.
+- **Accolades**: Awarded **University Gold Medal**, for the highest grade across the university
 
 
 ## Sports & Beyond: A Complementary Journey 🏸🥇🏏🏓🎾
