@@ -10,15 +10,20 @@ redirect_from:
 
 Hello and welcome! I'm **Inderjeet**, a Senior Researcher at **Fujitsu Research Europe**, where I'm driving the frontier of AI towards security, reliability, and practicality. My work is at the intersection of generative and trustworthy AI.
 
+## Latest News
+ - Paper accepted at BMVC-2024 conference.
+ - Paper accepted at ECCV-2024 conference.
+
+
 ## Professional Achievements 🏆🔬
 
 My contributions to the scientific community stand as pillars of my commitment to elevating the field of AI. These achievements aren't just milestones, but small steps in an ongoing journey toward creating transformative and reliable AI solutions.
 
 ### Intellectual Property 📑
-- **Patents**: Successfully filed **8 patents**, covering a diverse range of innovative techniques in AI, computer vision, and network security.
+- **Patents**: Successfully filed **10 patents**, covering a diverse range of innovative techniques in AI, computer vision, and network security.
 
 ### Scholarly Contributions 📝
-- **Publications**: Authored **9 research papers** presented at esteemed international conferences and top-tier journals.
+- **Publications**: Authored **11 research papers** presented (and to be presented) at esteemed international conferences and top-tier journals.
 
 ### Research Philosophy 🤔
 My work in AI extends beyond academic theory; it involves the practical implementation of these theories into functional applications. My goal is to contribute to solutions that address both complex business issues and societal challenges.
