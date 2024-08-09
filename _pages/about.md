@@ -11,9 +11,9 @@ redirect_from:
 Hello and welcome! I'm **Inderjeet**, a Senior Researcher at **Fujitsu Research Europe**, where I'm driving the frontier of AI towards security, reliability, and practicality. My work is at the intersection of generative and trustworthy AI.
 
 # Latest News 📰🗞️
- - Paper accepted at BMVC-2024 conference.
- - Paper accepted at ECCV-2024 conference.
- - Paper accepted as ACML-2023 Long Talk (9.5% acceptance rate).
+ - 2024-07-17. Paper accepted at BMVC-2024 conference.
+ - 2024-07-01. Paper accepted at ECCV-2024 conference.
+ - 2024-01-14. Paper published as ACML-2023 Long Talk (9.5% acceptance rate).
 
 ## Professional Achievements 🏆🔬
 
