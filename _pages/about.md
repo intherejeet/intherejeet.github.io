@@ -63,10 +63,7 @@ My engagement with sports has been a defining aspect of my life, skillfully bala
 
 - **Table Tennis 🏓:**
   - *Level*: District-Level Player (Under-14)
-  - *Accolades*: Won **silver medal at district level**
-
-- **Other Sports 🎾:**
-  - Competent in tennis and various other sports.
+  - *Accolades*: Won **silver medal at district 
 
 ## Let's Connect! 🌐
 
