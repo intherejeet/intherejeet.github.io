@@ -8,63 +8,53 @@ redirect_from:
   - /about.html
 ---
 
-Hello and welcome! I'm **Inderjeet**, a Senior Researcher at **Fujitsu Research Europe**, where I'm driving the frontier of AI towards security, reliability, and practicality. My work is at the intersection of generative and trustworthy AI.
+## About
 
-# Latest News 📰🗞️
- - 2024-07-17. Paper accepted at BMVC-2024 conference.
- - 2024-07-01. Paper accepted at ECCV-2024 conference.
- - 2024-01-14. Paper published as ACML-2023 Long Talk (9.5% acceptance rate).
+Welcome. I’m **Inderjeet**, currently a Senior Researcher at **Fujitsu Research Europe**. My work traverses the boundaries of generative AI and trustworthy AI, with a particular focus on integrating security and reliability into these evolving technologies. The path I've chosen in AI is not just a professional journey but a pursuit of understanding how we can build systems that not only perform but can be trusted.
 
-## Professional Achievements 🏆🔬
+## Latest News
 
-My contributions to the scientific community stand as pillars of my commitment to elevating the field of AI. These achievements aren't just milestones, but small steps in an ongoing journey toward creating transformative and reliable AI solutions.
+- **2024-07-17**: Paper accepted at **BMVC-2024**.
+- **2024-07-01**: Paper accepted at **ECCV-2024**.
+- **2024-01-14**: Presented a Long Talk at **ACML-2023**.
 
-### Intellectual Property 📑
-- **Patents**: Successfully filed **10 patents**, covering a diverse range of innovative techniques in AI, computer vision, and network security.
+## Professional Achievements
 
-### Scholarly Contributions 📝
-- **Publications**: Authored **11 research papers** presented (and to be presented) at esteemed international conferences and top-tier journals.
+These milestones mark my ongoing exploration in the vast landscape of AI.
 
-### Research Philosophy 🤔
-My work in AI extends beyond academic theory; it involves the practical implementation of these theories into functional applications. My goal is to contribute to solutions that address both complex business issues and societal challenges.
+### Intellectual Property
+- **Patents**: Filed **10 patents** in AI, computer vision, and network security.
 
+### Scholarly Contributions
+- **Publications**: Authored **11 research papers** at key international conferences and journals.
 
-## Academic Excellence: The Foundation of My Journey 🎓🏅
+### Research Philosophy
 
-My academic pursuits have laid a solid foundation for my research and professional accomplishments, earning me distinguished accolades along the way.
+AI is more than an academic pursuit—it's a tool to interpret and interact with the world. My work focuses on the intersection where theoretical foundations meet real-world applications, where the abstract becomes tangible, and where solutions emerge that can be both innovative and trustworthy.
 
-### Postgraduate Studies 📘
-- **Degree**: Master's in Operations Research
-- **Institution**: Indian Institute of Technology Bombay, Mumbai
-- **Honors**: Awarded the **Institute Silver Medal** for highest grade
+## Academic Foundation
 
-### Undergraduate Studies 📙
-- **Degree**: Bachelor's in Agricultural Engineering
-- **Institution**: Vasantrao Naik Marathawada Agricultural University, Parbhani
-- **Accolades**: Awarded **University Gold Medal**, for the highest grade across the university
+My academic journey has provided the intellectual scaffolding for my research.
 
+### Postgraduate Studies
+- **Master's in Operations Research**  
+  **Institution**: Indian Institute of Technology Bombay, Mumbai  
+  **Honors**: Awarded the **Institute Silver Medal**.
 
-## Sports & Beyond: A Complementary Journey 🏸🥇🏏🏓🎾
+### Undergraduate Studies
+- **Bachelor's in Agricultural Engineering**  
+  **Institution**: Vasantrao Naik Marathawada Agricultural University, Parbhani  
+  **Accolades**: Awarded the **University Gold Medal**.
 
-My engagement with sports has been a defining aspect of my life, skillfully balancing and enriching my professional and academic endeavors. 
+## Beyond Research
 
-- **Badminton 🏸:** 
-  - *Level*: **National-Level Player (Seniors)**
-  - *Accolades*: Won **silver medals twice** at university games
-  
-- **Kho-Kho 🏃:**
-  - *Level*: Selected for National-Level Games (Seniors, during undergrad)
-  - *Accolades*: 
-    - Clinched a **gold medal in Kho-Kho** while representing **IIT Bombay**
+Sports have shaped my approach to challenges, offering a counterbalance to the cerebral demands of research.
 
-- **Cricket 🏏:**
-  - *Team*: Alpha Quashers Yokohama Cricket Club Japan's Division-1 team
-  - *Tenure*: 2021-2023
+- **Badminton**: Competed as a **National-Level Player** (Seniors); earned **silver medals** at university games.
+- **Kho-Kho**: Participated in **National-Level Games** (Seniors, during undergrad); secured a **gold medal** representing **IIT Bombay**.
+- **Cricket**: Played for **Alpha Quashers Yokohama Cricket Club** in Japan’s Division-1 team (2021-2023).
+- **Table Tennis**: Competed at the **District-Level** (Under-14); won a **silver medal**.
 
-- **Table Tennis 🏓:**
-  - *Level*: District-Level Player (Under-14)
-  - *Accolades*: Won **silver medal at district 
+## Let's Connect
 
-## Let's Connect! 🌐
-
-I invite you to explore my work, join me in collaborative ventures, or simply reach out for an intellectually stimulating conversation. Let's work together to construct a future where AI serves humanity in the best way possible.
+If you find resonance in my work or seek collaboration, I welcome the opportunity to connect. The future of AI is a shared journey, and together, we can explore its potential to shape the world in meaningful ways.
