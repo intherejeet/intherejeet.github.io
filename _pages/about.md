@@ -14,7 +14,7 @@ Welcome. I’m **Inderjeet**, currently a Senior Researcher at **Fujitsu Researc
 
 - **2024-07-17**: Paper accepted at **BMVC-2024**.
 - **2024-07-01**: Paper accepted at **ECCV-2024**.
-- **2024-01-14**: Presented a Long Talk at **ACML-2023**.
+- **2024-01-14**: Presented a Long Talk (9.5% acceptance rate) at **ACML-2023**.
 
 ## Professional Achievements 🏆
 
