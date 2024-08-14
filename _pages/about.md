@@ -35,12 +35,12 @@ AI is more than an academic pursuit—it's a tool to interpret and interact with
 ### Postgrad
 - Specialization: **Operations Research**  
   Institution: **Indian Institute of Technology Bombay**, Mumbai  
-  Honors: Awarded the **Institute Silver Medal**.
+  Honors: **Institute Silver Medallist**.
 
 ### Undergrad
 - Specialization: **Agricultural Engineering**  
   Institution: **Vasantrao Naik Marathawada Agricultural University**, Parbhani  
-  Accolades: Awarded the **University Gold Medal**.
+  Accolades: **University Gold Medallist**.
 
 ## Beyond Research 🏸🏃🏏🏓
 
