@@ -10,7 +10,7 @@ redirect_from:
 
 Welcome. I’m **Inderjeet**, currently a Senior Researcher at **Fujitsu Research Europe**. My work traverses the boundaries of generative AI and trustworthy AI, with a particular focus on integrating security and reliability into these evolving technologies. The path I've chosen in AI is not just a professional journey but a pursuit of understanding how we can build systems that not only perform but can be trusted.
 
-## Latest News 🗞️
+## Recent News 🗞️
 
 - **2024-07-17**: Paper accepted at **BMVC-2024**.
 - **2024-07-01**: Paper accepted at **ECCV-2024**.
