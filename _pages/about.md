@@ -13,7 +13,7 @@ Welcome. I’m **Inderjeet**, currently a Senior Researcher at **Fujitsu Researc
 ## Recent News 🗞️
 
 - **2024-07-17**: A paper accepted as **Oral** at **BMVC-2024 Conference**.
-- **2024-07-01**: Paper accepted at **ECCV-2024 Conference**.
+- **2024-07-01**: A Paper accepted at **ECCV-2024 Conference**.
 - **2024-01-14**: Presented a **Long Talk Paper** (9.5% acceptance rate) at **ACML-2023 Conference**.
 
 ## Professional Achievements 🏆
