@@ -34,7 +34,7 @@ AI is more than an academic pursuit—it's a tool to interpret and interact with
 
 ### Postgrad
 - Specialization: Operations Research  
-  Institution: Indian Institute of Technology Bombay, Mumbai  
+  Institution: ***Indian Institute of Technology Bombay***, Mumbai  
   Honors: **Institute Silver Medallist**.
 
 ### Undergrad
@@ -48,7 +48,7 @@ Sports have shaped my approach to challenges, offering a counterbalance to the c
 
 - **Badminton**: **National-Level Player** (Seniors); **silver medals** at university games while captaining.
 - **Kho-Kho**: Selected for **National-Level Games** (Seniors, during undergrad); won **gold medal** representing **IIT Bombay**.
-- **Cricket**: Played for **Alpha Quashers Yokohama Cricket Club** in Japan’s Division-1 team (2021-2023).
+- **Cricket**: Played for **Alpha Quashers Yokohama Cricket Club Japan**’s Division-1 team (2021-2023).
 - **Table Tennis**: Competed at the **District-Level** (Under-14); won a **silver medal**.
 
 ## Let's Connect 🌐
