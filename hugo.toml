@@ -1,0 +1,104 @@
+baseURL = 'https://intherejeet.github.io/'
+languageCode = 'en-us'
+title = 'Inderjeet Singh'
+theme = 'PaperMod'
+
+[pagination]
+pagerSize = 10
+
+[params]
+description = "Senior Researcher at Fujitsu Research Europe | AI Security & Trustworthy AI"
+author = "Inderjeet Singh"
+defaultTheme = "auto" # dark, light, auto
+disableThemeToggle = false
+ShowReadingTime = false
+ShowShareButtons = false
+ShowPostNavLinks = false
+ShowBreadCrumbs = false
+ShowCodeCopyButtons = true
+ShowRssButtonInSectionTermList = false
+UseHugoToc = false
+disableSpecial1stPost = true
+disableScrollToTop = false
+comments = false
+hidemeta = true
+hideSummary = true
+showtoc = false
+tocopen = false
+enableSearch = false
+enableRobotsTXT = true
+enableGitInfo = false
+
+# Custom CSS
+[params.assets]
+disableHLJS = true
+
+# Social links
+[[params.socialIcons]]
+name = "googlescholar"
+url = "https://scholar.google.com/citations?user=eoxiMqQAAAAJ&hl=en"
+
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/intherejeet"
+
+[[params.socialIcons]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/intherejeet"
+
+[[params.socialIcons]]
+name = "email"
+url = "mailto:inderjeet.ieor@gmail.com"
+
+# Home page profile - Disabled for custom design
+[params.profileMode]
+enabled = false
+
+# Simplified Menu
+[[menu.main]]
+identifier = "research"
+name = "Research"
+url = "/#research"
+weight = 10
+
+[[menu.main]]
+identifier = "publications"
+name = "Publications"
+url = "https://scholar.google.com/citations?user=eoxiMqQAAAAJ&hl=en"
+weight = 20
+
+# Taxonomies
+[taxonomies]
+category = "categories"
+tag = "tags"
+series = "series"
+
+# Markup settings
+[markup]
+  [markup.highlight]
+    anchorLineNos = true
+    codeFences = true
+    guessSyntax = true
+    lineNos = true
+    style = "monokai"
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+# Privacy settings
+[privacy]
+  [privacy.googleAnalytics]
+    anonymizeIP = true
+    disable = false
+    respectDoNotTrack = true
+    useSessionStorage = false
+
+# Outputs for search
+[outputs]
+home = ["HTML", "RSS"]
+
+# Sitemap
+[sitemap]
+  changefreq = "weekly"
+  filename = "sitemap.xml"
+  priority = 0.5

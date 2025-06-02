@@ -1,0 +1,18 @@
+# Hugo
+public/
+resources/
+.hugo_build.lock
+
+# IDE
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
+
+# Backup
+backup_original/
+*.backup
+
+_site/
+

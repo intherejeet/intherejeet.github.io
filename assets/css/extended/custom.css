@@ -1,0 +1,259 @@
+/* Custom Academic Theme Styling */
+
+/* Academic color scheme */
+:root {
+    --primary-color: #2c3e50;
+    --accent-color: #3498db;
+    --text-color: #333;
+    --bg-color: #ffffff;
+    --border-color: #e1e4e8;
+}
+
+[data-theme="dark"] {
+    --primary-color: #ecf0f1;
+    --accent-color: #3498db;
+    --text-color: #ecf0f1;
+    --bg-color: #1a1a1a;
+    --border-color: #404040;
+}
+
+/* Typography improvements */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 1.7;
+}
+
+/* Professional header styling */
+.nav {
+    padding: 15px 0;
+    font-size: 16px;
+}
+
+.logo {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+/* Profile mode enhancements */
+.profile img {
+    border: 3px solid var(--border-color);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.profile .subtitle {
+    margin-top: 20px;
+    line-height: 1.8;
+}
+
+/* Publication styling */
+.publication-item {
+    background: var(--code-bg);
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.publication-item:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.publication-abstract details {
+    margin-top: 10px;
+    padding: 10px;
+    background: var(--bg-color);
+    border-radius: 4px;
+}
+
+.publication-abstract summary {
+    cursor: pointer;
+    font-weight: 500;
+    color: var(--primary);
+}
+
+/* News/blog post cards */
+.post-entry {
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: all 0.3s ease;
+}
+
+.post-entry:hover {
+    border-color: var(--primary);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Academic-style navigation */
+#menu {
+    font-size: 15px;
+}
+
+#menu a {
+    padding: 8px 12px;
+    border-radius: 4px;
+    transition: background 0.2s ease;
+}
+
+#menu a:hover {
+    background: var(--code-bg);
+}
+
+
+
+/* Research area cards */
+.research-area {
+    background: var(--code-bg);
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    border-left: 4px solid var(--primary);
+}
+
+/* Footer improvements */
+.footer {
+    margin-top: 60px;
+    padding: 30px 0;
+    border-top: 1px solid var(--border-color);
+}
+
+/* Responsive improvements */
+@media (max-width: 768px) {
+    .profile img {
+        width: 120px;
+        height: 120px;
+    }
+    
+    .publication-links {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .publication-links a {
+        margin-bottom: 5px;
+    }
+}
+
+/* Academic quote styling */
+blockquote {
+    border-left: 4px solid var(--primary);
+    padding-left: 20px;
+    margin: 20px 0;
+    font-style: italic;
+    color: var(--secondary);
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table th {
+    background: var(--code-bg);
+    padding: 12px;
+    text-align: left;
+    font-weight: 600;
+}
+
+table td {
+    padding: 12px;
+    border-bottom: 1px solid var(--border-color);
+}
+
+/* Tag styling */
+.post-tags a {
+    background: var(--code-bg);
+    padding: 4px 10px;
+    border-radius: 4px;
+    font-size: 14px;
+    margin-right: 8px;
+    text-decoration: none;
+    transition: background 0.2s ease;
+}
+
+.post-tags a:hover {
+    background: var(--primary);
+    color: var(--theme);
+}
+
+/* Academic icons */
+.social-icons a {
+    font-size: 20px;
+    margin: 0 8px;
+    transition: transform 0.2s ease;
+}
+
+.social-icons a:hover {
+    transform: translateY(-2px);
+}
+
+/* Coming soon styling */
+a.coming-soon {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+a.coming-soon:hover {
+    background: var(--code-bg);
+    color: var(--secondary);
+}
+
+/* Additional Modern Enhancements */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+/* Loading animation */
+.page-wrapper {
+    animation: fadeIn 0.8s ease-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* Enhanced dark mode support */
+[data-theme="dark"] {
+    --gradient-primary: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    --gradient-secondary: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+    --gradient-accent: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+}
+
+[data-theme="dark"] .stat-card,
+[data-theme="dark"] .research-item,
+[data-theme="dark"] .news-card,
+[data-theme="dark"] .pub-item {
+    background: rgba(255, 255, 255, 0.05);
+    border-color: rgba(255, 255, 255, 0.15);
+}
+
+/* Selection highlighting */
+::selection {
+    background: rgba(102, 126, 234, 0.3);
+    color: white;
+}
+
+/* Focus states for accessibility */
+a:focus,
+button:focus {
+    outline: 2px solid var(--primary);
+    outline-offset: 2px;
+}
+
+/* Reduce motion for accessibility */
+@media (prefers-reduced-motion: reduce) {
+    * {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+} 

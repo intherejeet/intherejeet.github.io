@@ -1,0 +1,64 @@
+{{ define "main" }}
+<style>
+.error-container {
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.error-content {
+  max-width: 600px;
+  padding: 40px 20px;
+}
+
+.error-code {
+  font-size: 6em;
+  font-weight: 300;
+  color: var(--primary);
+  margin-bottom: 20px;
+  letter-spacing: -5px;
+}
+
+.error-message {
+  font-size: 1.5em;
+  font-weight: 300;
+  margin-bottom: 20px;
+  color: var(--secondary);
+}
+
+.error-description {
+  font-size: 1.1em;
+  color: var(--secondary);
+  margin-bottom: 40px;
+  line-height: 1.6;
+}
+
+.error-link {
+  display: inline-block;
+  padding: 12px 24px;
+  border: 1px solid var(--primary);
+  color: var(--primary);
+  text-decoration: none;
+  transition: all 0.3s ease;
+  font-weight: 500;
+}
+
+.error-link:hover {
+  background: var(--primary);
+  color: var(--theme);
+}
+</style>
+
+<div class="error-container">
+  <div class="error-content">
+    <div class="error-code">404</div>
+    <h1 class="error-message">Page Not Found</h1>
+    <p class="error-description">
+      The page you're looking for doesn't exist. It might have been moved or deleted.
+    </p>
+    <a href="/" class="error-link">Return Home</a>
+  </div>
+</div>
+{{ end }} 
