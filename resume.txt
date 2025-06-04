@@ -1,0 +1,308 @@
+\documentclass[a4paper,10.5pt]{article}
+%-----------------------------------------------------------
+\usepackage[top=0.50in, bottom=0.3in, left=0.3in, right=0.45in]{geometry}
+\usepackage{graphicx}
+\usepackage{url}
+\usepackage{palatino}
+\usepackage{tabularx}
+\usepackage{multicol}
+\usepackage{enumitem}
+\usepackage[utf8]{inputenc}
+\fontfamily{SansSerif}
+\usepackage[dvipsnames]{xcolor}
+
+\input{glyphtounicode}
+
+\pdfgentounicode=1
+
+\usepackage[pdftex]{hyperref}
+
+\usepackage[T1]{fontenc}
+\usepackage{setspace}
+\usepackage{color}
+\definecolor{mygrey}{gray}{0.93}
+% \textheight=9.75in
+\textheight=11in
+\raggedbottom
+
+\setlength{\tabcolsep}{0in}
+\newcommand{\isep}{-2 pt}
+\newcommand{\lsep}{-0.5cm}
+\newcommand{\psep}{-0.6cm}
+\renewcommand{\labelitemii}{$\circ$}
+
+\pagestyle{empty}
+%-----------------------------------------------------------
+%Custom commands
+\newcommand{\resitem}[1]{\item #1 \vspace{-2pt}}
+\newcommand{\resheading}[1]{{\small \colorbox{mygrey}{\begin{minipage}{0.96\textwidth}{\textbf{#1 \vphantom{p\^{E}}}}\end{minipage}}}}
+\newcommand{\ressubheading}[3]{
+\begin{tabular*}{6.62in}{l @{\extracolsep{\fill}} r}
+	\textsc{{\textbf{#1}}} & \textsc{\textit{[#2]}} \\
+\end{tabular*}\vspace{-8pt}}
+%----------------------------------------------------------
+
+\begin{document}
+\begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{{\Large Inderjeet Singh}} & Email : \href{mailto:inderjeet.ieor@gmail.com}{inderjeet.ieor@gmail.com}\\
+ \href{https://scholar.google.com/citations?user=eoxiMqQAAAAJ&hl=en}{Google Scholar} | \href{https://www.linkedin.com/in/intherejeet/}{LinkedIn} & Mobile : +44 7786 775265
+\end{tabular*}
+
+
+\vspace{0.15cm}
+
+% Immediately after:
+% \end{tabular*}
+% \vspace{0.15cm}
+
+% ADD THIS SECTION:
+\resheading{\textbf{SUMMARY}}
+% \vspace{-0.2cm} % Adjust this spacing as needed
+\begin{itemize} %[leftmargin=*, itemsep=0pt, topsep=2pt, partopsep=0pt, parsep=0pt]
+    \item Accomplished Senior Researcher (AI) with close to 6 years of experience at leading global research labs (Fujitsu Research, NEC). Proven expertise in developing and leading cutting-edge projects in LLM/LMM Safety and Security, Agentic RAG, Multimodal AI Robustness, and Computer Vision. Strong publication record in top-tier venues (ACL, BMVC Oral, ECCV, WACV) and 10+ filed patents (including granted). Seeking to leverage deep technical skills in AI security and generative AI to drive impactful research and innovative solutions.
+\end{itemize}
+\vspace{0.15cm} % Adjust space before next section if needed
+
+\resheading{\textbf{PROFESSIONAL EXPERIENCE} }
+\begin{itemize}
+
+\item \textbf{Fujitsu Research of Europe} \hfill \textbf{Slough, UK} \\
+\emph{Senior Researcher | AI Security \hfill Jul'2023 - Present} \\[-0.6cm]
+\begin{itemize}[leftmargin=*]
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    \item \textbf{Leading} Project \textbf{Trustworthy Multimodal Agentic RAG}: Architected and developed a multimodal Agentic RAG framework (utilizing LangChain, LangGraph, and Vector Databases) with a dedicated trust agent, achieving 6.34 times safety gains while retaining state-of-art RAG performance. Also, developed (soon to be publicly released) the first safety benchmark suite of more than 43,000+ successful malicious attacks using our novel auto red-teaming frameworks for agentic RAGs.
+
+    \item \textbf{Leading} Project \textbf{LLM Disparity Assessment}: Developed Token-Focused Disparity Probing (TFDP), a novel methodology for auditing LLM disparities with up to 42 times greater token efficiency through targeted token querying and multi-scale semantic alignment.
+
+    \item \textbf{Leading} the design and implementation of a novel \textbf{distributed peer-to-peer knowledge exchange framework} for finetuning \textbf{LLM agents} while maintaining \textbf{training data privacy}.
+
+    \item Project \textbf{LLM/LMM (Large Language/Multimodal Model) Security}: Developing an \textbf{LLM/LMM Vulnerability Scanner and Guardrail Solution Framework} {to ensure safety control in LLM-based applications}. A \textbf{review paper} has been published at the ACM ICSE RAIE Workshop on the analysis of existing frameworks.
+
+    \item \textbf{DIESEL Framework}: Contributed to the development of a low-latency LLM inference guidance framework. It employs dynamic token re-ranking via semantic similarity to predefined negative/adversarial concepts. \textcolor{magenta}{Accepted at ACL-2025 conference}.
+
+    % \item Project \textbf{Privacy of LLM Document Question-Answering (DQA) Systems}: Developing a novel attack method to assess the risk of exposing personally identifiable information within LLM-based DQA systems.
+    
+    \item Led Project \textbf{ATLANTIS}: Developed a unified multimodal framework for automated, targeted, language-guided augmentation training to enhance robustness in image search applications. (Filed a patent, and the paper was \textcolor{magenta}{published in \textbf{Oral-track} (<3\% acceptance rate) at the BMVC 2024 conference}). Currently, the framework is being integrated into a multimodal RAG framework.
+
+    \item Collaborated on Project \textbf{MONTRAGE}: Developed a training data attribution model for text-to-image diffusion models aimed at copyright protection. Patent has been filed, and the paper was \textcolor{magenta}{published at the ECCV-2024 conference}.
+    
+    \item Project \textbf{AI-Detector}: Collaborated on a simple meta-detector designed to identify LLM-generated text.
+    
+    \item \textbf{\href{https://www.fujitsu.com/global/about/resources/news/press-releases/2023/0926-02.html}{Phishing URL Detector}}:  conducted code reviews and debugging.
+    
+
+\end{itemize}
+
+\item \textbf{NEC} \hfill \textbf{Kawasaki, Japan} \\
+ \emph{Researcher | AI Security | NEC Global Innovation Unit \hfill Jul'2019 - Jun'2023} \\[-0.6cm]
+	\begin{itemize}[leftmargin=*]  %\setlength\itemsep{-0.1pt}
+	\item Filed \textbf{8 Patents} (\textit{first grant recently}) and authored \textbf{\href{https://scholar.google.com/citations?user=eoxiMqQAAAAJ&hl=en}{8 International Research Papers}} as well as \textbf{3 Internal Technical Reports}. 
+        \item \textbf{Accuracy and Robustness Improvement in Computer Vision} \\ [-0.51cm]
+	\begin{itemize}[leftmargin=*] 
+	    \item Developed \textbf{MDProp} framework to improve the accuracy and robustness of CNNs and Vision Transformers for multi-distribution inputs in Deep Metric Learning (DML)-based image retrieval settings. Achieved a new state-of-art in DML by increasing clean data Recall@1 scores by up to \textbf{2.95$\%$} and robustness against multi-distribution inputs by \textbf{2.12 times}; improved Recall@1 scores by \textbf{9.98$\%$} for the \textbf{NEC Retail Product Recognition Engine}.
+
+	\end{itemize}
+	
+        \item \textbf{A Testbed in Collaboration with Ben Gurion University, Israel} \\ [-0.51cm]
+	\begin{itemize}[leftmargin=*] 
+	    \item Developed a testbed for the \textit{risk assessment} of the real-world AI-integrated surveillance systems.
+	    \item Deployed the POC testbed locally in a practical condition and demonstrated its effectiveness.
+	    \item Developed a novel adversarial makeup attack method, reducing face recognition accuracy by \textbf{45$\%$}.
+	\end{itemize}
+
+        \item \textbf{An Extension of the Open Source MulVAL Cyber Security Tool} \\ [-0.51cm]
+	\begin{itemize}[leftmargin=*] 
+	    \item Developed an extension of the MulVAL cybersecurity tool in collaboration with Ben Gurion University, Israel. 
+        \item The developed extension generates attack graphs for practical AI-integrated systems for vulnerability analysis.
+	\end{itemize}
+ 
+	\item \textbf{A Framework for Face Verification Systems} \\ [-0.51cm]
+	\begin{itemize}[leftmargin=*] 
+	    \item Developed a framework for the risk assessment of \textit{NEC's NeoFace face verification system} from the digital and physical world adversarial attacks. 
+	    \item Developed brightness agnostic adversarial attacks. Achieved \textbf{39.96\%} higher attack success rates.
+	    \item Developed a \textit{regularization penalty} for generating highly transferable \textit{physical} adversarial attacks against practical face recognition systems and achieved \textbf{1.17-1.97 times} improved attack potency.
+	    \item Developed a \textit{patch-noise combo attack} and achieved \textbf{2.39-4.74 times} improvements in attack potency.
+	    \item Developed a \textit{probe-image agnostic adversarial attack generation method} that enhanced the practicality of conventional attack methods by increasing the transferability of attacks for different images of a target identity.
+	\end{itemize}
+	
+	
+	\item Collaborated with \textbf{NEC Labs America} and deployed \textbf{NEC's FaceSec} (CVPR-2021) for internal objectives.
+		
+	\item Proposed an \textbf{AI Chatbot} for localized information sharing and emergency alerts. This proposal was selected among \textit{top inventions} in the laboratory-wide internal Zeroth Proposal Program.\end{itemize}
+
+	
+% \item\textbf{ Indian Institute of Technology Bombay} \hfill \textbf{Mumbai, India} \\
+%  \emph{Teaching Assistant | Prof. M.K. Hanawal \hfill Jul'18 - Apr'19} \\[-0.6cm]
+%     \begin{itemize}[leftmargin=*]  %\setlength\itemsep{-0.1pt}
+%         \item Worked as a teaching assistant for the fall semester course titled 'Introduction to Stochastic Models'.
+%         \item \textbf{Conducted bridge classes}, \textbf{tutorials}, and \textbf{evaluation of tests and assignments} for the batch of \textbf{40+ students}.
+%     \end{itemize}
+\end{itemize}
+
+\resheading{\textbf{EDUCATION} } %\\[-0.5cm]
+\begin{itemize} %\setlength\itemsep{-0.1pt}
+\item \textbf{Indian Institute of Technology Bombay} \hfill \textbf{Mumbai, India} \\
+ \emph{Master of Technology in Industrial Engineering and Operations Research \hfill 2017 --  2019} \\ [-0.5cm]
+ \begin{itemize}[leftmargin=*] 
+     \item Awarded {\textcolor{orange}{Institute Silver Medal}} for achieving \textbf{ highest Grade} in postgraduate batch.
+ \end{itemize}
+ \item \textbf{Vasantrao Naik Marathwada Krishi Vidyapeeth} \hfill \textbf{Parbhani, India} \\
+ \emph{Bachelor of Technology in Agricultural Engineering  \hfill 2013 --  2017} \\ [-0.6cm]
+ \begin{itemize} [leftmargin=*] 
+     \item Awarded {\textcolor{orange}{University Gold Medal}} for undergraduate with \textbf{highest grade in the university}.
+ \end{itemize}
+\end{itemize}
+
+% \pagebreak
+
+\resheading{\textbf{TECHNICAL SKILLS}}
+\begin{itemize}%[leftmargin=*, itemsep=2pt, topsep=2pt, partopsep=0pt, parsep=0pt]
+    \item \textbf{Programming \& Scripting:} Python, Bash.
+    \item \textbf{Machine Learning \& Deep Learning:}
+        \begin{itemize}[leftmargin=*, itemsep=0pt, topsep=1pt]
+            \item \textbf{Frameworks:} PyTorch, Scikit-Learn, TensorFlow (1.0), Keras.
+            \item \textbf{Core Areas:} Deep Metric Learning, Adversarial ML (Attacks \& Defenses), AI Robustness \& Safety, Computer Vision (Image Search, Face Recognition, Multimodal), NLP (LLM/LMM-focused), Anomaly Detection.
+        \end{itemize}
+    \item \textbf{LLM \& Generative AI Development:}
+        \begin{itemize}[leftmargin=*, itemsep=0pt, topsep=1pt]
+            \item \textbf{Core Frameworks/Libraries:} LangChain, LangGraph, Hugging Face (Transformers, Tokenizers, Datasets), LlamaIndex.
+            \item \textbf{Techniques:} Retrieval-Augmented Generation (RAG), Agentic AI Design, Prompt Engineering \& Optimization, LLM Fine-tuning (e.g., LoRA, DoRA), Multimodal Models (LMMs), LLM Evaluation \& Benchmarking.
+            \item \textbf{APIs \& Models:} Azure OpenAI API, Anthropic API, Gemini API.
+        \end{itemize}
+    \item \textbf{AI Security \& Trustworthy AI:}
+        \begin{itemize}[leftmargin=*, itemsep=0pt, topsep=1pt]
+            \item \textbf{Expertise:} LLM/LMM Vulnerability Assessment \& Scanning, Automated Red Teaming, LLM Safety Guardrails (Development \& Implementation), Data Privacy in AI/LLMs, Training Data Attribution, LLM Disparity/Bias Auditing \& Mitigation.
+            \item \textbf{Tools/Methods:} Adversarial Attack Simulation, Garak, LLM Guard, Custom AI Security Framework Development.
+        \end{itemize}
+    \item \textbf{MLOps \& Cloud Infrastructure:}
+        \begin{itemize}[leftmargin=*, itemsep=0pt, topsep=1pt]
+            \item \textbf{Platforms:} AWS (e.g., SageMaker, S3, EC2), Azure (e.g., Azure ML, OpenAI Service).
+            \item \textbf{Tools:} Docker, MLflow, Weights \& Biases (W\&B), Git, GitLab CI/CD.
+            \item \textbf{Vector Databases:} ChromaDB, Milvus.
+        \end{itemize}
+    \item \textbf{Data Handling \& Visualization:} Pandas, NumPy, Streamlit, Flask, Matplotlib, Seaborn.
+    \item \textbf{Documentation \& Collaboration:} \LaTeX, Git.
+\end{itemize}
+
+
+% \newgeometry{top=.41in, bottom=.5in, left=.35in, right=.5in}
+
+\resheading{\textbf{KEY PUBLICATIONS \& PATENTS (Please check \href{https://scholar.google.com/citations?user=eoxiMqQAAAAJ&hl=en}{Google Scholar} for the complete list)} } \\ [-0.33cm]
+\begin{enumerate}
+        \item \textbf{DIESEL: A Lightweight Inference-Time Safety Enhancement for Language Models} \hfill \textbf{ACL} \\ 
+	   \emph{[B Ganon, A Zolfi, O Hofman, \textcolor{magenta}{I Singh}, H Kojima, Y Elovici, A Shabtai]}. \hfill 2025
+	\item \textbf{ATLANTIS: A Framework for Automated Targeted Language-guided Augmentation Training} \hfill \textbf{BMVC (Oral)} \\ \textbf{for Robust Image Search.} 
+	   \emph{[\textcolor{magenta}{I Singh$^*$}, R Vainshtein, A Zolfi, A Shabtai, J Brokman, O Hofman, K Fumiyoshi,} \hfill 2024\\
+        \emph{T Kentarou, H Kojima]}.
+            
+    \item \textbf{MONTRAGE: Monitoring Training for Attribution of Generative Diffusion Models} \hfill \textbf{ECCV} \\ 
+	   \emph{[J Brokman, O Hofman, R Vainshtein, A Giloni, T Shimizu, \textcolor{magenta}{I Singh}, O Rachmil, A Zolfi, A Shabtai, Y Unno, H Kojima]}. \hfill 2024
+
+    \item \textbf{Insights and Current Gaps in Open-Source LLM Vulnerability Scanners: A Comparative Analysis} \hfill \textbf{ACM ICSE} \\ 
+	   \emph{[J Brokman, O Hofman, O Rachmil, \textcolor{magenta}{I Singh}, PRS Aishvariya, V Pahuja, A Giloni, R Vainshtein, H Kojima]}. \hfill 2024
+    
+    \item \textbf{Advancing Deep Metric Learning With Adversarial Robustness} \hfill \textbf{ACML (\textbf{Long Talk})} \\ 
+	   \emph{[\textcolor{magenta}{I Singh$^*$}, K Kakizaki, T Araki], \ \textbf{Patents: US3350013577, US3350013654, JP3350013655}}. \hfill 2024
+    \item \textbf{Evaluating Cybersecurity Risk Of Real-World, Machine Learning Production System.} \hfill \textbf{ACM CS} \\ 
+	   \emph{[R Bitton, N Mamman, \textcolor{magenta}{I Singh}, S Momiyama, A Shabtai, Y Elovici]}. \hfill 2023
+    \item \textbf{Simultaneous Adversarial Attacks On Multiple Face Recognition System Components} \hfill \textbf{arXiv} \\
+        \emph{[\textcolor{magenta}{I Singh$^*$}, K Kakizaki, T Araki], \ \textbf{Patent: US12183118 (\textcolor{blue}{Granted})}}. \hfill 2023
+	\item \textbf{FRAUDability: Estimating Users’ Susceptibility To Financial Fraud Using Adversarial} \hfill \textbf{CoRR} \\ \textbf{ Machine Learning, }  
+	   \emph{[C Doytshman, S Momiyama, \textcolor{magenta}{I Singh}, Y Elovici, A Shabtai]}. \hfill 2023
+    \item \textbf{Powerful Physical Adversarial Examples Against Practical Face Recognition Systems.} \hfill  \textbf{WACV MAP}\\ 
+	   \emph{[\textcolor{magenta}{I Singh$^*$}, K Kakizaki, T Araki], \ \textbf{Patent: JP2021/019409}}. \hfill 2022
+    \item \textbf{On Brightness Agnostic Adversarial Examples Against Face Recognition Systems.} \hfill  \textbf{IEEE BIOSIG}\\ 
+	   \emph{[\textcolor{magenta}{I Singh$^*$}, S Momiyama, K Kakizaki, T Araki], \ \textbf{Patent: JP2021/026667}}. \hfill 2021
+	\item \textbf{Toward Practical Adversarial Attacks on Face Verification Systems.} \hfill  \textbf{IEEE BIOSIG}\\ 
+	   \emph{[K Kakizaki, T Miyagawa, \textcolor{magenta}{I Singh}, J Sakuma], \ \textbf{Patent: JP2020/031403}}. \hfill 2021
+	\item \textbf{Dodging Attack Using Carefully Crafted Natural Makeup.} \hfill \textbf{arXiv} \\
+	   \emph{[N Guetta, \textcolor{magenta}{I Singh}, S Momiyama, A Shabtai, Y Elovici]}. \hfill 2021  
+
+\end{enumerate}
+
+
+\resheading{\textbf{SCHOLASTIC ACHIEVEMENTS} } \\ [-0.33cm]
+\begin{itemize}
+	\item Secured \textcolor{red}{\textbf{All India Rank- 2}} in \textbf{Graduate Aptitude Test in Engineering (GATE)-2017} in Agricultural Engineering.
+	\item Awarded \textbf{National Talent Scholarship} \textbf{\textit{four times}} during undergraduate for excellent academic performance.
+	\item Presented \textbf{Two Inventions} at Maharashtra State Inter-University Research Conventions (\textbf{Avishkar-2014 \& 2015}), achieving \textbf{Top-4 selection} once.
+\end{itemize}
+
+
+\resheading{\textbf{EXTRA-CURRICULAR ACHIEVEMENTS} } \\ [-0.33cm]
+\begin{itemize}
+	\item \textcolor{olive}{\textbf{National Level Badminton Player}}: represented the university at National Level West-Zone and Inter-Zonal Tournaments 2015-16 held at Lakshmibai National Institute of Physical Education, Gwalior, India.
+	\item Won \textbf{Gold Medal} in \textbf{Kho-Kho} at \textbf{Udghosh-2017, IIT Kanpur} while \textbf{representing IIT Bombay} .
+	\item Won \textbf{Silver Medal twice} in \textbf{Badminton} at Inter-Collegiate Tournaments 2015-16 and 2016-17.
+\end{itemize}
+
+
+\resheading{\textbf{OTHER PROJECTS} } \\[-0.33cm]
+\begin{itemize}
+\item \textbf{Anomaly Detection Using Machine Learning Techniques (Class-Imbalance Problem)} \hfill \textbf{M.Tech Project} \\
+ \emph{Project Guide: Prof. N. Hemachandra \hfill May'18 - Apr'19} \\[-0.51cm]
+    \begin{itemize}[leftmargin=*] 
+	\item Developed \textit{Meta Ensemble} and \textit{Capsule Network models} to enhance low- and high-dimensional anomaly detection performance, achieving 0.9982 accuracy and an F1-score of 0.97 on the credit card fraud dataset, and 99.98\% accuracy with an F1-score of 0.99 on the imbalanced MNIST dataset.
+	\end{itemize}
+	
+\item \textbf{Modeling, Simulation, and Resource Allocation for Epidemic Diseases} \hfill \textbf{Course Project} \\
+ \emph{Guide: Prof. A. Mahajan \hfill Jan'18 - May'18} \\[-0.51cm]
+	\begin{itemize}[leftmargin=*]
+	\item Developed a \textbf{mathematical model}, implemented in Python, along with \textbf{guidelines for simulating epidemic spread}, taking into account birth-death rates, vaccination, contact, and recovery rates. Explored SI, SIS, and SIR models and determined cost requirements for disease control in a defined population fraction.
+	\end{itemize}	
+
+% \pagebreak
+
+\item \textbf{Bandits with Feedback Graphs} \hfill \textbf{Course Project}\\
+ \emph{Guide: Prof. M. K. Hanawal \hfill Jan'19 - May'19} \\[-0.51cm]
+    \begin{itemize}[leftmargin=*] 
+        \item Evaluated five algorithms (Exp3.G, UCB-N, UCB-MaxN, Thompson-N, Thompson-MaxN) on a graph with probabilistic feedback, concluding that the Thompson-MaxN algorithm performs best.
+    \end{itemize}
+ 
+\item \textbf{Bike Sharing Demand Prediction} \hfill \textbf{Course Project}\\
+ \emph{Guide: Prof. A. Sethi \hfill Jan'19 - May'19} \\[-0.51cm]
+    \begin{itemize}[leftmargin=*]  
+        \item Predicted bicycle demand through exploratory data analysis and feature engineering, achieving an RMSLE score of 0.3418 using a Gradient Boosted Regressor, and compared performance with multiple regression methods.
+    \end{itemize}
+
+\item \textbf{Home Credit Default Risk Prediction Using Machine Learning Techniques} \hfill \textbf{Course Project}\\
+ \emph{Guide: Prof. N. Hemachandra \hfill Jan'19 - May'19} \\[-0.51cm]
+    \begin{itemize}[leftmargin=*] 
+        \item Developed DNN, Random Forest, XGBoost, and SVM models, utilizing PCA and SMOTE on the Home Credit Default Prediction dataset.
+    \end{itemize}
+
+\item \textbf{Internet of Things (IoT) in Supply Chain Management} \hfill \textbf{M.Tech Seminar} \\
+ \emph{Guide: Prof. Vishnu Narayanan | Credit Seminar \hfill Jan'18 - May'18} \\[-0.51cm]
+	\begin{itemize}[leftmargin=*]
+	\item Examined IoT, its background, various architectures, and its comparison to Industry 4.0, and evaluated a use case of IoT in drug supply chain information transfer.
+	\end{itemize}
+
+
+\end{itemize}
+
+
+
+% \vspace{-0.07cm}
+
+% \resheading{\textbf{RELEVANT COURSEWORK \& CERTIFICATES} } \\ [-0.33cm]
+% \begin{multicols}{2}
+% \begin{itemize}
+%     \item Foundation of Machine Learning \hfill (M.Tech, IITB)
+%     \item Introduction to Machine Learning \hfill (M.Tech, IITB)
+%     \item Statistics for Management Research \hfill (M.Tech, IITB)
+%     \item Introduction to Stochastic Models \hfill (M.Tech, IITB)
+%     \item Decision Analysis and Game Theory \hfill (M.Tech, IITB)
+%     \item Optimization Techniques \hfill (M.Tech, IITB)
+%     \item Data Analytics in Operations Research \hfill (M.Tech, IITB)
+%     \item Operations Research Applications in Infrastructural and Service Sectors \hfill (M.Tech, IITB)
+%     \item IEOR for Health Care \hfill (M.Tech, IITB)
+%     \item Deep Learning: Theory \& Practices \hfill (M.Tech, IITB)
+%     \item Online Machine Learning (Subfield of Reinforcement Learning) \hfill (M.Tech, IITB)
+%     \item Applied Machine Learning Foundations \hfill (LinkedIn)
+%     \item Deploying Scalable ML for Data Science \hfill (LinkedIn)
+%     \item Deep Learning Specialization \hfill (Coursera)
+%     \item LangChain- Develop LLM powered applications with LangChain \hfill (Udemy)
+% \end{itemize}
+% \end{multicols}
+
+\end{document}

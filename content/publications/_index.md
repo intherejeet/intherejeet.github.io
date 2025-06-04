@@ -1,13 +1,12 @@
 ---
 title: "Publications"
 date: 2024-01-01
-draft: true
 menu:
   main:
     weight: 20
 ---
 
-My research publications span across AI Security, Computer Vision, Natural Language Processing, and Trustworthy AI. Below is a comprehensive list of my publications in reverse chronological order.
+My research publications address fundamental challenges in AI Security, Computer Vision, Natural Language Processing, and Trustworthy AI. The work spans theoretical foundations to practical implementations, with particular emphasis on machine learning security, adversarial robustness, and safety mechanisms for large language and multimodal models. Publications are listed in reverse chronological order with venue-specific categorization.
 
 {{< rawhtml >}}
 <div class="publications-filter">

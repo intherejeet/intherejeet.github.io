@@ -2,7 +2,6 @@
 title: "All Publications"
 date: 2024-01-01
 layout: "single"
-draft: true
 ---
 
 {{< rawhtml >}}
@@ -234,6 +233,25 @@ draft: true
     
     <div class="publication-entry">
       <div class="pub-title">
+        Evaluating Cybersecurity Risk Of Real-World, Machine Learning Production System
+      </div>
+      <div class="pub-authors">
+        R Bitton, N Mamman, <strong>I Singh</strong>, S Momiyama, A Shabtai, Y Elovici
+      </div>
+      <div class="pub-venue">
+        ACM Computing Surveys 2023
+      </div>
+      <div class="pub-abstract">
+        Comprehensive framework for evaluating cybersecurity risks in real-world machine learning production systems, with practical testbed implementation and vulnerability assessment methodologies.
+      </div>
+      <div class="pub-links">
+        <a href="#">Paper</a>
+        <a href="#">ACM DL</a>
+      </div>
+    </div>
+    
+    <div class="publication-entry">
+      <div class="pub-title">
         Simultaneous Adversarial Attacks On Multiple Face Recognition System Components
         <span class="pub-award">Patent Granted</span>
       </div>
@@ -250,6 +268,113 @@ draft: true
         <a href="#">Paper</a>
         <a href="#">arXiv</a>
         <a href="#">Patent: US12183118 (Granted)</a>
+      </div>
+    </div>
+    
+    <div class="publication-entry">
+      <div class="pub-title">
+        FRAUDability: Estimating Users' Susceptibility To Financial Fraud Using Adversarial Machine Learning
+      </div>
+      <div class="pub-authors">
+        C Doytshman, S Momiyama, <strong>I Singh</strong>, Y Elovici, A Shabtai
+      </div>
+      <div class="pub-venue">
+        CoRR 2023
+      </div>
+      <div class="pub-abstract">
+        Novel framework for estimating user susceptibility to financial fraud using adversarial machine learning techniques, with applications to cybersecurity risk assessment.
+      </div>
+      <div class="pub-links">
+        <a href="#">Paper</a>
+        <a href="#">arXiv</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- 2022 Publications -->
+  <div class="year-section">
+    <h2 class="year-header">2022</h2>
+    
+    <div class="publication-entry">
+      <div class="pub-title">
+        Powerful Physical Adversarial Examples Against Practical Face Recognition Systems
+      </div>
+      <div class="pub-authors">
+        <strong>I Singh*</strong>, K Kakizaki, T Araki
+      </div>
+      <div class="pub-venue">
+        WACV MAP 2022 - Workshop on Adversarial Machine Learning in Real-World Computer Vision Systems
+      </div>
+      <div class="pub-abstract">
+        Development of powerful physical adversarial examples demonstrating significant vulnerabilities in practical face recognition systems, with enhanced transferability and attack potency.
+      </div>
+      <div class="pub-links">
+        <a href="#">Paper</a>
+        <a href="#">Patent: JP2021/019409</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- 2021 Publications -->
+  <div class="year-section">
+    <h2 class="year-header">2021</h2>
+    
+    <div class="publication-entry">
+      <div class="pub-title">
+        On Brightness Agnostic Adversarial Examples Against Face Recognition Systems
+      </div>
+      <div class="pub-authors">
+        <strong>I Singh*</strong>, S Momiyama, K Kakizaki, T Araki
+      </div>
+      <div class="pub-venue">
+        IEEE BIOSIG 2021 - International Conference of the Biometrics Special Interest Group
+      </div>
+      <div class="pub-abstract">
+        Novel brightness agnostic adversarial attack methodology achieving 39.96% higher attack success rates against face recognition systems across varying illumination conditions.
+      </div>
+      <div class="pub-links">
+        <a href="#">Paper</a>
+        <a href="#">IEEE Xplore</a>
+        <a href="#">Patent: JP2021/026667</a>
+      </div>
+    </div>
+    
+    <div class="publication-entry">
+      <div class="pub-title">
+        Toward Practical Adversarial Attacks on Face Verification Systems
+      </div>
+      <div class="pub-authors">
+        K Kakizaki, T Miyagawa, <strong>I Singh</strong>, J Sakuma
+      </div>
+      <div class="pub-venue">
+        IEEE BIOSIG 2021 - International Conference of the Biometrics Special Interest Group
+      </div>
+      <div class="pub-abstract">
+        Practical adversarial attack methodologies for face verification systems with enhanced transferability and real-world applicability.
+      </div>
+      <div class="pub-links">
+        <a href="#">Paper</a>
+        <a href="#">IEEE Xplore</a>
+        <a href="#">Patent: JP2020/031403</a>
+      </div>
+    </div>
+    
+    <div class="publication-entry">
+      <div class="pub-title">
+        Dodging Attack Using Carefully Crafted Natural Makeup
+      </div>
+      <div class="pub-authors">
+        N Guetta, <strong>I Singh</strong>, S Momiyama, A Shabtai, Y Elovici
+      </div>
+      <div class="pub-venue">
+        arXiv 2021
+      </div>
+      <div class="pub-abstract">
+        Novel adversarial makeup attack methodology using carefully crafted natural makeup to evade face recognition systems while maintaining visual naturalness.
+      </div>
+      <div class="pub-links">
+        <a href="#">Paper</a>
+        <a href="#">arXiv</a>
       </div>
     </div>
   </div>

@@ -973,13 +973,12 @@ title: "Inderjeet Singh"
       <h1>Inderjeet Singh</h1>
       <p class="hero-subtitle">
         Senior Research Scientist, Fujitsu Research of Europe<br>
-        Investigating <strong>Trustworthy Machine Learning</strong> • <strong>Large Language Model Safety</strong> • <strong>Retrieval-Augmented Generation</strong> • <strong>Adversarial Robustness</strong>
+        <strong>Machine Learning Security</strong> • <strong>LLM/LMM Safety & Security</strong> • <strong>Trustworthy Multimodal AI</strong> • <strong>Adversarial Robustness</strong>
       </p>
       <div class="hero-links">
         <a href="https://scholar.google.com/citations?user=eoxiMqQAAAAJ&hl=en" class="hero-link">Google Scholar</a>
         <a href="https://github.com/intherejeet" class="hero-link">GitHub</a>
         <a href="https://www.linkedin.com/in/intherejeet/" class="hero-link">LinkedIn</a>
-        <a href="mailto:inderjeet.ieor@gmail.com" class="hero-link">Email</a>
       </div>
     </div>
   </div>
@@ -993,11 +992,11 @@ title: "Inderjeet Singh"
     </div>
     
     <p class="about-text">
-      I am a Senior Research Scientist at Fujitsu Research of Europe, where I investigate fundamental problems in <strong>machine learning security</strong> and <strong>trustworthy artificial intelligence</strong>. 
-      My research focuses on developing theoretical foundations and practical methodologies for <strong>large language model safety</strong>, <strong>retrieval-augmented generation systems</strong>, and <strong>adversarial robustness</strong> in computer vision. 
-      I work on formal verification approaches and safety frameworks that provide guarantees for machine learning systems deployed in safety-critical applications. 
-      My contributions include <strong>10+ patents</strong> (including granted US12183118) and peer-reviewed publications in leading conferences including ACL'25, BMVC'24 (Oral), ECCV'24, and ACML'24. 
-      I am interested in collaborative research opportunities that advance the theoretical understanding and practical deployment of trustworthy machine learning systems.
+      I am a Senior Research Scientist (AI) at Fujitsu Research of Europe, with close to 6 years of experience developing cutting-edge methodologies for <strong>machine learning security</strong> and <strong>trustworthy artificial intelligence</strong>. 
+      My research addresses fundamental theoretical and practical challenges in <strong>large language/multimodal model safety</strong>, <strong>multimodal retrieval-augmented generation systems</strong>, and <strong>adversarial robustness</strong> across computer vision and natural language processing domains. 
+      I develop formal verification frameworks, automated assessment methodologies, and safety architectures that provide theoretical guarantees for AI systems in safety-critical applications. 
+      My work has resulted in <strong>10+ filed patents</strong> (including granted US patent 12183118) and publications in premier venues including ACL 2025, BMVC 2024 (Oral presentation, <3% acceptance rate), ECCV 2024, and ACML 2024. 
+      Previously at NEC Labs (2019-2023), I established foundational contributions to adversarial machine learning and AI system security assessment methodologies.
     </p>
     
     <div class="stats-row">
@@ -1100,26 +1099,38 @@ title: "Inderjeet Singh"
     <div class="news-grid">
       <div class="news-card">
         <div class="news-date">2025</div>
-        <div class="news-title">Research Publication: ACL 2025</div>
-        <div class="news-desc">Paper on "DIESEL: A Lightweight Inference-Time Safety Enhancement for Language Models" accepted at the Annual Meeting of the Association for Computational Linguistics.</div>
+        <div class="news-title">ACL 2025: LLM Safety Enhancement</div>
+        <div class="news-desc">Research on lightweight inference-time safety mechanisms for language models accepted at the Annual Meeting of the Association for Computational Linguistics, addressing fundamental challenges in real-time LLM safety enhancement.</div>
       </div>
       
       <div class="news-card">
         <div class="news-date">2024</div>
-        <div class="news-title">Oral Presentation: BMVC 2024</div>
-        <div class="news-desc">Delivered oral presentation on "ATLANTIS: A Framework for Automated Targeted Language-guided Augmentation Training" at the British Machine Vision Conference (acceptance rate <3%).</div>
+        <div class="news-title">BMVC 2024: Oral Presentation</div>
+        <div class="news-desc">Delivered oral presentation on multimodal robustness framework achieving state-of-the-art performance in image search applications at the British Machine Vision Conference (acceptance rate <3%).</div>
       </div>
       
       <div class="news-card">
         <div class="news-date">2024</div>
-        <div class="news-title">Research Contribution: ECCV 2024</div>
-        <div class="news-desc">Co-authored work on "MONTRAGE: Monitoring Training for Attribution of Generative Diffusion Models" accepted at the European Conference on Computer Vision.</div>
+        <div class="news-title">ECCV 2024: Generative Model Attribution</div>
+        <div class="news-desc">Contributed to research on training data attribution for generative diffusion models accepted at the European Conference on Computer Vision, addressing copyright protection in AI-generated content.</div>
       </div>
       
       <div class="news-card">
         <div class="news-date">2024</div>
-        <div class="news-title">Conference Presentation: ACML 2024</div>
-        <div class="news-desc">Presented research findings on "Advancing Deep Metric Learning With Adversarial Robustness" at the Asian Conference on Machine Learning.</div>
+        <div class="news-title">ACML 2024: Adversarial Robustness</div>
+        <div class="news-desc">Presented theoretical advances in deep metric learning robustness with demonstrated improvements of +2.95% Recall@1 and 2.12× robustness enhancement at the Asian Conference on Machine Learning.</div>
+      </div>
+      
+      <div class="news-card">
+        <div class="news-date">2024</div>
+        <div class="news-title">ACM ICSE Workshop: LLM Vulnerability Analysis</div>
+        <div class="news-desc">Published comprehensive analysis of existing LLM vulnerability scanning frameworks at the ACM International Conference on Software Engineering workshop on Responsible AI in Engineering.</div>
+      </div>
+      
+      <div class="news-card">
+        <div class="news-date">2023</div>
+        <div class="news-title">Patent Grant: US12183118</div>
+        <div class="news-desc">Received first patent grant for simultaneous adversarial attacks on multiple face recognition system components, establishing foundational intellectual property in AI security methodologies.</div>
       </div>
     </div>
   </section>
@@ -1165,6 +1176,41 @@ title: "Inderjeet Singh"
           <a href="#">Paper</a>
         </div>
       </div>
+      
+      <div class="pub-item">
+        <div class="pub-title">
+          Advancing Deep Metric Learning With Adversarial Robustness
+          <span class="award-badge">Long Talk</span>
+        </div>
+        <div class="pub-authors">I Singh*, K Kakizaki, T Araki</div>
+        <div class="pub-venue">ACML 2024 - Asian Conference on Machine Learning</div>
+        <div class="pub-links">
+          <a href="#">Paper</a>
+        </div>
+      </div>
+      
+      <div class="pub-item">
+        <div class="pub-title">
+          Insights and Current Gaps in Open-Source LLM Vulnerability Scanners: A Comparative Analysis
+        </div>
+        <div class="pub-authors">J Brokman, O Hofman, O Rachmil, I Singh, PRS Aishvariya, V Pahuja, A Giloni, R Vainshtein, H Kojima</div>
+        <div class="pub-venue">ACM ICSE 2024 - Workshop on Responsible AI in Engineering</div>
+        <div class="pub-links">
+          <a href="#">Paper</a>
+        </div>
+      </div>
+      
+      <div class="pub-item">
+        <div class="pub-title">
+          Simultaneous Adversarial Attacks On Multiple Face Recognition System Components
+        </div>
+        <div class="pub-authors">I Singh*, K Kakizaki, T Araki</div>
+        <div class="pub-venue">arXiv preprint | Patent: US12183118 (Granted)</div>
+        <div class="pub-links">
+          <a href="#">Paper</a>
+          <a href="#">Patent</a>
+        </div>
+      </div>
     </div>
     
     <a href="https://scholar.google.com/citations?user=eoxiMqQAAAAJ&hl=en" target="_blank" class="view-more-link">Complete Publication List on Google Scholar →</a>
@@ -1173,13 +1219,24 @@ title: "Inderjeet Singh"
   <!-- Contact -->
   <section class="section" id="contact">
     <div class="contact-box">
-      <h2 style="font-size: 1.8em; margin-bottom: 20px;">Research Collaboration</h2>
+      <h2 style="font-size: 1.8em; margin-bottom: 20px;">Research Collaboration & Expertise</h2>
       <p class="contact-text">
-        I am interested in collaborative research opportunities that advance fundamental understanding in machine learning safety, 
-        trustworthy AI systems, and adversarial robustness. My expertise spans theoretical foundations in large language model safety, 
-        retrieval-augmented generation systems, and formal verification approaches for AI safety.
+        I am interested in collaborative research opportunities that advance fundamental understanding in machine learning security, 
+        trustworthy AI systems, and adversarial robustness. My expertise encompasses theoretical foundations in large language/multimodal model safety, 
+        multimodal retrieval-augmented generation systems, formal verification approaches for AI safety, and automated red-teaming methodologies. 
+        Current research interests include developing principled frameworks for AI system safety assessment, scalable vulnerability detection mechanisms, 
+        and theoretical guarantees for trustworthy AI deployment in safety-critical applications.
       </p>
-              <a href="mailto:inderjeet.ieor@gmail.com" class="contact-button">Contact for Collaboration</a>
+      <div style="margin-top: 20px; padding: 20px; background: rgba(37, 99, 235, 0.1); border-radius: 12px; border-left: 4px solid var(--primary);">
+        <h3 style="margin: 0 0 10px 0; color: var(--primary);">Key Research Areas for Collaboration</h3>
+        <ul style="margin: 0; padding-left: 20px; color: var(--secondary);">
+          <li>Large Language/Multimodal Model Safety and Security</li>
+          <li>Trustworthy Multimodal Agentic Systems</li>
+          <li>Adversarial Robustness in Deep Learning</li>
+          <li>Automated Red-teaming and Safety Benchmarking</li>
+          <li>AI System Disparity Assessment and Mitigation</li>
+        </ul>
+      </div>
     </div>
   </section>
 </div>
