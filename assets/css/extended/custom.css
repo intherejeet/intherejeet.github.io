@@ -1,26 +1,35 @@
-/* Custom Academic Theme Styling */
+/* Enhanced Custom Academic Theme Styling for AI Research Scientist */
 
-/* Academic color scheme */
+/* Import Inter font for better readability */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+/* Professional Academic Color Scheme */
 :root {
-    --primary-color: #2c3e50;
-    --accent-color: #3498db;
-    --text-color: #333;
+    --primary-color: #1e40af;
+    --accent-color: #2563eb;
+    --text-color: #1f2937;
     --bg-color: #ffffff;
-    --border-color: #e1e4e8;
+    --border-color: #e5e7eb;
+    --research-accent: #7c3aed;
+    --ai-gradient: linear-gradient(135deg, #2563eb 0%, #7c3aed 100%);
 }
 
 [data-theme="dark"] {
-    --primary-color: #ecf0f1;
-    --accent-color: #3498db;
-    --text-color: #ecf0f1;
-    --bg-color: #1a1a1a;
-    --border-color: #404040;
+    --primary-color: #93c5fd;
+    --accent-color: #60a5fa;
+    --text-color: #f9fafb;
+    --bg-color: #0f172a;
+    --border-color: #374151;
+    --research-accent: #a78bfa;
+    --ai-gradient: linear-gradient(135deg, #60a5fa 0%, #a78bfa 100%);
 }
 
-/* Typography improvements */
+/* Enhanced Typography for Academic Excellence */
 body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     line-height: 1.7;
+    font-weight: 400;
+    font-optical-sizing: auto;
 }
 
 /* Professional header styling */
@@ -247,6 +256,106 @@ a:focus,
 button:focus {
     outline: 2px solid var(--primary);
     outline-offset: 2px;
+}
+
+/* Enhanced Wide Layout Support */
+@media (min-width: 1200px) {
+    .main {
+        max-width: 1400px;
+        margin: 0 auto;
+        padding: 0 40px;
+    }
+}
+
+@media (min-width: 1600px) {
+    .main {
+        max-width: 1800px;
+        padding: 0 60px;
+    }
+}
+
+/* Professional Navigation Enhancement */
+.nav {
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.9);
+    border-bottom: 1px solid var(--border-color);
+}
+
+[data-theme="dark"] .nav {
+    background: rgba(15, 23, 42, 0.9);
+    border-bottom: 1px solid var(--border-color);
+}
+
+/* Enhanced Mobile Navigation */
+@media (max-width: 768px) {
+    .nav {
+        padding: 12px 0;
+    }
+    
+    .logo {
+        font-size: 18px;
+    }
+    
+    #menu {
+        font-size: 14px;
+    }
+}
+
+/* Professional Footer Styling */
+.footer {
+    background: linear-gradient(135deg, rgba(37, 99, 235, 0.03) 0%, rgba(139, 92, 246, 0.03) 100%);
+    border-top: 1px solid var(--border-color);
+}
+
+[data-theme="dark"] .footer {
+    background: linear-gradient(135deg, rgba(37, 99, 235, 0.08) 0%, rgba(139, 92, 246, 0.08) 100%);
+}
+
+/* Academic Profile Image Enhancement */
+.profile img {
+    transition: all 0.3s ease;
+    filter: brightness(1.05) contrast(1.05);
+}
+
+.profile img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* Research Achievement Badges */
+.research-badge {
+    display: inline-block;
+    padding: 4px 12px;
+    background: var(--ai-gradient);
+    color: white;
+    border-radius: 20px;
+    font-size: 0.8em;
+    font-weight: 600;
+    margin: 2px;
+    box-shadow: 0 2px 8px rgba(37, 99, 235, 0.3);
+}
+
+/* Performance Optimizations */
+.research-item,
+.publication-item,
+.post-entry {
+    will-change: transform;
+    contain: layout style paint;
+}
+
+/* AI Research Theme Colors */
+.ai-primary { color: var(--primary-color); }
+.ai-accent { color: var(--research-accent); }
+.ai-gradient { background: var(--ai-gradient); }
+
+/* Enhanced Hover Effects */
+.hover-lift {
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.hover-lift:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.12);
 }
 
 /* Reduce motion for accessibility */

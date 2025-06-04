@@ -4,14 +4,22 @@ title: "Inderjeet Singh"
 
 {{< rawhtml >}}
 <style>
-/* Modern CSS Variables */
+/* Modern CSS Variables - Enhanced for AI Research Scientist */
 :root {
-  --gradient-primary: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  --gradient-secondary: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
-  --gradient-accent: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+  --gradient-primary: linear-gradient(135deg, #2563eb 0%, #1e40af 100%);
+  --gradient-secondary: linear-gradient(135deg, #06b6d4 0%, #0891b2 100%);
+  --gradient-accent: linear-gradient(135deg, #8b5cf6 0%, #7c3aed 100%);
+  --gradient-research: linear-gradient(135deg, #059669 0%, #047857 100%);
   --shadow-soft: 0 10px 40px rgba(0, 0, 0, 0.08);
   --shadow-hover: 0 20px 60px rgba(0, 0, 0, 0.15);
+  --shadow-research: 0 8px 32px rgba(37, 99, 235, 0.15);
   --animation-smooth: cubic-bezier(0.4, 0, 0.2, 1);
+  --border-radius-lg: 24px;
+  --border-radius-xl: 32px;
+  --academic-blue: #1e40af;
+  --academic-teal: #0891b2;
+  --academic-purple: #7c3aed;
+  --academic-green: #047857;
 }
 
 /* Global Animations */
@@ -74,7 +82,7 @@ title: "Inderjeet Singh"
 }
 
 .hero-container {
-  max-width: 1400px;
+  max-width: 1600px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 2fr;
@@ -113,7 +121,7 @@ title: "Inderjeet Singh"
 }
 
 .hero-content h1 {
-  font-size: 3.2em;
+  font-size: 3.5em;
   font-weight: 700;
   margin-bottom: 15px;
   letter-spacing: -2px;
@@ -123,14 +131,16 @@ title: "Inderjeet Singh"
   -webkit-text-fill-color: transparent;
   background-clip: text;
   animation: gradientShift 5s ease infinite;
+  position: relative;
 }
 
 .hero-subtitle {
-  font-size: 1.3em;
+  font-size: 1.4em;
   color: var(--secondary);
   margin-bottom: 25px;
-  line-height: 1.6;
-  opacity: 0.9;
+  line-height: 1.7;
+  opacity: 0.95;
+  font-weight: 400;
 }
 
 .hero-subtitle strong {
@@ -199,7 +209,7 @@ title: "Inderjeet Singh"
 }
 
 .main-content {
-  max-width: 1400px;
+  max-width: 1600px;
   margin: 0 auto;
   padding: 0 40px;
 }
@@ -340,20 +350,21 @@ title: "Inderjeet Singh"
 .research-areas {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 25px;
-  margin-top: 40px;
+  gap: 30px;
+  margin-top: 50px;
 }
 
 .research-item {
-  padding: 30px;
-  background: rgba(255, 255, 255, 0.03);
-  backdrop-filter: blur(10px);
-  border-radius: 20px;
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 35px;
+  background: rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(15px);
+  border-radius: var(--border-radius-lg);
+  border: 1px solid rgba(255, 255, 255, 0.12);
   transition: all 0.4s var(--animation-smooth);
   position: relative;
   overflow: hidden;
   cursor: pointer;
+  box-shadow: var(--shadow-soft);
 }
 
 [data-theme="light"] .research-item {
@@ -374,9 +385,9 @@ title: "Inderjeet Singh"
 }
 
 .research-item:hover {
-  transform: translateY(-5px) scale(1.02);
-  box-shadow: 0 20px 40px rgba(102, 126, 234, 0.2);
-  border-color: rgba(102, 126, 234, 0.3);
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 0 25px 50px rgba(37, 99, 235, 0.25);
+  border-color: rgba(37, 99, 235, 0.4);
 }
 
 .research-item:hover::before {
@@ -384,20 +395,22 @@ title: "Inderjeet Singh"
 }
 
 .research-item h3 {
-  font-size: 1.2em;
-  font-weight: 600;
+  font-size: 1.3em;
+  font-weight: 700;
   background: var(--gradient-primary);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  margin-bottom: 15px;
+  margin-bottom: 18px;
+  line-height: 1.4;
 }
 
 .research-item p {
-  font-size: 0.95em;
-  line-height: 1.6;
+  font-size: 1em;
+  line-height: 1.7;
   margin: 0;
-  opacity: 0.9;
+  opacity: 0.92;
+  color: var(--secondary);
 }
 
 .news-grid {
@@ -692,27 +705,49 @@ title: "Inderjeet Singh"
     grid-template-columns: 1fr;
     text-align: center;
     gap: 40px;
+    max-width: 100%;
   }
   
   .hero-content h1 {
     font-size: 2.5em;
+    line-height: 1.2;
   }
   
   .hero-subtitle {
     font-size: 1.1em;
+    margin-bottom: 20px;
   }
   
   .hero-links {
     justify-content: center;
+    gap: 10px;
+  }
+  
+  .hero-link {
+    padding: 10px 20px;
+    font-size: 0.9em;
+  }
+  
+  .main-content {
+    padding: 0 20px;
   }
   
   .stats-row {
     grid-template-columns: repeat(2, 1fr);
     gap: 15px;
+    margin-bottom: 30px;
   }
   
   .stat-card {
-    padding: 20px 15px;
+    padding: 25px 15px;
+  }
+  
+  .stat-number {
+    font-size: 2.2em;
+  }
+  
+  .stat-label {
+    font-size: 0.9em;
   }
   
   .research-areas,
@@ -731,6 +766,106 @@ title: "Inderjeet Singh"
   
   .contact-box {
     padding: 40px 20px;
+  }
+  
+  /* Enhanced mobile achievements section */
+  .achievements-section {
+    margin-top: 40px !important;
+    padding: 35px 20px !important;
+  }
+  
+  .achievement-title {
+    font-size: 1.4em !important;
+    margin-bottom: 30px !important;
+  }
+  
+  .achievements-grid {
+    grid-template-columns: 1fr !important;
+    gap: 20px !important;
+  }
+  
+  .achievement-card {
+    flex-direction: column !important;
+    text-align: center !important;
+    gap: 20px !important;
+    padding: 25px 20px !important;
+  }
+  
+  .achievement-icon {
+    font-size: 3em !important;
+  }
+  
+  .achievement-content h4 {
+    font-size: 1.2em !important;
+    margin-bottom: 12px !important;
+  }
+  
+  .achievement-content p,
+  .achievement-content div {
+    font-size: 0.95em !important;
+    text-align: center !important;
+  }
+  
+  .academic-summary {
+    margin-top: 30px !important;
+    padding: 20px !important;
+  }
+  
+  .academic-summary p {
+    font-size: 1em !important;
+    line-height: 1.6 !important;
+  }
+}
+
+/* Tablet optimizations */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .hero-container {
+    max-width: 95%;
+    gap: 50px;
+  }
+  
+  .main-content {
+    max-width: 95%;
+    padding: 0 30px;
+  }
+  
+  .stats-row {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 18px;
+  }
+  
+  .research-areas {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 22px;
+  }
+  
+  .news-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 22px;
+  }
+}
+
+/* Large desktop optimizations */
+@media (min-width: 1400px) {
+  .hero-container {
+    max-width: 1800px;
+  }
+  
+  .main-content {
+    max-width: 1800px;
+  }
+  
+  .stats-row {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+  }
+  
+  .research-areas {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  
+  .news-grid {
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 
@@ -762,8 +897,8 @@ title: "Inderjeet Singh"
     <div class="hero-content">
       <h1>Inderjeet Singh</h1>
       <p class="hero-subtitle">
-        Senior Researcher at Fujitsu Research of Europe<br>
-        Leading research in <strong>LLM/LMM Safety</strong>, <strong>Agentic RAG</strong>, and <strong>Vision Robustness</strong>
+        Senior AI Research Scientist at Fujitsu Research of Europe<br>
+        Pioneering <strong>Trustworthy AI Systems</strong> • <strong>LLM/LMM Safety</strong> • <strong>Agentic RAG</strong> • <strong>Vision Robustness</strong>
       </p>
       <div class="hero-links">
         <a href="https://scholar.google.com/citations?user=eoxiMqQAAAAJ&hl=en" class="hero-link">Google Scholar</a>
@@ -783,10 +918,11 @@ title: "Inderjeet Singh"
     </div>
     
     <p class="about-text">
-      I am a Senior Researcher at Fujitsu Research of Europe with 6 years of experience in AI Security, specializing in LLM/LMM safety, Agentic RAG, and vision robustness. 
-      My research focuses on developing trustworthy AI systems with formal security guarantees for real-world deployments. 
+      I am a Senior AI Research Scientist at Fujitsu Research of Europe with <strong>6+ years</strong> of experience advancing the frontiers of AI Security and Trustworthy AI systems. 
+      My research specializes in <strong>LLM/LMM safety</strong>, <strong>Agentic RAG architectures</strong>, and <strong>adversarial robustness</strong> for vision systems. 
+      I develop formal security guarantees and safety frameworks that enable reliable AI deployment in mission-critical environments. 
       With <strong>10+ patents</strong> (including 1 granted: US12183118) and publications in premier venues (ACL'25, BMVC'24 Oral, ECCV'24, ACML'24), 
-      I bridge theoretical advances with practical deployments in enterprise environments. I am seeking to lead next-gen trustworthy-AI initiatives.
+      I translate cutting-edge theoretical advances into practical, enterprise-ready solutions. Currently seeking opportunities to lead transformative trustworthy-AI initiatives.
     </p>
     
     <div class="stats-row">
@@ -808,28 +944,45 @@ title: "Inderjeet Singh"
       </div>
     </div>
     
-    <!-- Extracurricular Achievements -->
-    <div class="extracurricular-section" style="margin-top: 50px; padding: 40px; background: linear-gradient(135deg, rgba(102, 126, 234, 0.05) 0%, rgba(245, 87, 108, 0.05) 100%); border-radius: 25px; position: relative; overflow: hidden; border: 1px solid rgba(255, 255, 255, 0.1); animation: fadeInUp 1s ease-out 0.6s both;">
-      <div style="position: absolute; top: -100px; right: -100px; width: 300px; height: 300px; background: radial-gradient(circle, rgba(102, 126, 234, 0.1) 0%, transparent 70%); animation: float 10s ease-in-out infinite;"></div>
-      <h3 style="font-size: 1.5em; margin-bottom: 30px; background: var(--gradient-primary); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; font-weight: 700; text-align: center;">Beyond Research: Sports Excellence</h3>
-      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; position: relative; z-index: 1;">
-        <div style="display: flex; align-items: center; gap: 20px; padding: 25px; background: rgba(255, 255, 255, 0.05); backdrop-filter: blur(10px); border-radius: 20px; transition: all 0.3s ease; cursor: pointer;" onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 10px 30px rgba(102, 126, 234, 0.2)'" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='none'">
-          <span style="font-size: 3em; filter: drop-shadow(0 5px 10px rgba(0,0,0,0.1));">🏸</span>
-          <div>
-            <strong style="background: var(--gradient-primary); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; font-size: 1.2em; display: block; margin-bottom: 8px;">National Level Badminton Player</strong>
-            <span style="font-size: 0.95em; color: var(--secondary); line-height: 1.5; opacity: 0.9;">Represented university at National West & Inter-Zonal Tournaments (2015-16)</span>
+    <!-- Enhanced Academic & Sports Excellence Section -->
+    <div class="achievements-section" style="margin-top: 50px; padding: 50px 40px; background: linear-gradient(135deg, rgba(37, 99, 235, 0.05) 0%, rgba(139, 92, 246, 0.05) 100%); border-radius: var(--border-radius-xl); position: relative; overflow: hidden; border: 1px solid rgba(255, 255, 255, 0.1); animation: fadeInUp 1s ease-out 0.6s both; box-shadow: var(--shadow-research);">
+      <div class="achievement-bg-decoration" style="position: absolute; top: -100px; right: -100px; width: 300px; height: 300px; background: radial-gradient(circle, rgba(37, 99, 235, 0.1) 0%, transparent 70%); animation: float 10s ease-in-out infinite;"></div>
+      <div class="achievement-bg-decoration-2" style="position: absolute; bottom: -50px; left: -50px; width: 200px; height: 200px; background: radial-gradient(circle, rgba(139, 92, 246, 0.08) 0%, transparent 70%); animation: float 12s ease-in-out infinite reverse;"></div>
+      
+      <h3 class="achievement-title" style="font-size: 1.8em; margin-bottom: 40px; background: var(--gradient-primary); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; font-weight: 700; text-align: center; position: relative; z-index: 2;">Beyond Research: Leadership & Excellence</h3>
+      
+      <div class="achievements-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 30px; position: relative; z-index: 2;">
+        <!-- Badminton Achievement -->
+        <div class="achievement-card badminton-card" style="display: flex; align-items: center; gap: 25px; padding: 30px; background: rgba(255, 255, 255, 0.07); backdrop-filter: blur(15px); border-radius: var(--border-radius-lg); transition: all 0.4s ease; cursor: pointer; border: 1px solid rgba(37, 99, 235, 0.1); position: relative; overflow: hidden;" onmouseover="this.style.transform='translateY(-8px) scale(1.02)'; this.style.boxShadow='0 15px 40px rgba(37, 99, 235, 0.25)'; this.style.borderColor='rgba(37, 99, 235, 0.3)'" onmouseout="this.style.transform='translateY(0) scale(1)'; this.style.boxShadow='none'; this.style.borderColor='rgba(37, 99, 235, 0.1)'">
+          <div class="achievement-icon" style="font-size: 3.5em; filter: drop-shadow(0 8px 16px rgba(0,0,0,0.15)); transition: transform 0.3s ease;" onmouseover="this.style.transform='rotate(10deg) scale(1.1)'" onmouseout="this.style.transform='rotate(0deg) scale(1)'">🏸</div>
+          <div class="achievement-content">
+            <h4 style="background: var(--gradient-primary); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; font-size: 1.3em; font-weight: 700; margin-bottom: 10px; line-height: 1.3;">National Level Badminton</h4>
+            <p style="font-size: 1em; color: var(--secondary); line-height: 1.6; opacity: 0.9; margin: 0;">Represented university at National West & Inter-Zonal Tournaments, demonstrating competitive excellence at the highest collegiate level (2015-16)</p>
           </div>
         </div>
-        <div style="display: flex; align-items: center; gap: 20px; padding: 25px; background: rgba(255, 255, 255, 0.05); backdrop-filter: blur(10px); border-radius: 20px; transition: all 0.3s ease; cursor: pointer;" onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 10px 30px rgba(245, 87, 108, 0.2)'" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='none'">
-          <span style="font-size: 3em; filter: drop-shadow(0 5px 10px rgba(0,0,0,0.1));">🏅</span>
-          <div>
-            <strong style="background: var(--gradient-secondary); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; font-size: 1.2em; display: block; margin-bottom: 8px;">Multiple Sports Medals</strong>
-            <span style="font-size: 0.95em; color: var(--secondary); line-height: 1.5; opacity: 0.9;">
-              <strong style="color: #ffd700;">Gold:</strong> Kho-Kho (Udghosh-2017 IIT Kanpur, rep. IIT Bombay)<br>
-              <strong style="color: #c0c0c0;">2x Silver:</strong> Badminton (Inter-Collegiate 2015-17)
-            </span>
+        
+        <!-- Sports Medals Achievement -->
+        <div class="achievement-card medals-card" style="display: flex; align-items: center; gap: 25px; padding: 30px; background: rgba(255, 255, 255, 0.07); backdrop-filter: blur(15px); border-radius: var(--border-radius-lg); transition: all 0.4s ease; cursor: pointer; border: 1px solid rgba(139, 92, 246, 0.1); position: relative; overflow: hidden;" onmouseover="this.style.transform='translateY(-8px) scale(1.02)'; this.style.boxShadow='0 15px 40px rgba(139, 92, 246, 0.25)'; this.style.borderColor='rgba(139, 92, 246, 0.3)'" onmouseout="this.style.transform='translateY(0) scale(1)'; this.style.boxShadow='none'; this.style.borderColor='rgba(139, 92, 246, 0.1)'">
+          <div class="achievement-icon" style="font-size: 3.5em; filter: drop-shadow(0 8px 16px rgba(0,0,0,0.15)); transition: transform 0.3s ease;" onmouseover="this.style.transform='rotate(-10deg) scale(1.1)'" onmouseout="this.style.transform='rotate(0deg) scale(1)'">🏅</div>
+          <div class="achievement-content">
+            <h4 style="background: var(--gradient-accent); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; font-size: 1.3em; font-weight: 700; margin-bottom: 10px; line-height: 1.3;">Championship Medals</h4>
+            <div style="font-size: 1em; color: var(--secondary); line-height: 1.6; opacity: 0.9;">
+              <div style="margin-bottom: 6px;"><span style="color: #ffd700; font-weight: 600;">🥇 Gold:</span> Kho-Kho Championship (Udghosh-2017, IIT Kanpur)</div>
+              <div><span style="color: #c0c0c0; font-weight: 600;">🥈 2x Silver:</span> Badminton Inter-Collegiate (2015-17)</div>
+            </div>
           </div>
         </div>
+      </div>
+      
+      <!-- Academic Excellence Summary -->
+      <div class="academic-summary" style="margin-top: 40px; text-align: center; padding: 25px; background: rgba(255, 255, 255, 0.03); border-radius: var(--border-radius-lg); position: relative; z-index: 2;">
+        <p style="font-size: 1.1em; color: var(--secondary); line-height: 1.7; opacity: 0.9; max-width: 800px; margin: 0 auto;">
+          Balancing competitive sports excellence with academic rigor has shaped my approach to research—bringing 
+          <strong style="color: var(--academic-blue);">strategic thinking</strong>, 
+          <strong style="color: var(--academic-purple);">performance optimization</strong>, and 
+          <strong style="color: var(--academic-teal);">collaborative leadership</strong> 
+          to every AI research challenge.
+        </p>
       </div>
     </div>
   </section>
