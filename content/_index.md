@@ -843,7 +843,7 @@ title: "Inderjeet Singh"
     <div class="research-areas">
       <div class="research-item">
         <h3>Trustworthy Multimodal Agentic RAG</h3>
-        <p>Leading development of multimodal Agentic RAG systems (LangChain, LangGraph, Vector DBs) with trust agents, achieving 6.34× safety gains with SOTA RAG performance.</p>
+        <p>Exploring advanced Retrieval Augmented Generation (RAG) systems that integrate multimodal information and agentic capabilities. This work aims to enhance the trustworthiness and safety of these systems through innovative approaches, without compromising their performance in complex information retrieval and generation tasks.</p>
       </div>
       
       <div class="research-item">
@@ -858,7 +858,7 @@ title: "Inderjeet Singh"
       
       <div class="research-item">
         <h3>LLM Disparity Assessment</h3>
-        <p>Developed Token-Focused Disparity Probing (TFDP), a novel methodology for auditing LLM disparities with up to 42× greater token efficiency.</p>
+        <p>Investigating novel methodologies for efficiently auditing and identifying disparities in Large Language Models to promote fairness and ethical AI. This research focuses on developing techniques for nuanced disparity assessment.</p>
       </div>
     </div>
   </section>
