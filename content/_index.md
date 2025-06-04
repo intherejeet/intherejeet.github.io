@@ -52,10 +52,10 @@ title: "Inderjeet Singh"
 
 /* Enhanced Hero Section */
 .hero-section {
-  min-height: 100vh;
+  min-height: 85vh;
   display: flex;
   align-items: center;
-  padding: 40px 20px;
+  padding: 30px 20px;
   position: relative;
   overflow: hidden;
   background: var(--theme);
@@ -86,7 +86,7 @@ title: "Inderjeet Singh"
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 2fr;
-  gap: 60px;
+  gap: 40px;
   align-items: center;
   position: relative;
   z-index: 1;
@@ -123,7 +123,7 @@ title: "Inderjeet Singh"
 .hero-content h1 {
   font-size: 3.5em;
   font-weight: 700;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   letter-spacing: -2px;
   background: var(--gradient-primary);
   background-size: 200% 200%;
@@ -132,13 +132,14 @@ title: "Inderjeet Singh"
   background-clip: text;
   animation: gradientShift 5s ease infinite;
   position: relative;
+  line-height: 1.1;
 }
 
 .hero-subtitle {
   font-size: 1.4em;
   color: var(--secondary);
-  margin-bottom: 25px;
-  line-height: 1.7;
+  margin-bottom: 20px;
+  line-height: 1.5;
   opacity: 0.95;
   font-weight: 400;
 }
@@ -166,9 +167,9 @@ title: "Inderjeet Singh"
 
 .hero-links {
   display: flex;
-  gap: 15px;
+  gap: 12px;
   flex-wrap: wrap;
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 .hero-link {
@@ -215,7 +216,7 @@ title: "Inderjeet Singh"
 }
 
 .section {
-  margin-bottom: 80px;
+  margin-bottom: 60px;
   opacity: 0;
   transform: translateY(30px);
   transition: all 0.8s var(--animation-smooth);
@@ -229,8 +230,8 @@ title: "Inderjeet Singh"
 .section-header {
   display: flex;
   align-items: center;
-  margin-bottom: 40px;
-  padding-bottom: 15px;
+  margin-bottom: 30px;
+  padding-bottom: 12px;
   position: relative;
 }
 
@@ -263,13 +264,13 @@ title: "Inderjeet Singh"
 .stats-row {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 20px;
-  margin-bottom: 40px;
+  gap: 16px;
+  margin-bottom: 30px;
 }
 
 .stat-card {
   text-align: center;
-  padding: 30px 20px;
+  padding: 24px 16px;
   background: rgba(255, 255, 255, 0.05);
   backdrop-filter: blur(10px);
   border: 1px solid rgba(255, 255, 255, 0.1);
@@ -328,10 +329,10 @@ title: "Inderjeet Singh"
 }
 
 .about-text {
-  font-size: 1.2em;
-  line-height: 1.8;
+  font-size: 1.1em;
+  line-height: 1.6;
   color: var(--secondary);
-  margin-bottom: 40px;
+  margin-bottom: 30px;
   position: relative;
   padding-left: 20px;
 }
@@ -350,12 +351,12 @@ title: "Inderjeet Singh"
 .research-areas {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 30px;
-  margin-top: 50px;
+  gap: 24px;
+  margin-top: 35px;
 }
 
 .research-item {
-  padding: 35px;
+  padding: 28px;
   background: rgba(255, 255, 255, 0.04);
   backdrop-filter: blur(15px);
   border-radius: var(--border-radius-lg);
@@ -401,13 +402,13 @@ title: "Inderjeet Singh"
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  margin-bottom: 18px;
-  line-height: 1.4;
+  margin-bottom: 14px;
+  line-height: 1.3;
 }
 
 .research-item p {
-  font-size: 1em;
-  line-height: 1.7;
+  font-size: 0.95em;
+  line-height: 1.5;
   margin: 0;
   opacity: 0.92;
   color: var(--secondary);
@@ -416,12 +417,12 @@ title: "Inderjeet Singh"
 .news-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 25px;
-  margin-top: 40px;
+  gap: 20px;
+  margin-top: 30px;
 }
 
 .news-card {
-  padding: 30px;
+  padding: 24px;
   background: linear-gradient(135deg, rgba(102, 126, 234, 0.05) 0%, rgba(245, 87, 108, 0.05) 100%);
   border-radius: 20px;
   border: 1px solid rgba(255, 255, 255, 0.1);
@@ -464,7 +465,7 @@ title: "Inderjeet Singh"
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  margin-bottom: 12px;
+  margin-bottom: 8px;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
@@ -472,27 +473,27 @@ title: "Inderjeet Singh"
 .news-title {
   font-weight: 700;
   font-size: 1.1em;
-  margin-bottom: 10px;
-  line-height: 1.4;
+  margin-bottom: 8px;
+  line-height: 1.3;
   color: var(--primary);
 }
 
 .news-desc {
-  font-size: 0.95em;
+  font-size: 0.9em;
   color: var(--secondary);
-  line-height: 1.6;
+  line-height: 1.5;
   opacity: 0.9;
 }
 
 .publications-list {
   display: flex;
   flex-direction: column;
-  gap: 25px;
-  margin-top: 40px;
+  gap: 20px;
+  margin-top: 30px;
 }
 
 .pub-item {
-  padding: 30px;
+  padding: 24px;
   background: rgba(255, 255, 255, 0.02);
   backdrop-filter: blur(10px);
   border-radius: 20px;
@@ -533,32 +534,32 @@ title: "Inderjeet Singh"
 .pub-title {
   font-weight: 700;
   font-size: 1.1em;
-  margin-bottom: 12px;
-  line-height: 1.5;
+  margin-bottom: 10px;
+  line-height: 1.4;
   color: var(--primary);
 }
 
 .pub-authors {
-  font-size: 0.95em;
+  font-size: 0.9em;
   color: var(--secondary);
-  margin-bottom: 8px;
+  margin-bottom: 6px;
   opacity: 0.9;
 }
 
 .pub-venue {
-  font-size: 0.95em;
+  font-size: 0.9em;
   font-style: italic;
   background: var(--gradient-accent);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  margin-bottom: 15px;
+  margin-bottom: 12px;
   font-weight: 500;
 }
 
 .pub-links {
   display: flex;
-  gap: 12px;
+  gap: 10px;
   flex-wrap: wrap;
 }
 
@@ -596,10 +597,10 @@ title: "Inderjeet Singh"
 
 .contact-box {
   background: linear-gradient(135deg, rgba(102, 126, 234, 0.1) 0%, rgba(245, 87, 108, 0.1) 100%);
-  padding: 60px 40px;
+  padding: 40px 30px;
   border-radius: 30px;
   text-align: center;
-  margin-top: 60px;
+  margin-top: 40px;
   position: relative;
   overflow: hidden;
   border: 1px solid rgba(255, 255, 255, 0.1);
@@ -627,9 +628,9 @@ title: "Inderjeet Singh"
 }
 
 .contact-text {
-  font-size: 1.2em;
-  line-height: 1.8;
-  margin-bottom: 30px;
+  font-size: 1.1em;
+  line-height: 1.6;
+  margin-bottom: 24px;
   position: relative;
   z-index: 1;
   opacity: 0.9;
@@ -637,8 +638,8 @@ title: "Inderjeet Singh"
 
 .view-more-link {
   display: inline-block;
-  margin-top: 30px;
-  padding: 12px 30px;
+  margin-top: 24px;
+  padding: 10px 24px;
   background: var(--gradient-primary);
   color: white;
   text-decoration: none;
@@ -697,123 +698,197 @@ title: "Inderjeet Singh"
 /* Enhanced Mobile Responsiveness */
 @media (max-width: 768px) {
   .hero-section {
-    min-height: 100vh;
-    padding: 20px;
+    min-height: 80vh;
+    padding: 16px;
   }
   
   .hero-container {
     grid-template-columns: 1fr;
     text-align: center;
-    gap: 40px;
+    gap: 30px;
     max-width: 100%;
   }
   
   .hero-content h1 {
     font-size: 2.5em;
-    line-height: 1.2;
+    line-height: 1.1;
+    margin-bottom: 8px;
   }
   
   .hero-subtitle {
     font-size: 1.1em;
-    margin-bottom: 20px;
+    margin-bottom: 16px;
+    line-height: 1.4;
   }
   
   .hero-links {
     justify-content: center;
-    gap: 10px;
+    gap: 8px;
+    margin-top: 16px;
   }
   
   .hero-link {
-    padding: 10px 20px;
+    padding: 8px 16px;
     font-size: 0.9em;
   }
   
   .main-content {
-    padding: 0 20px;
+    padding: 0 16px;
   }
   
-  .stats-row {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 15px;
-    margin-bottom: 30px;
+  .section {
+    margin-bottom: 40px;
   }
   
-  .stat-card {
-    padding: 25px 15px;
-  }
-  
-  .stat-number {
-    font-size: 2.2em;
-  }
-  
-  .stat-label {
-    font-size: 0.9em;
-  }
-  
-  .research-areas,
-  .news-grid {
-    grid-template-columns: 1fr;
-    gap: 20px;
+  .section-header {
+    margin-bottom: 20px;
+    padding-bottom: 10px;
   }
   
   .section-title {
     font-size: 1.8em;
   }
   
+  .stats-row {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+    margin-bottom: 24px;
+  }
+  
+  .stat-card {
+    padding: 20px 12px;
+  }
+  
+  .stat-number {
+    font-size: 2em;
+  }
+  
+  .stat-label {
+    font-size: 0.85em;
+  }
+  
+  .about-text {
+    font-size: 1em;
+    line-height: 1.5;
+    margin-bottom: 24px;
+    padding-left: 16px;
+  }
+  
+  .research-areas {
+    grid-template-columns: 1fr;
+    gap: 16px;
+    margin-top: 24px;
+  }
+  
+  .research-item {
+    padding: 20px;
+  }
+  
+  .research-item h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  .research-item p {
+    font-size: 0.9em;
+    line-height: 1.4;
+  }
+  
+  .news-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+    margin-top: 24px;
+  }
+  
+  .news-card {
+    padding: 20px;
+  }
+  
+  .news-title {
+    font-size: 1em;
+    margin-bottom: 6px;
+  }
+  
+  .news-desc {
+    font-size: 0.85em;
+  }
+  
+  .publications-list {
+    gap: 16px;
+    margin-top: 24px;
+  }
+  
   .pub-item {
     padding: 20px;
   }
   
+  .pub-title {
+    font-size: 1em;
+    margin-bottom: 8px;
+  }
+  
+  .pub-authors,
+  .pub-venue {
+    font-size: 0.85em;
+  }
+  
   .contact-box {
-    padding: 40px 20px;
+    padding: 32px 20px;
+    margin-top: 32px;
+  }
+  
+  .contact-text {
+    font-size: 1em;
+    margin-bottom: 20px;
   }
   
   /* Enhanced mobile achievements section */
   .achievements-section {
-    margin-top: 40px !important;
-    padding: 35px 20px !important;
+    margin-top: 32px !important;
+    padding: 28px 16px !important;
   }
   
   .achievement-title {
-    font-size: 1.4em !important;
-    margin-bottom: 30px !important;
+    font-size: 1.3em !important;
+    margin-bottom: 24px !important;
   }
   
   .achievements-grid {
     grid-template-columns: 1fr !important;
-    gap: 20px !important;
+    gap: 16px !important;
   }
   
   .achievement-card {
     flex-direction: column !important;
     text-align: center !important;
-    gap: 20px !important;
-    padding: 25px 20px !important;
+    gap: 16px !important;
+    padding: 20px 16px !important;
   }
   
   .achievement-icon {
-    font-size: 3em !important;
+    font-size: 2.8em !important;
   }
   
   .achievement-content h4 {
-    font-size: 1.2em !important;
-    margin-bottom: 12px !important;
+    font-size: 1.1em !important;
+    margin-bottom: 10px !important;
   }
   
   .achievement-content p,
   .achievement-content div {
-    font-size: 0.95em !important;
+    font-size: 0.9em !important;
     text-align: center !important;
+    line-height: 1.4 !important;
   }
   
   .academic-summary {
-    margin-top: 30px !important;
-    padding: 20px !important;
+    margin-top: 24px !important;
+    padding: 16px !important;
   }
   
   .academic-summary p {
-    font-size: 1em !important;
-    line-height: 1.6 !important;
+    font-size: 0.95em !important;
+    line-height: 1.5 !important;
   }
 }
 
@@ -897,8 +972,8 @@ title: "Inderjeet Singh"
     <div class="hero-content">
       <h1>Inderjeet Singh</h1>
       <p class="hero-subtitle">
-        Senior AI Research Scientist at Fujitsu Research of Europe<br>
-        Pioneering <strong>Trustworthy AI Systems</strong> • <strong>LLM/LMM Safety</strong> • <strong>Agentic RAG</strong> • <strong>Vision Robustness</strong>
+        Senior Research Scientist, Fujitsu Research of Europe<br>
+        Investigating <strong>Trustworthy Machine Learning</strong> • <strong>Large Language Model Safety</strong> • <strong>Retrieval-Augmented Generation</strong> • <strong>Adversarial Robustness</strong>
       </p>
       <div class="hero-links">
         <a href="https://scholar.google.com/citations?user=eoxiMqQAAAAJ&hl=en" class="hero-link">Google Scholar</a>
@@ -918,11 +993,11 @@ title: "Inderjeet Singh"
     </div>
     
     <p class="about-text">
-      I am a Senior AI Research Scientist at Fujitsu Research of Europe with <strong>6+ years</strong> of experience advancing the frontiers of AI Security and Trustworthy AI systems. 
-      My research specializes in <strong>LLM/LMM safety</strong>, <strong>Agentic RAG architectures</strong>, and <strong>adversarial robustness</strong> for vision systems. 
-      I develop formal security guarantees and safety frameworks that enable reliable AI deployment in mission-critical environments. 
-      With <strong>10+ patents</strong> (including 1 granted: US12183118) and publications in premier venues (ACL'25, BMVC'24 Oral, ECCV'24, ACML'24), 
-      I translate cutting-edge theoretical advances into practical, enterprise-ready solutions. Currently seeking opportunities to lead transformative trustworthy-AI initiatives.
+      I am a Senior Research Scientist at Fujitsu Research of Europe, where I investigate fundamental problems in <strong>machine learning security</strong> and <strong>trustworthy artificial intelligence</strong>. 
+      My research focuses on developing theoretical foundations and practical methodologies for <strong>large language model safety</strong>, <strong>retrieval-augmented generation systems</strong>, and <strong>adversarial robustness</strong> in computer vision. 
+      I work on formal verification approaches and safety frameworks that provide guarantees for machine learning systems deployed in safety-critical applications. 
+      My contributions include <strong>10+ patents</strong> (including granted US12183118) and peer-reviewed publications in leading conferences including ACL'25, BMVC'24 (Oral), ECCV'24, and ACML'24. 
+      I am interested in collaborative research opportunities that advance the theoretical understanding and practical deployment of trustworthy machine learning systems.
     </p>
     
     <div class="stats-row">
@@ -945,43 +1020,43 @@ title: "Inderjeet Singh"
     </div>
     
     <!-- Enhanced Academic & Sports Excellence Section -->
-    <div class="achievements-section" style="margin-top: 50px; padding: 50px 40px; background: linear-gradient(135deg, rgba(37, 99, 235, 0.05) 0%, rgba(139, 92, 246, 0.05) 100%); border-radius: var(--border-radius-xl); position: relative; overflow: hidden; border: 1px solid rgba(255, 255, 255, 0.1); animation: fadeInUp 1s ease-out 0.6s both; box-shadow: var(--shadow-research);">
+    <div class="achievements-section" style="margin-top: 40px; padding: 40px 32px; background: linear-gradient(135deg, rgba(37, 99, 235, 0.05) 0%, rgba(139, 92, 246, 0.05) 100%); border-radius: var(--border-radius-xl); position: relative; overflow: hidden; border: 1px solid rgba(255, 255, 255, 0.1); animation: fadeInUp 1s ease-out 0.6s both; box-shadow: var(--shadow-research);">
       <div class="achievement-bg-decoration" style="position: absolute; top: -100px; right: -100px; width: 300px; height: 300px; background: radial-gradient(circle, rgba(37, 99, 235, 0.1) 0%, transparent 70%); animation: float 10s ease-in-out infinite;"></div>
       <div class="achievement-bg-decoration-2" style="position: absolute; bottom: -50px; left: -50px; width: 200px; height: 200px; background: radial-gradient(circle, rgba(139, 92, 246, 0.08) 0%, transparent 70%); animation: float 12s ease-in-out infinite reverse;"></div>
       
-      <h3 class="achievement-title" style="font-size: 1.8em; margin-bottom: 40px; background: var(--gradient-primary); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; font-weight: 700; text-align: center; position: relative; z-index: 2;">Beyond Research: Leadership & Excellence</h3>
+      <h3 class="achievement-title" style="font-size: 1.6em; margin-bottom: 30px; background: var(--gradient-primary); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; font-weight: 700; text-align: center; position: relative; z-index: 2;">Academic Excellence & Leadership</h3>
       
-      <div class="achievements-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 30px; position: relative; z-index: 2;">
+      <div class="achievements-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 24px; position: relative; z-index: 2;">
         <!-- Badminton Achievement -->
-        <div class="achievement-card badminton-card" style="display: flex; align-items: center; gap: 25px; padding: 30px; background: rgba(255, 255, 255, 0.07); backdrop-filter: blur(15px); border-radius: var(--border-radius-lg); transition: all 0.4s ease; cursor: pointer; border: 1px solid rgba(37, 99, 235, 0.1); position: relative; overflow: hidden;" onmouseover="this.style.transform='translateY(-8px) scale(1.02)'; this.style.boxShadow='0 15px 40px rgba(37, 99, 235, 0.25)'; this.style.borderColor='rgba(37, 99, 235, 0.3)'" onmouseout="this.style.transform='translateY(0) scale(1)'; this.style.boxShadow='none'; this.style.borderColor='rgba(37, 99, 235, 0.1)'">
+        <div class="achievement-card badminton-card" style="display: flex; align-items: center; gap: 20px; padding: 24px; background: rgba(255, 255, 255, 0.07); backdrop-filter: blur(15px); border-radius: var(--border-radius-lg); transition: all 0.4s ease; cursor: pointer; border: 1px solid rgba(37, 99, 235, 0.1); position: relative; overflow: hidden;" onmouseover="this.style.transform='translateY(-8px) scale(1.02)'; this.style.boxShadow='0 15px 40px rgba(37, 99, 235, 0.25)'; this.style.borderColor='rgba(37, 99, 235, 0.3)'" onmouseout="this.style.transform='translateY(0) scale(1)'; this.style.boxShadow='none'; this.style.borderColor='rgba(37, 99, 235, 0.1)'">
           <div class="achievement-icon" style="font-size: 3.5em; filter: drop-shadow(0 8px 16px rgba(0,0,0,0.15)); transition: transform 0.3s ease;" onmouseover="this.style.transform='rotate(10deg) scale(1.1)'" onmouseout="this.style.transform='rotate(0deg) scale(1)'">🏸</div>
           <div class="achievement-content">
-            <h4 style="background: var(--gradient-primary); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; font-size: 1.3em; font-weight: 700; margin-bottom: 10px; line-height: 1.3;">National Level Badminton</h4>
-            <p style="font-size: 1em; color: var(--secondary); line-height: 1.6; opacity: 0.9; margin: 0;">Represented university at National West & Inter-Zonal Tournaments, demonstrating competitive excellence at the highest collegiate level (2015-16)</p>
+            <h4 style="background: var(--gradient-primary); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; font-size: 1.3em; font-weight: 700; margin-bottom: 10px; line-height: 1.3;">Competitive Athletics: Badminton</h4>
+            <p style="font-size: 1em; color: var(--secondary); line-height: 1.6; opacity: 0.9; margin: 0;">Represented university in National West Zone and Inter-Zonal Championships, demonstrating sustained excellence in competitive athletics at the highest collegiate level (2015-16)</p>
           </div>
         </div>
         
         <!-- Sports Medals Achievement -->
-        <div class="achievement-card medals-card" style="display: flex; align-items: center; gap: 25px; padding: 30px; background: rgba(255, 255, 255, 0.07); backdrop-filter: blur(15px); border-radius: var(--border-radius-lg); transition: all 0.4s ease; cursor: pointer; border: 1px solid rgba(139, 92, 246, 0.1); position: relative; overflow: hidden;" onmouseover="this.style.transform='translateY(-8px) scale(1.02)'; this.style.boxShadow='0 15px 40px rgba(139, 92, 246, 0.25)'; this.style.borderColor='rgba(139, 92, 246, 0.3)'" onmouseout="this.style.transform='translateY(0) scale(1)'; this.style.boxShadow='none'; this.style.borderColor='rgba(139, 92, 246, 0.1)'">
+        <div class="achievement-card medals-card" style="display: flex; align-items: center; gap: 20px; padding: 24px; background: rgba(255, 255, 255, 0.07); backdrop-filter: blur(15px); border-radius: var(--border-radius-lg); transition: all 0.4s ease; cursor: pointer; border: 1px solid rgba(139, 92, 246, 0.1); position: relative; overflow: hidden;" onmouseover="this.style.transform='translateY(-8px) scale(1.02)'; this.style.boxShadow='0 15px 40px rgba(139, 92, 246, 0.25)'; this.style.borderColor='rgba(139, 92, 246, 0.3)'" onmouseout="this.style.transform='translateY(0) scale(1)'; this.style.boxShadow='none'; this.style.borderColor='rgba(139, 92, 246, 0.1)'">
           <div class="achievement-icon" style="font-size: 3.5em; filter: drop-shadow(0 8px 16px rgba(0,0,0,0.15)); transition: transform 0.3s ease;" onmouseover="this.style.transform='rotate(-10deg) scale(1.1)'" onmouseout="this.style.transform='rotate(0deg) scale(1)'">🏅</div>
           <div class="achievement-content">
-            <h4 style="background: var(--gradient-accent); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; font-size: 1.3em; font-weight: 700; margin-bottom: 10px; line-height: 1.3;">Championship Medals</h4>
+            <h4 style="background: var(--gradient-accent); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; font-size: 1.3em; font-weight: 700; margin-bottom: 10px; line-height: 1.3;">Athletic Achievement Awards</h4>
             <div style="font-size: 1em; color: var(--secondary); line-height: 1.6; opacity: 0.9;">
-              <div style="margin-bottom: 6px;"><span style="color: #ffd700; font-weight: 600;">🥇 Gold:</span> Kho-Kho Championship (Udghosh-2017, IIT Kanpur)</div>
-              <div><span style="color: #c0c0c0; font-weight: 600;">🥈 2x Silver:</span> Badminton Inter-Collegiate (2015-17)</div>
+              <div style="margin-bottom: 6px;"><span style="color: #ffd700; font-weight: 600;">🥇 Gold Medal:</span> Kho-Kho Championship (Udghosh-2017, IIT Kanpur)</div>
+              <div><span style="color: #c0c0c0; font-weight: 600;">🥈 Silver Medals (2×):</span> Badminton Inter-Collegiate Championships (2015-17)</div>
             </div>
           </div>
         </div>
       </div>
       
       <!-- Academic Excellence Summary -->
-      <div class="academic-summary" style="margin-top: 40px; text-align: center; padding: 25px; background: rgba(255, 255, 255, 0.03); border-radius: var(--border-radius-lg); position: relative; z-index: 2;">
-        <p style="font-size: 1.1em; color: var(--secondary); line-height: 1.7; opacity: 0.9; max-width: 800px; margin: 0 auto;">
-          Balancing competitive sports excellence with academic rigor has shaped my approach to research—bringing 
-          <strong style="color: var(--academic-blue);">strategic thinking</strong>, 
-          <strong style="color: var(--academic-purple);">performance optimization</strong>, and 
-          <strong style="color: var(--academic-teal);">collaborative leadership</strong> 
-          to every AI research challenge.
+      <div class="academic-summary" style="margin-top: 30px; text-align: center; padding: 20px; background: rgba(255, 255, 255, 0.03); border-radius: var(--border-radius-lg); position: relative; z-index: 2;">
+        <p style="font-size: 1em; color: var(--secondary); line-height: 1.6; opacity: 0.9; max-width: 700px; margin: 0 auto;">
+          The discipline and strategic thinking developed through competitive athletics have been instrumental in my research methodology—fostering 
+          <strong style="color: var(--academic-blue);">systematic problem-solving</strong>, 
+          <strong style="color: var(--academic-purple);">rigorous performance evaluation</strong>, and 
+          <strong style="color: var(--academic-teal);">effective collaborative research</strong> 
+          in machine learning and AI safety.
         </p>
       </div>
     </div>
@@ -995,23 +1070,23 @@ title: "Inderjeet Singh"
     
     <div class="research-areas">
       <div class="research-item">
-        <h3>Trustworthy Multimodal Agentic RAG</h3>
-        <p>Exploring advanced Retrieval Augmented Generation (RAG) systems that integrate multimodal information and agentic capabilities. This work aims to enhance the trustworthiness and safety of these systems through innovative approaches, without compromising their performance in complex information retrieval and generation tasks.</p>
+        <h3>Trustworthy Multimodal Retrieval-Augmented Generation</h3>
+        <p>Investigating theoretical foundations and empirical methodologies for enhancing the reliability and safety of multimodal retrieval-augmented generation systems. This research addresses fundamental questions about information integration, factual consistency, and safety guarantees in agentic RAG architectures for complex reasoning tasks.</p>
       </div>
       
       <div class="research-item">
-        <h3>LLM/LMM Security & Safety</h3>
-        <p>Developing LLM/LMM Vulnerability Scanner & Guardrail Framework for safety control in LLM applications. Created first safety benchmark (43k+ attacks) via novel auto red-teaming.</p>
+        <h3>Large Language Model Safety and Security</h3>
+        <p>Developing formal verification frameworks and automated assessment methodologies for large language model safety. My work includes the creation of comprehensive safety benchmarks (43k+ adversarial examples) through novel automated red-teaming approaches and the design of principled guardrail architectures.</p>
       </div>
       
       <div class="research-item">
-        <h3>AI Robustness & Adversarial ML</h3>
-        <p>Advanced Deep Metric Learning with adversarial robustness, achieving SOTA with +2.95% Recall@1 (clean), 2.12x robustness (multi-distribution) for real-world deployments.</p>
+        <h3>Adversarial Robustness in Deep Learning</h3>
+        <p>Advancing theoretical understanding and practical implementations of adversarial robustness in deep metric learning. My research achieves state-of-the-art performance with +2.95% Recall@1 improvement under clean conditions and 2.12× enhanced robustness across multiple distributional shifts for real-world deployment scenarios.</p>
       </div>
       
       <div class="research-item">
-        <h3>LLM Disparity Assessment</h3>
-        <p>Investigating novel methodologies for efficiently auditing and identifying disparities in Large Language Models to promote fairness and ethical AI. This research focuses on developing techniques for nuanced disparity assessment.</p>
+        <h3>Algorithmic Fairness in Large Language Models</h3>
+        <p>Developing computational frameworks for systematic auditing and quantitative assessment of disparities in large language models. This work focuses on establishing theoretical foundations for bias detection and mitigation strategies that ensure equitable AI system behavior across diverse populations.</p>
       </div>
     </div>
   </section>
@@ -1025,26 +1100,26 @@ title: "Inderjeet Singh"
     <div class="news-grid">
       <div class="news-card">
         <div class="news-date">2025</div>
-        <div class="news-title">Paper Accepted at ACL 2025</div>
-        <div class="news-desc">DIESEL: A Lightweight Inference-Time Safety Enhancement for Language Models accepted at the premier NLP conference.</div>
+        <div class="news-title">Research Publication: ACL 2025</div>
+        <div class="news-desc">Paper on "DIESEL: A Lightweight Inference-Time Safety Enhancement for Language Models" accepted at the Annual Meeting of the Association for Computational Linguistics.</div>
       </div>
       
       <div class="news-card">
         <div class="news-date">2024</div>
-        <div class="news-title">Oral Presentation at BMVC 2024</div>
-        <div class="news-desc">Presented ATLANTIS framework for automated targeted language-guided augmentation training (acceptance rate <3%).</div>
+        <div class="news-title">Oral Presentation: BMVC 2024</div>
+        <div class="news-desc">Delivered oral presentation on "ATLANTIS: A Framework for Automated Targeted Language-guided Augmentation Training" at the British Machine Vision Conference (acceptance rate <3%).</div>
       </div>
       
       <div class="news-card">
         <div class="news-date">2024</div>
-        <div class="news-title">Paper at ECCV 2024</div>
-        <div class="news-desc">MONTRAGE: Monitoring Training for Attribution of Generative Diffusion Models accepted.</div>
+        <div class="news-title">Research Contribution: ECCV 2024</div>
+        <div class="news-desc">Co-authored work on "MONTRAGE: Monitoring Training for Attribution of Generative Diffusion Models" accepted at the European Conference on Computer Vision.</div>
       </div>
       
       <div class="news-card">
         <div class="news-date">2024</div>
-        <div class="news-title">Long Talk at ACML 2024</div>
-        <div class="news-desc">Presented work on Advancing Deep Metric Learning With Adversarial Robustness.</div>
+        <div class="news-title">Conference Presentation: ACML 2024</div>
+        <div class="news-desc">Presented research findings on "Advancing Deep Metric Learning With Adversarial Robustness" at the Asian Conference on Machine Learning.</div>
       </div>
     </div>
   </section>
@@ -1092,19 +1167,19 @@ title: "Inderjeet Singh"
       </div>
     </div>
     
-    <a href="https://scholar.google.com/citations?user=eoxiMqQAAAAJ&hl=en" target="_blank" class="view-more-link">View All Publications on Google Scholar →</a>
+    <a href="https://scholar.google.com/citations?user=eoxiMqQAAAAJ&hl=en" target="_blank" class="view-more-link">Complete Publication List on Google Scholar →</a>
   </section>
 
   <!-- Contact -->
   <section class="section" id="contact">
     <div class="contact-box">
-      <h2 style="font-size: 1.8em; margin-bottom: 20px;">Let's Collaborate</h2>
+      <h2 style="font-size: 1.8em; margin-bottom: 20px;">Research Collaboration</h2>
       <p class="contact-text">
-        I welcome opportunities to collaborate on challenges at the intersection of AI advancement and responsible deployment. 
-        With expertise in LLM/LMM safety, Agentic RAG, and trustworthy AI systems, let's explore how we can push boundaries 
-        while maintaining the highest standards of safety and reliability.
+        I am interested in collaborative research opportunities that advance fundamental understanding in machine learning safety, 
+        trustworthy AI systems, and adversarial robustness. My expertise spans theoretical foundations in large language model safety, 
+        retrieval-augmented generation systems, and formal verification approaches for AI safety.
       </p>
-      <a href="mailto:inderjeet.ieor@gmail.com" class="contact-button">Get in Touch</a>
+              <a href="mailto:inderjeet.ieor@gmail.com" class="contact-button">Contact for Collaboration</a>
     </div>
   </section>
 </div>
