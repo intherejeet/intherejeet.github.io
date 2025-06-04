@@ -972,7 +972,7 @@ title: "Inderjeet Singh"
     <div class="hero-content">
       <h1>Inderjeet Singh</h1>
       <p class="hero-subtitle">
-        Senior Research Scientist, Fujitsu Research of Europe<br>
+        Senior Research Scientist (AI), Fujitsu Research of Europe<br>
         <strong>Machine Learning Security</strong> • <strong>LLM/LMM Safety & Security</strong> • <strong>Trustworthy Multimodal AI</strong> • <strong>Adversarial Robustness</strong>
       </p>
       <div class="hero-links">
@@ -1005,16 +1005,16 @@ title: "Inderjeet Singh"
         <div class="stat-label">Patents Filed</div>
       </div>
       <div class="stat-card">
-        <div class="stat-number">10+</div>
+        <div class="stat-number">12+</div>
         <div class="stat-label">Publications</div>
       </div>
       <div class="stat-card">
-        <div class="stat-number">2</div>
-        <div class="stat-label">Academic Medals</div>
+        <div class="stat-number">6</div>
+        <div class="stat-label">Years Research</div>
       </div>
       <div class="stat-card">
-        <div class="stat-number">AIR 2</div>
-        <div class="stat-label">GATE 2017</div>
+        <div class="stat-number">40K+</div>
+        <div class="stat-label">Safety Benchmarks</div>
       </div>
     </div>
     
@@ -1069,23 +1069,33 @@ title: "Inderjeet Singh"
     
     <div class="research-areas">
       <div class="research-item">
-        <h3>Trustworthy Multimodal Retrieval-Augmented Generation</h3>
-        <p>Investigating theoretical foundations and empirical methodologies for enhancing the reliability and safety of multimodal retrieval-augmented generation systems. This research addresses fundamental questions about information integration, factual consistency, and safety guarantees in agentic RAG architectures for complex reasoning tasks.</p>
+        <h3>Trustworthy Multimodal Agentic Systems</h3>
+        <p>Investigating theoretical foundations and empirical methodologies for enhancing reliability and safety in multimodal agentic frameworks. Research focuses on developing trust mechanisms, safety architectures, and automated red-teaming methodologies for complex reasoning systems. Work includes comprehensive safety benchmark development with large-scale adversarial example generation for systematic evaluation.</p>
       </div>
       
       <div class="research-item">
-        <h3>Large Language Model Safety and Security</h3>
-        <p>Developing formal verification frameworks and automated assessment methodologies for large language model safety. My work includes the creation of comprehensive safety benchmarks (43k+ adversarial examples) through novel automated red-teaming approaches and the design of principled guardrail architectures.</p>
+        <h3>Large Language/Multimodal Model Security</h3>
+        <p>Developing formal verification frameworks and automated vulnerability assessment methodologies for large language and multimodal models. Research encompasses systematic approaches to guardrail architectures, inference-time safety enhancement mechanisms, and distributed learning frameworks with privacy preservation for model fine-tuning.</p>
       </div>
       
       <div class="research-item">
-        <h3>Adversarial Robustness in Deep Learning</h3>
-        <p>Advancing theoretical understanding and practical implementations of adversarial robustness in deep metric learning. My research achieves state-of-the-art performance with +2.95% Recall@1 improvement under clean conditions and 2.12× enhanced robustness across multiple distributional shifts for real-world deployment scenarios.</p>
+        <h3>Adversarial Robustness and Deep Metric Learning</h3>
+        <p>Advancing theoretical understanding and practical implementations of adversarial robustness in deep metric learning architectures. Research demonstrates state-of-the-art performance improvements (+2.95% Recall@1 under clean conditions, 2.12× robustness enhancement) across multi-distribution scenarios with applications to production-scale image retrieval systems.</p>
       </div>
       
       <div class="research-item">
-        <h3>Algorithmic Fairness in Large Language Models</h3>
-        <p>Developing computational frameworks for systematic auditing and quantitative assessment of disparities in large language models. This work focuses on establishing theoretical foundations for bias detection and mitigation strategies that ensure equitable AI system behavior across diverse populations.</p>
+        <h3>Algorithmic Disparity Assessment</h3>
+        <p>Developing computational frameworks for systematic auditing and quantitative assessment of disparities in large language models. Research focuses on establishing theoretical foundations for bias detection through novel token-focused probing methodologies and developing principled mitigation strategies for equitable AI system behavior.</p>
+      </div>
+      
+      <div class="research-item">
+        <h3>Computer Vision Security</h3>
+        <p>Investigating adversarial vulnerabilities and defense mechanisms in practical computer vision systems, with emphasis on face recognition and biometric authentication. Research encompasses physical-world attack methodologies, transferability analysis, and robustness enhancement techniques for real-world deployment scenarios.</p>
+      </div>
+      
+      <div class="research-item">
+        <h3>Training Data Attribution and Copyright Protection</h3>
+        <p>Developing attribution methodologies for generative models to address copyright protection and intellectual property concerns. Research focuses on training data influence estimation, model provenance tracking, and automated monitoring frameworks for diffusion-based generative systems.</p>
       </div>
     </div>
   </section>
