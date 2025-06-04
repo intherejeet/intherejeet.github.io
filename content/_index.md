@@ -961,6 +961,16 @@ title: "Inderjeet Singh"
 ::-webkit-scrollbar-thumb:hover {
   background: var(--gradient-secondary);
 }
+
+/* Smooth scrolling for anchor links */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Adjust scroll padding to account for fixed header */
+section {
+  scroll-margin-top: 80px;
+}
 </style>
 
 <!-- Hero Section with Profile -->
