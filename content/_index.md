@@ -62,11 +62,11 @@ title: "Inderjeet Singh"
 }
 
 /* Better background for light mode */
-[data-theme="light"] .hero-section {
+body:not(.dark) .hero-section {
   background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
 }
 
-[data-theme="dark"] .hero-section {
+body.dark .hero-section {
   background: linear-gradient(135deg, var(--theme) 0%, var(--code-bg) 100%);
 }
 
@@ -282,7 +282,7 @@ title: "Inderjeet Singh"
 }
 
 /* Light mode adjustments */
-[data-theme="light"] .stat-card {
+body:not(.dark) .stat-card {
   background: rgba(255, 255, 255, 0.7);
   border: 1px solid rgba(0, 0, 0, 0.1);
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
@@ -368,7 +368,7 @@ title: "Inderjeet Singh"
   box-shadow: var(--shadow-soft);
 }
 
-[data-theme="light"] .research-item {
+body:not(.dark) .research-item {
   background: rgba(255, 255, 255, 0.8);
   border: 1px solid rgba(0, 0, 0, 0.08);
   box-shadow: 0 2px 15px rgba(0, 0, 0, 0.04);
@@ -432,7 +432,7 @@ title: "Inderjeet Singh"
   cursor: pointer;
 }
 
-[data-theme="light"] .news-card {
+body:not(.dark) .news-card {
   background: linear-gradient(135deg, rgba(102, 126, 234, 0.03) 0%, rgba(245, 87, 108, 0.03) 100%);
   border: 1px solid rgba(0, 0, 0, 0.08);
 }
@@ -503,7 +503,7 @@ title: "Inderjeet Singh"
   transition: all 0.4s var(--animation-smooth);
 }
 
-[data-theme="light"] .pub-item {
+body:not(.dark) .pub-item {
   background: rgba(255, 255, 255, 0.9);
   border: 1px solid rgba(0, 0, 0, 0.08);
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.03);
@@ -606,7 +606,7 @@ title: "Inderjeet Singh"
   border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
-[data-theme="light"] .contact-box {
+body:not(.dark) .contact-box {
   background: linear-gradient(135deg, rgba(102, 126, 234, 0.05) 0%, rgba(245, 87, 108, 0.05) 100%);
   border: 1px solid rgba(0, 0, 0, 0.08);
 }
@@ -970,6 +970,81 @@ html {
 /* Adjust scroll padding to account for fixed header */
 section {
   scroll-margin-top: 80px;
+}
+
+/* Dark mode text visibility fixes */
+body.dark .hero-subtitle {
+  color: var(--secondary);
+}
+
+body.dark .hero-subtitle strong {
+  color: var(--primary);
+}
+
+body.dark .section-title {
+  background: var(--gradient-primary);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+body.dark .about-text {
+  color: var(--secondary);
+}
+
+body.dark .stat-label {
+  color: var(--secondary);
+}
+
+body.dark .research-item h3 {
+  background: var(--gradient-primary);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+body.dark .research-item p {
+  color: var(--secondary);
+}
+
+body.dark .news-title {
+  color: var(--primary);
+}
+
+body.dark .news-desc {
+  color: var(--secondary);
+}
+
+body.dark .pub-title {
+  color: var(--primary);
+}
+
+body.dark .pub-authors {
+  color: var(--secondary);
+}
+
+body.dark .contact-text {
+  color: var(--secondary);
+}
+
+body.dark .contact-box h2 {
+  color: var(--primary);
+}
+
+body.dark .achievement-content h4 {
+  background: var(--gradient-primary);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+body.dark .achievement-content p,
+body.dark .achievement-content div {
+  color: var(--secondary);
+}
+
+body.dark .academic-summary p {
+  color: var(--secondary);
 }
 </style>
 
