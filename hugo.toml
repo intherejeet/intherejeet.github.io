@@ -9,8 +9,8 @@ pagerSize = 10
 [params]
 description = "Senior Research Scientist (AI) at Fujitsu Research Europe | Machine Learning Security & Trustworthy AI"
 author = "Inderjeet Singh"
-defaultTheme = "auto" # dark, light, auto
-disableThemeToggle = false
+defaultTheme = "light" # dark, light, auto
+disableThemeToggle = true
 ShowReadingTime = false
 ShowShareButtons = false
 ShowPostNavLinks = false

@@ -61,13 +61,9 @@ title: "Inderjeet Singh"
   background: var(--theme);
 }
 
-/* Better background for light mode */
-body:not(.dark) .hero-section {
+/* Hero section background */
+.hero-section {
   background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
-}
-
-body.dark .hero-section {
-  background: linear-gradient(135deg, var(--theme) 0%, var(--code-bg) 100%);
 }
 
 .hero-section::before {
@@ -271,20 +267,14 @@ body.dark .hero-section {
 .stat-card {
   text-align: center;
   padding: 24px 16px;
-  background: rgba(255, 255, 255, 0.05);
+  background: rgba(255, 255, 255, 0.7);
   backdrop-filter: blur(10px);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 20px;
   transition: all 0.3s var(--animation-smooth);
   cursor: pointer;
   position: relative;
   overflow: hidden;
-}
-
-/* Light mode adjustments */
-body:not(.dark) .stat-card {
-  background: rgba(255, 255, 255, 0.7);
-  border: 1px solid rgba(0, 0, 0, 0.1);
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
 }
 
@@ -357,20 +347,14 @@ body:not(.dark) .stat-card {
 
 .research-item {
   padding: 28px;
-  background: rgba(255, 255, 255, 0.04);
+  background: rgba(255, 255, 255, 0.8);
   backdrop-filter: blur(15px);
   border-radius: var(--border-radius-lg);
-  border: 1px solid rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(0, 0, 0, 0.08);
   transition: all 0.4s var(--animation-smooth);
   position: relative;
   overflow: hidden;
   cursor: pointer;
-  box-shadow: var(--shadow-soft);
-}
-
-body:not(.dark) .research-item {
-  background: rgba(255, 255, 255, 0.8);
-  border: 1px solid rgba(0, 0, 0, 0.08);
   box-shadow: 0 2px 15px rgba(0, 0, 0, 0.04);
 }
 
@@ -423,18 +407,13 @@ body:not(.dark) .research-item {
 
 .news-card {
   padding: 24px;
-  background: linear-gradient(135deg, rgba(102, 126, 234, 0.05) 0%, rgba(245, 87, 108, 0.05) 100%);
+  background: linear-gradient(135deg, rgba(102, 126, 234, 0.03) 0%, rgba(245, 87, 108, 0.03) 100%);
   border-radius: 20px;
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.08);
   position: relative;
   overflow: hidden;
   transition: all 0.3s var(--animation-smooth);
   cursor: pointer;
-}
-
-body:not(.dark) .news-card {
-  background: linear-gradient(135deg, rgba(102, 126, 234, 0.03) 0%, rgba(245, 87, 108, 0.03) 100%);
-  border: 1px solid rgba(0, 0, 0, 0.08);
 }
 
 .news-card::before {
@@ -494,18 +473,13 @@ body:not(.dark) .news-card {
 
 .pub-item {
   padding: 24px;
-  background: rgba(255, 255, 255, 0.02);
+  background: rgba(255, 255, 255, 0.9);
   backdrop-filter: blur(10px);
   border-radius: 20px;
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.08);
   position: relative;
   overflow: hidden;
   transition: all 0.4s var(--animation-smooth);
-}
-
-body:not(.dark) .pub-item {
-  background: rgba(255, 255, 255, 0.9);
-  border: 1px solid rgba(0, 0, 0, 0.08);
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.03);
 }
 
@@ -596,18 +570,13 @@ body:not(.dark) .pub-item {
 }
 
 .contact-box {
-  background: linear-gradient(135deg, rgba(102, 126, 234, 0.1) 0%, rgba(245, 87, 108, 0.1) 100%);
+  background: linear-gradient(135deg, rgba(102, 126, 234, 0.05) 0%, rgba(245, 87, 108, 0.05) 100%);
   padding: 40px 30px;
   border-radius: 30px;
   text-align: center;
   margin-top: 40px;
   position: relative;
   overflow: hidden;
-  border: 1px solid rgba(255, 255, 255, 0.1);
-}
-
-body:not(.dark) .contact-box {
-  background: linear-gradient(135deg, rgba(102, 126, 234, 0.05) 0%, rgba(245, 87, 108, 0.05) 100%);
   border: 1px solid rgba(0, 0, 0, 0.08);
 }
 
@@ -972,117 +941,17 @@ section {
   scroll-margin-top: 80px;
 }
 
-/* Header dark mode styling fixes */
+/* Header styling */
 .header {
-  background: var(--theme);
-  border-bottom: 1px solid var(--border);
+  background: rgba(255, 255, 255, 0.95);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(10px);
   position: sticky;
   top: 0;
   z-index: 100;
 }
 
-body:not(.dark) .header {
-  background: rgba(255, 255, 255, 0.95);
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-}
 
-body.dark .header {
-  background: rgba(29, 30, 32, 0.95);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-}
-
-/* Ensure nav text is visible in both modes */
-body.dark .nav a {
-  color: var(--primary);
-}
-
-body.dark .logo a {
-  color: var(--primary);
-}
-
-body.dark #menu a {
-  color: var(--primary);
-}
-
-body.dark #theme-toggle {
-  color: var(--primary);
-}
-
-/* Dark mode text visibility fixes */
-body.dark .hero-subtitle {
-  color: var(--secondary);
-}
-
-body.dark .hero-subtitle strong {
-  color: var(--primary);
-}
-
-body.dark .section-title {
-  background: var(--gradient-primary);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-}
-
-body.dark .about-text {
-  color: var(--secondary);
-}
-
-body.dark .stat-label {
-  color: var(--secondary);
-}
-
-body.dark .research-item h3 {
-  background: var(--gradient-primary);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-}
-
-body.dark .research-item p {
-  color: var(--secondary);
-}
-
-body.dark .news-title {
-  color: var(--primary);
-}
-
-body.dark .news-desc {
-  color: var(--secondary);
-}
-
-body.dark .pub-title {
-  color: var(--primary);
-}
-
-body.dark .pub-authors {
-  color: var(--secondary);
-}
-
-body.dark .contact-text {
-  color: var(--secondary);
-}
-
-body.dark .contact-box h2 {
-  color: var(--primary);
-}
-
-body.dark .achievement-content h4 {
-  background: var(--gradient-primary);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-}
-
-body.dark .achievement-content p,
-body.dark .achievement-content div {
-  color: var(--secondary);
-}
-
-body.dark .academic-summary p {
-  color: var(--secondary);
-}
 </style>
 
 <!-- Hero Section with Profile -->
