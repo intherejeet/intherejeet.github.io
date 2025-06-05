@@ -972,6 +972,43 @@ section {
   scroll-margin-top: 80px;
 }
 
+/* Header dark mode styling fixes */
+.header {
+  background: var(--theme);
+  border-bottom: 1px solid var(--border);
+  backdrop-filter: blur(10px);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+body:not(.dark) .header {
+  background: rgba(255, 255, 255, 0.95);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+body.dark .header {
+  background: rgba(29, 30, 32, 0.95);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Ensure nav text is visible in both modes */
+body.dark .nav a {
+  color: var(--primary);
+}
+
+body.dark .logo a {
+  color: var(--primary);
+}
+
+body.dark #menu a {
+  color: var(--primary);
+}
+
+body.dark #theme-toggle {
+  color: var(--primary);
+}
+
 /* Dark mode text visibility fixes */
 body.dark .hero-subtitle {
   color: var(--secondary);
