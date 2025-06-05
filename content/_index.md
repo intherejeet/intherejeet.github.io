@@ -1002,11 +1002,11 @@ section {
     </div>
     
     <p class="about-text">
-      I am a Senior Research Scientist (AI) at Fujitsu Research of Europe, with close to 6 years of experience developing cutting-edge methodologies for <strong>machine learning security</strong> and <strong>trustworthy artificial intelligence</strong>. 
+      I am a Senior Research Scientist (AI) at Fujitsu Research of Europe, UK, with close to 6 years of experience developing cutting-edge methodologies for <strong>machine learning security</strong> and <strong>trustworthy artificial intelligence</strong>. 
       My research addresses fundamental theoretical and practical challenges in <strong>large language/multimodal model safety</strong>, <strong>multimodal retrieval-augmented generation systems</strong>, and <strong>adversarial robustness</strong> across computer vision and natural language processing domains. 
       I develop formal verification frameworks, automated assessment methodologies, and safety architectures that provide theoretical guarantees for AI systems in safety-critical applications. 
       My work has resulted in <strong>10+ filed patents</strong> (including granted US patent 12183118) and publications in premier venues including ACL 2025, BMVC 2024 (Oral presentation, <3% acceptance rate), ECCV 2024, and ACML 2024. 
-      Previously at NEC Labs (2019-2023), I established foundational contributions to adversarial machine learning and AI system security assessment methodologies.
+      Previously at NEC Labs Japan (2019-2023), I established foundational contributions to adversarial machine learning and AI system security assessment methodologies.
     </p>
     
     <div class="stats-row">
