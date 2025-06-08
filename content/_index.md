@@ -1100,38 +1100,38 @@ section {
     <div class="news-grid">
       <div class="news-card">
         <div class="news-date">2025</div>
-        <div class="news-title">ACL 2025: LLM Safety Enhancement</div>
+        <div class="news-title">ACL 2025 Acceptance: LLM Safety Enhancement</div>
         <div class="news-desc">Research on lightweight inference-time safety mechanisms for language models accepted at the Annual Meeting of the Association for Computational Linguistics, addressing fundamental challenges in real-time LLM safety enhancement.</div>
       </div>
       
       <div class="news-card">
         <div class="news-date">2024</div>
-        <div class="news-title">BMVC 2024: Oral Presentation</div>
+        <div class="news-title">Patent Grant: US12183118</div>
+        <div class="news-desc">Received patent grant for simultaneous adversarial attacks on multiple face recognition system components, establishing foundational intellectual property in AI security methodologies (September 30, 2024).</div>
+      </div>
+      
+      <div class="news-card">
+        <div class="news-date">2024</div>
+        <div class="news-title">BMVC 2024 Acceptance: Oral Presentation</div>
         <div class="news-desc">Delivered oral presentation on multimodal robustness framework achieving state-of-the-art performance in image search applications at the British Machine Vision Conference (acceptance rate <3%).</div>
       </div>
       
       <div class="news-card">
         <div class="news-date">2024</div>
-        <div class="news-title">ECCV 2024: Generative Model Attribution</div>
+        <div class="news-title">ECCV 2024 Acceptance: Generative Model Attribution</div>
         <div class="news-desc">Contributed to research on training data attribution for generative diffusion models accepted at the European Conference on Computer Vision, addressing copyright protection in AI-generated content.</div>
       </div>
       
       <div class="news-card">
         <div class="news-date">2024</div>
-        <div class="news-title">ACML 2024: Adversarial Robustness</div>
+        <div class="news-title">ACML 2024 Acceptance: Adversarial Robustness</div>
         <div class="news-desc">Presented theoretical advances in deep metric learning robustness with demonstrated improvements of +2.95% Recall@1 and 2.12× robustness enhancement at the Asian Conference on Machine Learning.</div>
       </div>
       
       <div class="news-card">
         <div class="news-date">2024</div>
-        <div class="news-title">ACM ICSE Workshop: LLM Vulnerability Analysis</div>
+        <div class="news-title">ACM ICSE Workshop Acceptance: LLM Vulnerability Analysis</div>
         <div class="news-desc">Published comprehensive analysis of existing LLM vulnerability scanning frameworks at the ACM International Conference on Software Engineering workshop on Responsible AI in Engineering.</div>
-      </div>
-      
-      <div class="news-card">
-        <div class="news-date">2023</div>
-        <div class="news-title">Patent Grant: US12183118</div>
-        <div class="news-desc">Received first patent grant for simultaneous adversarial attacks on multiple face recognition system components, establishing foundational intellectual property in AI security methodologies.</div>
       </div>
     </div>
   </section>
