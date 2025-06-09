@@ -1050,8 +1050,8 @@ section {
         <div class="achievement-card badminton-card" style="display: flex; align-items: center; gap: 20px; padding: 24px; background: rgba(255, 255, 255, 0.07); backdrop-filter: blur(15px); border-radius: var(--border-radius-lg); transition: all 0.4s ease; cursor: pointer; border: 1px solid rgba(37, 99, 235, 0.1); position: relative; overflow: hidden;" onmouseover="this.style.transform='translateY(-8px) scale(1.02)'; this.style.boxShadow='0 15px 40px rgba(37, 99, 235, 0.25)'; this.style.borderColor='rgba(37, 99, 235, 0.3)'" onmouseout="this.style.transform='translateY(0) scale(1)'; this.style.boxShadow='none'; this.style.borderColor='rgba(37, 99, 235, 0.1)'">
           <div class="achievement-icon" style="font-size: 3.5em; filter: drop-shadow(0 8px 16px rgba(0,0,0,0.15)); transition: transform 0.3s ease;" onmouseover="this.style.transform='rotate(10deg) scale(1.1)'" onmouseout="this.style.transform='rotate(0deg) scale(1)'">🏸</div>
           <div class="achievement-content">
-            <h4 style="background: var(--gradient-primary); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; font-size: 1.3em; font-weight: 700; margin-bottom: 10px; line-height: 1.3;">Competitive Athletics: Badminton</h4>
-            <p style="font-size: 1em; color: var(--secondary); line-height: 1.6; opacity: 0.9; margin: 0;">Represented university in National West Zone and Inter-Zonal Championships, demonstrating sustained excellence in competitive athletics at the highest collegiate level (2015-16)</p>
+            <h4 style="background: var(--gradient-primary); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; font-size: 1.3em; font-weight: 700; margin-bottom: 10px; line-height: 1.3;">Badminton Nationals</h4>
+            <p style="font-size: 1em; color: var(--secondary); line-height: 1.6; opacity: 0.9; margin: 0;">Played at National West Zone and Inter-Zonal Championships, demonstrating sustained excellence in competitive athletics at senior level (2015-16)</p>
           </div>
         </div>
         
