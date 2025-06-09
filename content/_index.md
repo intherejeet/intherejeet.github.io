@@ -850,6 +850,17 @@ title: "Inderjeet Singh"
     line-height: 1.4 !important;
   }
   
+  /* Enhanced mobile styling for academic medals */
+  .university-gold-card,
+  .institute-silver-card {
+    border-width: 1px !important;
+    box-shadow: 0 4px 16px rgba(255, 193, 7, 0.15) !important;
+  }
+  
+  .institute-silver-card {
+    box-shadow: 0 4px 16px rgba(169, 169, 169, 0.15) !important;
+  }
+  
   .academic-summary {
     margin-top: 24px !important;
     padding: 16px !important;
@@ -1017,6 +1028,24 @@ section {
       <h3 class="achievement-title" style="font-size: 1.6em; margin-bottom: 30px; background: var(--gradient-primary); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; font-weight: 700; text-align: center; position: relative; z-index: 2;">Academic Excellence & Leadership</h3>
       
       <div class="achievements-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 24px; position: relative; z-index: 2;">
+        <!-- University Gold Medal Achievement -->
+        <div class="achievement-card university-gold-card" style="display: flex; align-items: center; gap: 20px; padding: 24px; background: linear-gradient(135deg, rgba(255, 215, 0, 0.15) 0%, rgba(255, 193, 7, 0.08) 100%); backdrop-filter: blur(15px); border-radius: var(--border-radius-lg); transition: all 0.4s ease; cursor: pointer; border: 2px solid rgba(255, 193, 7, 0.3); position: relative; overflow: hidden; box-shadow: 0 8px 32px rgba(255, 193, 7, 0.2);" onmouseover="this.style.transform='translateY(-8px) scale(1.02)'; this.style.boxShadow='0 20px 50px rgba(255, 193, 7, 0.35)'; this.style.borderColor='rgba(255, 193, 7, 0.5)'" onmouseout="this.style.transform='translateY(0) scale(1)'; this.style.boxShadow='0 8px 32px rgba(255, 193, 7, 0.2)'; this.style.borderColor='rgba(255, 193, 7, 0.3)'">
+          <div class="achievement-icon" style="font-size: 4em; filter: drop-shadow(0 8px 16px rgba(255, 193, 7, 0.3)); transition: transform 0.3s ease; animation: pulse 3s ease-in-out infinite;" onmouseover="this.style.transform='rotate(15deg) scale(1.15)'" onmouseout="this.style.transform='rotate(0deg) scale(1)'">🏆</div>
+          <div class="achievement-content">
+            <h4 style="background: linear-gradient(135deg, #ffd700 0%, #ffb700 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; font-size: 1.35em; font-weight: 700; margin-bottom: 10px; line-height: 1.3;">University Gold Medal</h4>
+            <p style="font-size: 1em; color: var(--secondary); line-height: 1.6; opacity: 0.95; margin: 0;"><strong style="color: #d4a017;">Highest Grade in University</strong><br/>Bachelor of Technology, Agricultural Engineering<br/>Vasantrao Naik Marathwada Krishi Vidyapeeth (2013-2017)</p>
+          </div>
+        </div>
+        
+        <!-- Institute Silver Medal Achievement -->
+        <div class="achievement-card institute-silver-card" style="display: flex; align-items: center; gap: 20px; padding: 24px; background: linear-gradient(135deg, rgba(192, 192, 192, 0.15) 0%, rgba(169, 169, 169, 0.08) 100%); backdrop-filter: blur(15px); border-radius: var(--border-radius-lg); transition: all 0.4s ease; cursor: pointer; border: 2px solid rgba(169, 169, 169, 0.4); position: relative; overflow: hidden; box-shadow: 0 8px 32px rgba(169, 169, 169, 0.2);" onmouseover="this.style.transform='translateY(-8px) scale(1.02)'; this.style.boxShadow='0 20px 50px rgba(169, 169, 169, 0.35)'; this.style.borderColor='rgba(169, 169, 169, 0.6)'" onmouseout="this.style.transform='translateY(0) scale(1)'; this.style.boxShadow='0 8px 32px rgba(169, 169, 169, 0.2)'; this.style.borderColor='rgba(169, 169, 169, 0.4)'">
+          <div class="achievement-icon" style="font-size: 4em; filter: drop-shadow(0 8px 16px rgba(169, 169, 169, 0.3)); transition: transform 0.3s ease; animation: pulse 3s ease-in-out infinite 1s;" onmouseover="this.style.transform='rotate(-15deg) scale(1.15)'" onmouseout="this.style.transform='rotate(0deg) scale(1)'">🥈</div>
+          <div class="achievement-content">
+            <h4 style="background: linear-gradient(135deg, #c0c0c0 0%, #a9a9a9 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; font-size: 1.35em; font-weight: 700; margin-bottom: 10px; line-height: 1.3;">Institute Silver Medal</h4>
+            <p style="font-size: 1em; color: var(--secondary); line-height: 1.6; opacity: 0.95; margin: 0;"><strong style="color: #708090;">Highest Grade in Postgraduate Batch</strong><br/>Master of Technology, Industrial Engineering & Operations Research<br/>Indian Institute of Technology Bombay (2017-2019)</p>
+          </div>
+        </div>
+        
         <!-- Badminton Achievement -->
         <div class="achievement-card badminton-card" style="display: flex; align-items: center; gap: 20px; padding: 24px; background: rgba(255, 255, 255, 0.07); backdrop-filter: blur(15px); border-radius: var(--border-radius-lg); transition: all 0.4s ease; cursor: pointer; border: 1px solid rgba(37, 99, 235, 0.1); position: relative; overflow: hidden;" onmouseover="this.style.transform='translateY(-8px) scale(1.02)'; this.style.boxShadow='0 15px 40px rgba(37, 99, 235, 0.25)'; this.style.borderColor='rgba(37, 99, 235, 0.3)'" onmouseout="this.style.transform='translateY(0) scale(1)'; this.style.boxShadow='none'; this.style.borderColor='rgba(37, 99, 235, 0.1)'">
           <div class="achievement-icon" style="font-size: 3.5em; filter: drop-shadow(0 8px 16px rgba(0,0,0,0.15)); transition: transform 0.3s ease;" onmouseover="this.style.transform='rotate(10deg) scale(1.1)'" onmouseout="this.style.transform='rotate(0deg) scale(1)'">🏸</div>
