@@ -1178,9 +1178,6 @@ section {
         </div>
         <div class="pub-authors">B Ganon, A Zolfi, O Hofman, I Singh, H Kojima, Y Elovici, A Shabtai</div>
         <div class="pub-venue">ACL 2025 - Annual Meeting of the Association for Computational Linguistics</div>
-        <div class="pub-links">
-          <a href="https://arxiv.org/abs/2501.00000" target="_blank">Paper</a>
-        </div>
       </div>
       
       <div class="pub-item">
@@ -1190,9 +1187,6 @@ section {
         </div>
         <div class="pub-authors">I Singh*, R Vainshtein, A Zolfi, A Shabtai, J Brokman, O Hofman, K Fumiyoshi, T Kentarou, H Kojima</div>
         <div class="pub-venue">BMVC 2024 - British Machine Vision Conference</div>
-        <div class="pub-links">
-          <a href="https://arxiv.org/abs/2410.00000" target="_blank">Paper</a>
-        </div>
       </div>
       
       <div class="pub-item">
@@ -1201,9 +1195,6 @@ section {
         </div>
         <div class="pub-authors">J Brokman, O Hofman, R Vainshtein, A Giloni, T Shimizu, I Singh, O Rachmil, A Zolfi, A Shabtai, Y Unno, H Kojima</div>
         <div class="pub-venue">ECCV 2024 - European Conference on Computer Vision</div>
-        <div class="pub-links">
-          <a href="https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/09513.pdf" target="_blank">Paper</a>
-        </div>
       </div>
       
       <div class="pub-item">
@@ -1213,9 +1204,6 @@ section {
         </div>
         <div class="pub-authors">I Singh*, K Kakizaki, T Araki</div>
         <div class="pub-venue">ACML 2024 - Asian Conference on Machine Learning</div>
-        <div class="pub-links">
-          <a href="https://arxiv.org/abs/2410.00000" target="_blank">Paper</a>
-        </div>
       </div>
       
       <div class="pub-item">
@@ -1224,9 +1212,6 @@ section {
         </div>
         <div class="pub-authors">J Brokman, O Hofman, O Rachmil, I Singh, PRS Aishvariya, V Pahuja, A Giloni, R Vainshtein, H Kojima</div>
         <div class="pub-venue">ACM ICSE 2024 - Workshop on Responsible AI in Engineering</div>
-        <div class="pub-links">
-          <a href="https://arxiv.org/abs/2404.00000" target="_blank">Paper</a>
-        </div>
       </div>
       
       <div class="pub-item">
@@ -1235,10 +1220,6 @@ section {
         </div>
         <div class="pub-authors">I Singh*, K Kakizaki, T Araki</div>
         <div class="pub-venue">arXiv preprint | Patent: US12183118 (Granted)</div>
-        <div class="pub-links">
-          <a href="https://arxiv.org/abs/2304.05048" target="_blank">Paper</a>
-          <a href="https://patents.google.com/patent/US12183118B2" target="_blank">Patent</a>
-        </div>
       </div>
       
       <div class="pub-item">
@@ -1247,9 +1228,6 @@ section {
         </div>
         <div class="pub-authors">I Singh*, T Araki, K Kakizaki</div>
         <div class="pub-venue">WACV 2022 - IEEE/CVF Winter Conference on Applications of Computer Vision</div>
-        <div class="pub-links">
-          <a href="https://openaccess.thecvf.com/content/WACV2022/papers/Singh_Powerful_Physical_Adversarial_Examples_Against_Practical_Face_Recognition_Systems_WACV_2022_paper.pdf" target="_blank">Paper</a>
-        </div>
       </div>
       
       <div class="pub-item">
@@ -1258,9 +1236,6 @@ section {
         </div>
         <div class="pub-authors">R Bitton*, N Maman*, I Singh*, S Momiyama, Y Elovici, A Shabtai</div>
         <div class="pub-venue">ACM Computing Surveys 2023</div>
-        <div class="pub-links">
-          <a href="https://doi.org/10.1145/3558106" target="_blank">Paper</a>
-        </div>
       </div>
       
       <div class="pub-item">
@@ -1269,9 +1244,6 @@ section {
         </div>
         <div class="pub-authors">I Singh*, S Momiyama, K Kakizaki, T Araki</div>
         <div class="pub-venue">BIOSIG 2021 - International Conference of the Biometrics Special Interest Group</div>
-        <div class="pub-links">
-          <a href="https://ieeexplore.ieee.org/document/9548302" target="_blank">Paper</a>
-        </div>
       </div>
     </div>
     
