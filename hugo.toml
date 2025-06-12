@@ -68,7 +68,7 @@ weight = 15
 [[menu.main]]
 identifier = "publications"
 name = "Publications"
-url = "/#publications"
+url = "/publications/"
 weight = 20
 
 [[menu.main]]
