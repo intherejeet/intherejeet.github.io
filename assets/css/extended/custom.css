@@ -36,6 +36,9 @@ body {
 .nav {
     padding: 15px 0;
     font-size: 16px;
+    background: var(--bg-color) !important;
+    backdrop-filter: none !important;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1) !important;
 }
 
 .logo {
@@ -109,8 +112,6 @@ body {
 #menu a:hover {
     background: var(--code-bg);
 }
-
-
 
 /* Research area cards */
 .research-area {
@@ -276,9 +277,9 @@ button:focus {
 
 /* Professional Navigation Enhancement */
 .nav {
+    background: var(--bg-color) !important;
     backdrop-filter: none !important;
-    background: rgba(255, 255, 255, 0.96) !important;
-    border-bottom: 1px solid var(--border-color);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1) !important;
 }
 
 [data-theme="dark"] .nav {
@@ -387,8 +388,7 @@ button:focus {
 .hero-image img {
     filter: none !important;
     border: 2px solid var(--border-color) !important;
-    box-shadow: none !important;
-    transform: none !important;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1) !important;
 }
 
 .hero-link {
@@ -401,4 +401,67 @@ button:focus {
 .hero-link:hover {
     opacity: 0.85;
     transform: none !important;
+}
+
+.research-item:hover,
+.news-card:hover,
+.pub-item:hover {
+    transform: none !important;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1) !important;
+}
+
+.hover-lift:hover {
+    transform: none !important;
+}
+
+/* Publication Links Styling */
+.pub-links {
+    margin-top: 15px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.pub-links a {
+    display: inline-block;
+    padding: 8px 16px;
+    background: var(--primary-color);
+    color: white !important;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 500;
+    transition: all 0.2s ease;
+    border: none;
+    cursor: pointer;
+}
+
+.pub-links a:hover {
+    background: var(--accent-color);
+    transform: translateY(-1px);
+    box-shadow: 0 2px 8px rgba(37, 99, 235, 0.3);
+    color: white !important;
+}
+
+.pub-links a:active {
+    transform: translateY(0);
+    box-shadow: 0 1px 4px rgba(37, 99, 235, 0.2);
+}
+
+/* Ensure links work properly */
+.pub-links a[target="_blank"] {
+    pointer-events: auto;
+    position: relative;
+    z-index: 10;
+}
+
+/* Dark mode support for publication links */
+[data-theme="dark"] .pub-links a {
+    background: var(--primary-color);
+    color: white !important;
+}
+
+[data-theme="dark"] .pub-links a:hover {
+    background: var(--accent-color);
+    color: white !important;
 } 

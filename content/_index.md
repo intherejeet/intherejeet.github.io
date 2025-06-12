@@ -1306,24 +1306,27 @@ section {
 <script>
 // Enhanced JavaScript with animations
 document.addEventListener('DOMContentLoaded', function() {
-  // Smooth scrolling for navigation
-  const links = document.querySelectorAll('a[href^="#"]');
+  // Smooth scrolling for navigation (only internal links)
+  const internalLinks = document.querySelectorAll('a[href^="#"]:not([href^="https"]):not([href^="http"]):not([target="_blank"])');
   
-  links.forEach(link => {
+  internalLinks.forEach(link => {
     link.addEventListener('click', function(e) {
-      e.preventDefault();
-      const targetId = this.getAttribute('href').substring(1);
-      const targetElement = document.getElementById(targetId);
-      
-      if (targetElement) {
-        const headerOffset = 80;
-        const elementPosition = targetElement.getBoundingClientRect().top;
-        const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+      // Only prevent default for internal navigation links
+      if (this.getAttribute('href').startsWith('#') && !this.getAttribute('href').includes('http')) {
+        e.preventDefault();
+        const targetId = this.getAttribute('href').substring(1);
+        const targetElement = document.getElementById(targetId);
         
-        window.scrollTo({
-          top: offsetPosition,
-          behavior: 'smooth'
-        });
+        if (targetElement) {
+          const headerOffset = 80;
+          const elementPosition = targetElement.getBoundingClientRect().top;
+          const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+          
+          window.scrollTo({
+            top: offsetPosition,
+            behavior: 'smooth'
+          });
+        }
       }
     });
   });
