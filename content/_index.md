@@ -1240,6 +1240,39 @@ section {
           <a href="https://patents.google.com/patent/US12183118B2" target="_blank">Patent</a>
         </div>
       </div>
+      
+      <div class="pub-item">
+        <div class="pub-title">
+          Powerful Physical Adversarial Examples Against Practical Face Recognition Systems
+        </div>
+        <div class="pub-authors">I Singh*, T Araki, K Kakizaki</div>
+        <div class="pub-venue">WACV 2022 - IEEE/CVF Winter Conference on Applications of Computer Vision</div>
+        <div class="pub-links">
+          <a href="https://openaccess.thecvf.com/content/WACV2022/papers/Singh_Powerful_Physical_Adversarial_Examples_Against_Practical_Face_Recognition_Systems_WACV_2022_paper.pdf" target="_blank">Paper</a>
+        </div>
+      </div>
+      
+      <div class="pub-item">
+        <div class="pub-title">
+          Evaluating the Cybersecurity Risk of Real-world, Machine Learning Production Systems
+        </div>
+        <div class="pub-authors">R Bitton*, N Maman*, I Singh*, S Momiyama, Y Elovici, A Shabtai</div>
+        <div class="pub-venue">ACM Computing Surveys 2023</div>
+        <div class="pub-links">
+          <a href="https://doi.org/10.1145/3558106" target="_blank">Paper</a>
+        </div>
+      </div>
+      
+      <div class="pub-item">
+        <div class="pub-title">
+          On Brightness Agnostic Adversarial Examples Against Face Recognition Systems
+        </div>
+        <div class="pub-authors">I Singh*, S Momiyama, K Kakizaki, T Araki</div>
+        <div class="pub-venue">BIOSIG 2021 - International Conference of the Biometrics Special Interest Group</div>
+        <div class="pub-links">
+          <a href="https://ieeexplore.ieee.org/document/9548302" target="_blank">Paper</a>
+        </div>
+      </div>
     </div>
     
     <a href="https://scholar.google.com/citations?user=eoxiMqQAAAAJ&hl=en" target="_blank" class="view-more-link">Complete Publication List on Google Scholar →</a>
