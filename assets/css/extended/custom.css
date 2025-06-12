@@ -276,13 +276,13 @@ button:focus {
 
 /* Professional Navigation Enhancement */
 .nav {
-    backdrop-filter: blur(20px);
-    background: rgba(255, 255, 255, 0.9);
+    backdrop-filter: none !important;
+    background: rgba(255, 255, 255, 0.96) !important;
     border-bottom: 1px solid var(--border-color);
 }
 
 [data-theme="dark"] .nav {
-    background: rgba(15, 23, 42, 0.9);
+    background: rgba(15, 23, 42, 0.96) !important;
     border-bottom: 1px solid var(--border-color);
 }
 
@@ -350,12 +350,12 @@ button:focus {
 
 /* Enhanced Hover Effects */
 .hover-lift {
-    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
 }
 
 .hover-lift:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.12);
+    transform: none !important;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04) !important;
 }
 
 /* Reduce motion for accessibility */
@@ -365,4 +365,40 @@ button:focus {
         animation-iteration-count: 1 !important;
         transition-duration: 0.01ms !important;
     }
+}
+
+/* Academic Serious Tone Overrides */
+.hero-section {
+    background: var(--bg-color) !important;
+    animation: none !important;
+}
+
+.hero-section::before {
+    display: none !important;
+}
+
+.hero-content h1 {
+    background: none !important;
+    color: var(--primary-color) !important;
+    -webkit-text-fill-color: var(--primary-color) !important;
+    animation: none !important;
+}
+
+.hero-image img {
+    filter: none !important;
+    border: 2px solid var(--border-color) !important;
+    box-shadow: none !important;
+    transform: none !important;
+}
+
+.hero-link {
+    background: var(--primary-color) !important;
+    border-color: var(--primary-color) !important;
+    color: #ffffff !important;
+    transition: background 0.2s ease, opacity 0.2s ease;
+}
+
+.hero-link:hover {
+    opacity: 0.85;
+    transform: none !important;
 } 
