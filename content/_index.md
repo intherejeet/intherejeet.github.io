@@ -969,7 +969,7 @@ section {
 <section class="hero-section">
   <div class="hero-container">
     <div class="hero-image">
-      <img src="/images/profile.png" alt="Inderjeet Singh">
+      <img src="/images/profile-2025.png" alt="Inderjeet Singh">
     </div>
     <div class="hero-content">
       <h1>Inderjeet Singh</h1>
