@@ -997,7 +997,7 @@ section {
       I am a Senior Research Scientist (AI) at Fujitsu Research of Europe, UK, with close to 6 years of experience developing cutting-edge methodologies for <strong>machine learning security</strong> and <strong>trustworthy artificial intelligence</strong>. 
       My research addresses fundamental theoretical and practical challenges in <strong>large language/multimodal model safety</strong>, <strong>multimodal retrieval-augmented generation systems</strong>, and <strong>adversarial robustness</strong> across computer vision and natural language processing domains. 
       I develop formal verification frameworks, automated assessment methodologies, and safety architectures that provide theoretical guarantees for AI systems in safety-critical applications. 
-      My work has resulted in <strong>10+ filed patents</strong> (including granted US patent 12183118) and publications in premier venues including ACL 2025, BMVC 2024 (Oral presentation, <3% acceptance rate), ECCV 2024, and ACML 2024. 
+      My work has resulted in <strong>10+ filed patents</strong> (including granted US patent 12183118) and publications in premier venues including EMNLP 2025, ACL 2025, BMVC 2024 (Oral presentation, <3% acceptance rate), ECCV 2024, and ACML 2024. 
       Previously at NEC Labs Japan (2019-2023), I established foundational contributions to adversarial machine learning and AI system security assessment methodologies.
     </p>
     
@@ -1007,7 +1007,7 @@ section {
         <div class="stat-label">Patents Filed</div>
       </div>
       <div class="stat-card">
-        <div class="stat-number">12+</div>
+        <div class="stat-number">13+</div>
         <div class="stat-label">Publications</div>
       </div>
       <div class="stat-card">
@@ -1129,6 +1129,12 @@ section {
     <div class="news-grid">
       <div class="news-card">
         <div class="news-date">2025</div>
+        <div class="news-title">EMNLP 2025 Acceptance: Token-Focused Disparity Probing</div>
+        <div class="news-desc">TFDP delivers token-efficient disparity audits for autoregressive LLMs by coupling single-token masked evaluation with multi-scale semantic alignment, achieving precise bias diagnostics with 42× fewer output tokens.</div>
+      </div>
+      
+      <div class="news-card">
+        <div class="news-date">2025</div>
         <div class="news-title">ACL 2025 Acceptance: LLM Safety Enhancement</div>
         <div class="news-desc">Research on lightweight inference-time safety mechanisms for language models accepted at the Annual Meeting of the Association for Computational Linguistics, addressing fundamental challenges in real-time LLM safety enhancement.</div>
       </div>
@@ -1172,6 +1178,14 @@ section {
     </div>
     
     <div class="publications-list">
+      <div class="pub-item">
+        <div class="pub-title">
+          TFDP: Token-Efficient Disparity Audits for Autoregressive LLMs via Single-Token Masked Evaluation
+        </div>
+        <div class="pub-authors">I Singh*, R Srinivasan, R Vainshtein, H Kojima</div>
+        <div class="pub-venue">EMNLP 2025 - Conference on Empirical Methods in Natural Language Processing</div>
+      </div>
+      
       <div class="pub-item">
         <div class="pub-title">
           DIESEL: A Lightweight Inference-Time Safety Enhancement for Language Models
