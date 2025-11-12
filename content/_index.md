@@ -994,12 +994,10 @@ section {
     </div>
     
     <p class="about-text">
-      I am a Senior Research Scientist (AI) at Fujitsu Research of Europe, UK, with close to 6 years of experience developing cutting-edge methodologies for <strong>machine learning security</strong>, <strong>cybersecurity</strong>, and <strong>trustworthy artificial intelligence</strong>. 
-      My research addresses fundamental theoretical and practical challenges in <strong>large language/multimodal model safety</strong>, <strong>multimodal retrieval-augmented generation systems</strong>, <strong>distributed AI security</strong>, and <strong>adversarial robustness</strong> across computer vision and natural language processing domains. 
-      I began by hardening computer vision systems and now focus predominantly on language-centric and distributed AI security, bridging red-team driven insights with defensive cybersecurity architectures. 
-      I develop formal verification frameworks, automated assessment methodologies, and safety architectures that provide theoretical guarantees for AI systems in safety-critical applications. 
-      My work has resulted in <strong>10+ filed patents</strong> (including granted US patent 12183118), open-sourced safety benchmarks such as the Agentic RAG Red Teaming Dataset and PDD-Extended Bench, and publications in premier venues including EMNLP 2025, ACL 2025, BMVC 2024 (Oral presentation, <3% acceptance rate), ECCV 2024, and ACML 2024. 
-      Previously at NEC Labs Japan (2019-2023), I established foundational contributions to adversarial machine learning and AI system security assessment methodologies.
+      I’m a Senior Research Scientist at Fujitsu Research of Europe. My work sits at the intersection of <strong>AI security</strong> and <strong>cybersecurity</strong>—from computer vision in the early years to today’s language‑centric and distributed AI systems. 
+      I design evaluation methods, open datasets, and practical defenses for <strong>LLM/LMM safety</strong>, <strong>agentic RAG systems</strong>, and <strong>adversarial robustness</strong>. Recent projects include inference‑time safety for LLMs, disparity auditing via single‑token probes (TFDP), and secure orchestration for tool‑using agents. 
+      I care about results that hold up under scrutiny: measured improvements, reproducible benchmarks, and deployments that make systems safer in practice. 
+      Selected work appears at EMNLP 2025 and ACL 2025, with prior contributions at BMVC, ECCV, and ACML, alongside a granted US patent (12183118) and open datasets for red‑teaming and disparity evaluation.
     </p>
     
     <div class="stats-row">
@@ -1091,37 +1089,37 @@ section {
     <div class="research-areas">
       <div class="research-item">
         <h3>Trustworthy Multimodal Agentic Systems</h3>
-        <p>Investigating theoretical foundations and empirical methodologies for enhancing reliability and safety in multimodal agentic frameworks. Research focuses on developing trust mechanisms, safety architectures, and automated red-teaming methodologies for complex reasoning systems. Work includes comprehensive safety benchmark development with large-scale adversarial example generation for systematic evaluation.</p>
+        <p>I build and evaluate agentic systems that reason over text, code, and images—with an emphasis on reliability, safety, and red‑teaming. This includes benchmark design, safety instrumentation, and failure analysis for complex reasoning pipelines.</p>
       </div>
       
       <div class="research-item">
         <h3>Large Language/Multimodal Model Security</h3>
-        <p>Developing formal verification frameworks and automated vulnerability assessment methodologies for large language and multimodal models. Research encompasses systematic approaches to guardrail architectures, inference-time safety enhancement mechanisms, and distributed learning frameworks with privacy preservation for model fine-tuning.</p>
+        <p>I work on verification and assessment methods for LLMs/LMMs—guardrails, inference‑time safety, and privacy‑aware training in distributed settings—grounded in measured risk and reproducible evaluation.</p>
       </div>
       
       <div class="research-item">
-        <h3>AI-Centric Cybersecurity Architectures</h3>
-        <p>Designing cybersecurity defenses that fuse classical threat intelligence with AI-native attack surfaces across distributed pipelines. Work spans orchestrator red teaming, retrieval poisoning mitigation, and secure agent toolchains that operationalize safety telemetry for enterprise-scale deployments.</p>
+        <h3>AI‑Centric Cybersecurity</h3>
+        <p>I bridge conventional security with AI‑specific attack surfaces across pipelines: orchestrator red teaming, retrieval poisoning defenses, and secure toolchains with useful telemetry for operations.</p>
       </div>
       
       <div class="research-item">
-        <h3>Adversarial Robustness and Deep Metric Learning</h3>
-        <p>Advancing theoretical understanding and practical implementations of adversarial robustness in deep metric learning architectures. Research demonstrates state-of-the-art performance improvements (+2.95% Recall@1 under clean conditions, 2.12× robustness enhancement) across multi-distribution scenarios with applications to production-scale image retrieval systems.</p>
+        <h3>Adversarial Robustness and Metric Learning</h3>
+        <p>Earlier work focused on adversarial robustness in metric learning, with impact on production image retrieval systems. I continue to use those lessons when stress‑testing modern multimodal pipelines.</p>
       </div>
       
       <div class="research-item">
         <h3>Algorithmic Disparity Assessment</h3>
-        <p>Developing computational frameworks for systematic auditing and quantitative assessment of disparities in large language models. Research focuses on establishing theoretical foundations for bias detection through novel token-focused probing methodologies and developing principled mitigation strategies for equitable AI system behavior.</p>
+        <p>I study disparities in LLM behavior, including TFDP’s single‑token masked probing and multi‑scale alignment, to quantify differences precisely and efficiently.</p>
       </div>
       
       <div class="research-item">
         <h3>Computer Vision Security</h3>
-        <p>Investigating adversarial vulnerabilities and defense mechanisms in practical computer vision systems, with emphasis on face recognition and biometric authentication. Research encompasses physical-world attack methodologies, transferability analysis, and robustness enhancement techniques for real-world deployment scenarios.</p>
+        <p>Work on biometric systems and physical‑world attacks/defenses laid the groundwork for my approach to robustness and safety in current multimodal systems.</p>
       </div>
       
       <div class="research-item">
-        <h3>Training Data Attribution and Copyright Protection</h3>
-        <p>Developing attribution methodologies for generative models to address copyright protection and intellectual property concerns. Research focuses on training data influence estimation, model provenance tracking, and automated monitoring frameworks for diffusion-based generative systems.</p>
+        <h3>Training Data Attribution</h3>
+        <p>I study attribution and provenance in generative models to help answer practical questions about data influence and copyright in diffusion‑based systems.</p>
       </div>
     </div>
   </section>
@@ -1135,20 +1133,20 @@ section {
     <div class="news-grid">
       <div class="news-card">
         <div class="news-date">2025</div>
-        <div class="news-title">EMNLP 2025 Acceptance: Token-Focused Disparity Probing</div>
-        <div class="news-desc">TFDP delivers token-efficient disparity audits for autoregressive LLMs by coupling single-token masked evaluation with multi-scale semantic alignment, achieving precise bias diagnostics with 42× fewer output tokens.</div>
+        <div class="news-title">TFDP accepted at EMNLP 2025</div>
+        <div class="news-desc">Single‑token masked evaluation for autoregressive LLMs (TFDP) with multi‑scale alignment—precise disparity audits with far fewer tokens.</div>
       </div>
       
       <div class="news-card">
         <div class="news-date">2025</div>
-        <div class="news-title">Agentic RAG Red Teaming Dataset Released</div>
-        <div class="news-desc">Published a 36K-record adversarial benchmark for agentic RAG systems covering text, image, direct-query, and orchestration attacks, enabling rigorous red teaming under CC BY 4.0.</div>
+        <div class="news-title">Agentic RAG red‑teaming dataset released</div>
+        <div class="news-desc">36K adversarial scenarios for RAG systems: retrieval poisoning (text/image), direct queries, and orchestrator attacks. CC BY 4.0.</div>
       </div>
       
       <div class="news-card">
         <div class="news-date">2025</div>
-        <div class="news-title">PDD-Extended Bench Open Sourced</div>
-        <div class="news-desc">Released the TFDP evaluation corpus of minimally contrastive, single-token masked proverbs spanning climate misinformation and gender equality, supporting disparity audits in EMNLP 2025.</div>
+        <div class="news-title">PDD‑Extended Bench open sourced</div>
+        <div class="news-desc">Minimally contrastive proverb pairs with single‑token masks for TFDP disparity audits (climate misinformation and gender equality).</div>
       </div>
       
       <div class="news-card">
@@ -1307,13 +1305,9 @@ section {
   <!-- Contact -->
   <section class="section" id="contact">
     <div class="contact-box">
-      <h2 style="font-size: 1.8em; margin-bottom: 20px;">Research Collaboration & Expertise</h2>
+      <h2 style="font-size: 1.8em; margin-bottom: 20px;">Collaboration</h2>
       <p class="contact-text">
-        I am interested in collaborative research opportunities that advance fundamental understanding in machine learning security, 
-        trustworthy AI systems, and adversarial robustness. My expertise encompasses theoretical foundations in large language/multimodal model safety, 
-        multimodal retrieval-augmented generation systems, formal verification approaches for AI safety, and automated red-teaming methodologies. 
-        Current research interests include developing principled frameworks for AI system safety assessment, scalable vulnerability detection mechanisms, 
-        and theoretical guarantees for trustworthy AI deployment in safety-critical applications.
+        I enjoy working on grounded problems in AI security—LLM/LMM safety, agentic systems, and applied cybersecurity. If you have a project that needs careful evaluation, targeted red‑teaming, or practical defenses, feel free to reach out.
       </p>
       <div style="margin-top: 20px; padding: 20px; background: rgba(37, 99, 235, 0.1); border-radius: 12px; border-left: 4px solid var(--primary);">
         <h3 style="margin: 0 0 10px 0; color: var(--primary);">Key Research Areas for Collaboration</h3>
