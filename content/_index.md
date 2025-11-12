@@ -975,7 +975,7 @@ section {
       <h1>Inderjeet Singh</h1>
       <p class="hero-subtitle">
         Senior Research Scientist (AI), Fujitsu Research of Europe<br>
-        <strong>Machine Learning Security</strong> • <strong>LLM/LMM Safety & Security</strong> • <strong>Trustworthy Multimodal AI</strong> • <strong>Adversarial Robustness</strong>
+        <strong>Machine Learning Security</strong> • <strong>AI-Driven Cybersecurity</strong> • <strong>LLM/LMM Safety & Security</strong> • <strong>Trustworthy Multimodal AI</strong> • <strong>Adversarial Robustness</strong>
       </p>
       <div class="hero-links">
         <a href="https://scholar.google.com/citations?user=eoxiMqQAAAAJ&hl=en" class="hero-link">Google Scholar</a>
@@ -994,8 +994,9 @@ section {
     </div>
     
     <p class="about-text">
-      I am a Senior Research Scientist (AI) at Fujitsu Research of Europe, UK, with close to 6 years of experience developing cutting-edge methodologies for <strong>machine learning security</strong> and <strong>trustworthy artificial intelligence</strong>. 
-      My research addresses fundamental theoretical and practical challenges in <strong>large language/multimodal model safety</strong>, <strong>multimodal retrieval-augmented generation systems</strong>, and <strong>adversarial robustness</strong> across computer vision and natural language processing domains. 
+      I am a Senior Research Scientist (AI) at Fujitsu Research of Europe, UK, with close to 6 years of experience developing cutting-edge methodologies for <strong>machine learning security</strong>, <strong>cybersecurity</strong>, and <strong>trustworthy artificial intelligence</strong>. 
+      My research addresses fundamental theoretical and practical challenges in <strong>large language/multimodal model safety</strong>, <strong>multimodal retrieval-augmented generation systems</strong>, <strong>distributed AI security</strong>, and <strong>adversarial robustness</strong> across computer vision and natural language processing domains. 
+      I began by hardening computer vision systems and now focus predominantly on language-centric and distributed AI security, bridging red-team driven insights with defensive cybersecurity architectures. 
       I develop formal verification frameworks, automated assessment methodologies, and safety architectures that provide theoretical guarantees for AI systems in safety-critical applications. 
       My work has resulted in <strong>10+ filed patents</strong> (including granted US patent 12183118), open-sourced safety benchmarks such as the Agentic RAG Red Teaming Dataset and PDD-Extended Bench, and publications in premier venues including EMNLP 2025, ACL 2025, BMVC 2024 (Oral presentation, <3% acceptance rate), ECCV 2024, and ACML 2024. 
       Previously at NEC Labs Japan (2019-2023), I established foundational contributions to adversarial machine learning and AI system security assessment methodologies.
@@ -1096,6 +1097,11 @@ section {
       <div class="research-item">
         <h3>Large Language/Multimodal Model Security</h3>
         <p>Developing formal verification frameworks and automated vulnerability assessment methodologies for large language and multimodal models. Research encompasses systematic approaches to guardrail architectures, inference-time safety enhancement mechanisms, and distributed learning frameworks with privacy preservation for model fine-tuning.</p>
+      </div>
+      
+      <div class="research-item">
+        <h3>AI-Centric Cybersecurity Architectures</h3>
+        <p>Designing cybersecurity defenses that fuse classical threat intelligence with AI-native attack surfaces across distributed pipelines. Work spans orchestrator red teaming, retrieval poisoning mitigation, and secure agent toolchains that operationalize safety telemetry for enterprise-scale deployments.</p>
       </div>
       
       <div class="research-item">
