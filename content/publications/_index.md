@@ -25,6 +25,12 @@ Below is a selected list of my scholarly outputs.  For a complete and always-up-
 
 • **Anomaly Detection Using Capsule Networks for High-dimensional Datasets**. *arXiv preprint* arXiv:2112.13514, 2021. [PDF](https://arxiv.org/abs/2112.13514)
 
+### Open Datasets & Benchmarks
+
+• **Agentic RAG Red Teaming Dataset** (with Vikas Pahuja, Aishvariya Priya Rathina Sabapathy). Fujitsu Research, 2025. 36K+ successful adversarial RAG scenarios spanning retrieval poisoning, direct queries, agent orchestration, and OCR-mediated attacks for safety evaluation. [Hugging Face](https://huggingface.co/datasets/Fujitsu/agentic-rag-redteam-bench) | [DOI](https://doi.org/10.57967/hf/6395)
+
+• **PDD-Extended Bench (Proverbs Disparity Dataset)** (with Ramya Srinivasan, Roman Vainshtein, Hisashi Kojima). EMNLP 2025 companion dataset. Minimally contrastive, single-token masked proverbs across climate misinformation and gender equality topics for TFDP disparity audits. [Hugging Face](https://huggingface.co/datasets/Fujitsu/PDD-Extended-Bench) | [DOI](https://doi.org/10.57967/hf/6465)
+
 ### Patents
 
 • **Facial Recognition Adversarial Patch Adjustment**. US Patent, 2024. [USPTO](https://patents.google.com/?q=facial+recognition+adversarial+patch+adjustment)

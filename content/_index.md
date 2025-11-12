@@ -997,7 +997,7 @@ section {
       I am a Senior Research Scientist (AI) at Fujitsu Research of Europe, UK, with close to 6 years of experience developing cutting-edge methodologies for <strong>machine learning security</strong> and <strong>trustworthy artificial intelligence</strong>. 
       My research addresses fundamental theoretical and practical challenges in <strong>large language/multimodal model safety</strong>, <strong>multimodal retrieval-augmented generation systems</strong>, and <strong>adversarial robustness</strong> across computer vision and natural language processing domains. 
       I develop formal verification frameworks, automated assessment methodologies, and safety architectures that provide theoretical guarantees for AI systems in safety-critical applications. 
-      My work has resulted in <strong>10+ filed patents</strong> (including granted US patent 12183118) and publications in premier venues including EMNLP 2025, ACL 2025, BMVC 2024 (Oral presentation, <3% acceptance rate), ECCV 2024, and ACML 2024. 
+      My work has resulted in <strong>10+ filed patents</strong> (including granted US patent 12183118), open-sourced safety benchmarks such as the Agentic RAG Red Teaming Dataset and PDD-Extended Bench, and publications in premier venues including EMNLP 2025, ACL 2025, BMVC 2024 (Oral presentation, <3% acceptance rate), ECCV 2024, and ACML 2024. 
       Previously at NEC Labs Japan (2019-2023), I established foundational contributions to adversarial machine learning and AI system security assessment methodologies.
     </p>
     
@@ -1135,6 +1135,18 @@ section {
       
       <div class="news-card">
         <div class="news-date">2025</div>
+        <div class="news-title">Agentic RAG Red Teaming Dataset Released</div>
+        <div class="news-desc">Published a 36K-record adversarial benchmark for agentic RAG systems covering text, image, direct-query, and orchestration attacks, enabling rigorous red teaming under CC BY 4.0.</div>
+      </div>
+      
+      <div class="news-card">
+        <div class="news-date">2025</div>
+        <div class="news-title">PDD-Extended Bench Open Sourced</div>
+        <div class="news-desc">Released the TFDP evaluation corpus of minimally contrastive, single-token masked proverbs spanning climate misinformation and gender equality, supporting disparity audits in EMNLP 2025.</div>
+      </div>
+      
+      <div class="news-card">
+        <div class="news-date">2025</div>
         <div class="news-title">ACL 2025 Acceptance: LLM Safety Enhancement</div>
         <div class="news-desc">Research on lightweight inference-time safety mechanisms for language models accepted at the Annual Meeting of the Association for Computational Linguistics, addressing fundamental challenges in real-time LLM safety enhancement.</div>
       </div>
@@ -1258,6 +1270,28 @@ section {
         </div>
         <div class="pub-authors">I Singh*, S Momiyama, K Kakizaki, T Araki</div>
         <div class="pub-venue">BIOSIG 2021 - International Conference of the Biometrics Special Interest Group</div>
+      </div>
+    </div>
+    
+    <h3 style="font-size: 1.8em; margin: 40px 0 20px;">Open Datasets &amp; Benchmarks</h3>
+    
+    <div class="publications-list">
+      <div class="pub-item">
+        <div class="pub-title">
+          Agentic RAG Red Teaming Dataset
+          <span class="award-badge">Dataset</span>
+        </div>
+        <div class="pub-authors">I Singh*, V Pahuja, A P R Sabapathy</div>
+        <div class="pub-venue">Fujitsu Research 2025 — 36K adversarial scenarios for agentic RAG safety evaluation (<a href="https://huggingface.co/datasets/Fujitsu/agentic-rag-redteam-bench" target="_blank">Hugging Face</a>)</div>
+      </div>
+      
+      <div class="pub-item">
+        <div class="pub-title">
+          PDD-Extended Bench (Proverbs Disparity Dataset)
+          <span class="award-badge">Dataset</span>
+        </div>
+        <div class="pub-authors">I Singh*, R Srinivasan, R Vainshtein, H Kojima</div>
+        <div class="pub-venue">EMNLP 2025 supporting benchmark — single-token masked contrastive probes for TFDP disparity audits (<a href="https://huggingface.co/datasets/Fujitsu/PDD-Extended-Bench" target="_blank">Hugging Face</a>)</div>
       </div>
     </div>
     
