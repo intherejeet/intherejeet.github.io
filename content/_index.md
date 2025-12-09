@@ -1196,6 +1196,13 @@ section {
     <div class="publications-list">
       <div class="pub-item">
         <div class="pub-title">
+          Learning to Collaborate: An Orchestrated-Decentralized Framework for Peer-to-Peer LLM Federation
+        </div>
+        <div class="pub-authors">I Singh</div>
+        <div class="pub-venue">AAAI 2026 - AAAI Conference on Artificial Intelligence</div>
+      </div>
+      <div class="pub-item">
+        <div class="pub-title">
           TFDP: Token-Efficient Disparity Audits for Autoregressive LLMs via Single-Token Masked Evaluation
         </div>
         <div class="pub-authors">I Singh*, R Srinivasan, R Vainshtein, H Kojima</div>
