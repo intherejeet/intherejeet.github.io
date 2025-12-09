@@ -6,19 +6,19 @@ title: "Inderjeet Singh"
 <style>
 /* Modern CSS Variables - Enhanced for AI Research Scientist */
 :root {
-  --gradient-primary: linear-gradient(135deg, #2563eb 0%, #1e40af 100%);
-  --gradient-secondary: linear-gradient(135deg, #06b6d4 0%, #0891b2 100%);
-  --gradient-accent: linear-gradient(135deg, #8b5cf6 0%, #7c3aed 100%);
-  --gradient-research: linear-gradient(135deg, #059669 0%, #047857 100%);
-  --shadow-soft: 0 10px 40px rgba(0, 0, 0, 0.08);
-  --shadow-hover: 0 20px 60px rgba(0, 0, 0, 0.15);
-  --shadow-research: 0 8px 32px rgba(37, 99, 235, 0.15);
+  --gradient-primary: linear-gradient(135deg, #0f172a 0%, #1e40af 100%);
+  --gradient-secondary: linear-gradient(135deg, #0f766e 0%, #0d9488 100%);
+  --gradient-accent: linear-gradient(135deg, #334155 0%, #475569 100%);
+  --gradient-research: linear-gradient(135deg, #0f766e 0%, #115e59 100%);
+  --shadow-soft: 0 10px 40px rgba(15, 23, 42, 0.08);
+  --shadow-hover: 0 20px 60px rgba(15, 23, 42, 0.15);
+  --shadow-research: 0 8px 32px rgba(30, 64, 175, 0.15);
   --animation-smooth: cubic-bezier(0.4, 0, 0.2, 1);
   --border-radius-lg: 24px;
   --border-radius-xl: 32px;
   --academic-blue: #1e40af;
-  --academic-teal: #0891b2;
-  --academic-purple: #7c3aed;
+  --academic-teal: #0f766e;
+  --academic-purple: #475569;
   --academic-green: #047857;
 }
 
