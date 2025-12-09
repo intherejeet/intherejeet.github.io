@@ -1091,6 +1091,11 @@ section {
         <h3>Trustworthy Multimodal Agentic Systems</h3>
         <p>I build and evaluate agentic systems that reason over text, code, and images—with an emphasis on reliability, safety, and red‑teaming. This includes benchmark design, safety instrumentation, and failure analysis for complex reasoning pipelines.</p>
       </div>
+
+      <div class="research-item">
+        <h3>Decentralized & Collaborative AI</h3>
+        <p>I focus on orchestrated-decentralized frameworks for peer-to-peer LLM federation, enabling collaborative learning and knowledge exchange without raw data sharing—bridging the gap between privacy and performance in distributed systems.</p>
+      </div>
       
       <div class="research-item">
         <h3>Large Language/Multimodal Model Security</h3>
@@ -1131,6 +1136,12 @@ section {
     </div>
     
     <div class="news-grid">
+      <div class="news-card">
+        <div class="news-date">2026</div>
+        <div class="news-title">AAAI 2026 Acceptance: P2P LLM Federation</div>
+        <div class="news-desc">Paper titled "Learning to Collaborate: An Orchestrated-Decentralized Framework for Peer-to-Peer LLM Federation" accepted at AAAI 2026. Introduces KNEXA-FL for privacy-preserving, decentralized AI collaboration.</div>
+      </div>
+      
       <div class="news-card">
         <div class="news-date">2025</div>
         <div class="news-title">TFDP accepted at EMNLP 2025</div>
@@ -1198,7 +1209,7 @@ section {
         <div class="pub-title">
           Learning to Collaborate: An Orchestrated-Decentralized Framework for Peer-to-Peer LLM Federation
         </div>
-        <div class="pub-authors">I Singh</div>
+        <div class="pub-authors">I Singh*, E Vissol-Gaudin, A Otung, M Sekiya</div>
         <div class="pub-venue">AAAI 2026 - AAAI Conference on Artificial Intelligence</div>
       </div>
       <div class="pub-item">

@@ -7,7 +7,7 @@ Below is a selected list of my scholarly outputs.  For a complete and always-up-
 
 ### Journal & Conference Papers
 
-• **Learning to Collaborate: An Orchestrated-Decentralized Framework for Peer-to-Peer LLM Federation**. In *Proceedings of the 2026 AAAI Conference on Artificial Intelligence (AAAI)*.
+• **Learning to Collaborate: An Orchestrated-Decentralized Framework for Peer-to-Peer LLM Federation** (with Eleonore Vissol-Gaudin, Andikan Otung, Motoyoshi Sekiya). In *Proceedings of the 2026 AAAI Conference on Artificial Intelligence (AAAI)*.
 
 • **TFDP: Token-Efficient Disparity Audits for Autoregressive LLMs via Single-Token Masked Evaluation** (with Ramya Srinivasan, Roman Vainshtein, Hisashi Kojima). In *Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing (EMNLP)*, pp. 24609-24626, Suzhou, China. [ACL Anthology](https://aclanthology.org/2025.emnlp-main.1250/) | [PDF](https://aclanthology.org/2025.emnlp-main.1250.pdf) | [DOI](https://doi.org/10.18653/v1/2025.emnlp-main.1250)
 
