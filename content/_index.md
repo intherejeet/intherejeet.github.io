@@ -974,7 +974,7 @@ section {
     <div class="hero-content">
       <h1>Inderjeet Singh</h1>
       <p class="hero-subtitle">
-        Senior Research Scientist (AI), Fujitsu Research of Europe<br>
+        Principal Research Scientist (AI), Fujitsu Research of Europe<br>
         <strong>Machine Learning Security</strong> • <strong>AI-Driven Cybersecurity</strong> • <strong>LLM/LMM Safety & Security</strong> • <strong>Trustworthy Multimodal AI</strong> • <strong>Adversarial Robustness</strong>
       </p>
       <div class="hero-links">
@@ -994,7 +994,7 @@ section {
     </div>
     
     <p class="about-text">
-      I’m a Senior Research Scientist at Fujitsu Research of Europe. My work sits at the intersection of <strong>AI security</strong> and <strong>cybersecurity</strong>—from computer vision in the early years to today’s language‑centric and distributed AI systems. 
+      I’m a Principal Research Scientist at Fujitsu Research of Europe. My work sits at the intersection of <strong>AI security</strong> and <strong>cybersecurity</strong>—from computer vision in the early years to today’s language‑centric and distributed AI systems. 
       I design evaluation methods, open datasets, and practical defenses for <strong>LLM/LMM safety</strong>, <strong>agentic RAG systems</strong>, and <strong>adversarial robustness</strong>. Recent projects include inference‑time safety for LLMs, disparity auditing via single‑token probes (TFDP), and secure orchestration for tool‑using agents. 
       I care about results that hold up under scrutiny: measured improvements, reproducible benchmarks, and deployments that make systems safer in practice. 
       Selected work appears at EMNLP 2025 and ACL 2025, with prior contributions at BMVC, ECCV, and ACML, alongside a granted US patent (12183118) and open datasets for red‑teaming and disparity evaluation.
