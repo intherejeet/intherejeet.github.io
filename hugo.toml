@@ -7,7 +7,7 @@ theme = 'PaperMod'
 pagerSize = 10
 
 [params]
-description = "Inderjeet Singh is a Principal Researcher in AI Security at Fujitsu Research of Europe. Research on adversarial machine learning, agentic AI security, and robustness."
+description = "Inderjeet Singh is a Principal Researcher in AI Security at Fujitsu Research of Europe, working on adversarial machine learning and the security of LLM agents."
 author = "Inderjeet Singh"
 defaultTheme = "light" # dark, light, auto
 disableThemeToggle = true
@@ -54,9 +54,9 @@ enabled = false
 
 # Research-first navigation
 [[menu.main]]
-identifier = "publications"
-name = "Publications"
-url = "/publications/"
+identifier = "news"
+name = "News"
+url = "/#news"
 weight = 10
 
 [[menu.main]]
@@ -66,16 +66,10 @@ url = "/#research"
 weight = 20
 
 [[menu.main]]
-identifier = "about"
-name = "About"
-url = "/#about"
+identifier = "publications"
+name = "Publications"
+url = "/publications/"
 weight = 30
-
-[[menu.main]]
-identifier = "scholar"
-name = "Google Scholar"
-url = "https://scholar.google.com/citations?user=eoxiMqQAAAAJ&hl=en"
-weight = 40
 
 # Taxonomies
 [taxonomies]

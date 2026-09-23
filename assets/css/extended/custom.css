@@ -1,120 +1,115 @@
-/* A readable research profile, without animation or hidden content. */
+/* Academic homepage styling: plain serif text, one column, no animation. */
 :root {
-  --main-width: 980px;
-  --nav-width: 980px;
-  --header-height: 68px;
+  --main-width: 760px;
+  --nav-width: 900px;
+  --header-height: 64px;
   --theme: #ffffff;
   --entry: #ffffff;
-  --primary: #17232e;
-  --secondary: #586574;
-  --content: #25313d;
-  --border: #dde3e7;
-  --paper-link: #215b80;
+  --primary: #1a1a1a;
+  --secondary: #5b5b5b;
+  --content: #222222;
+  --border: #e3e3e3;
+  --link: #1f4e79;
+  --award: #a3222b;
+  --serif: Charter, "Bitstream Charter", "Iowan Old Style", "Sitka Text", Cambria, Georgia, serif;
+  --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
 }
 
 html { scroll-behavior: smooth; }
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
-  font-size: 16px;
-  line-height: 1.65;
+  font-family: var(--serif);
+  font-size: 17px;
+  line-height: 1.6;
   color: var(--content);
   background: #fff;
 }
-.main { padding: 0 26px 64px; }
+body.list, body.list .main { background: #fff; }
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; text-underline-offset: 2px; }
+a:focus-visible { outline: 2px solid var(--link); outline-offset: 2px; }
+
+.main { padding: 0 24px 56px; }
 .header { border-bottom: 1px solid var(--border); }
-.nav { padding: 0 2px; }
-.logo a { font-family: Georgia, "Times New Roman", serif; font-size: 20px; font-weight: 600; }
-#menu a { font-size: 14px; color: var(--secondary); }
+.logo a { font-family: var(--serif); font-size: 19px; font-weight: 700; color: var(--primary); }
+#menu a { font-family: var(--sans); font-size: 14px; color: var(--secondary); }
 #menu a:hover, #menu a:focus-visible { color: var(--primary); }
-#menu .active { border-color: var(--paper-link); }
-a { text-underline-offset: 3px; }
-a:focus-visible { outline: 2px solid var(--paper-link); outline-offset: 3px; }
+#menu .active { border-bottom: 1px solid var(--primary); }
 
-.intro {
+/* Biography */
+.bio {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) 192px;
+  grid-template-columns: minmax(0, 1fr) 168px;
+  grid-template-areas: "text photo";
+  gap: 40px;
   align-items: start;
-  gap: 60px;
-  padding: 66px 0 46px;
+  padding: 48px 0 30px;
 }
-.eyebrow, .paper-venue {
-  display: block;
-  color: var(--secondary);
-  font-size: 12px;
-  font-weight: 650;
-  letter-spacing: .065em;
-  text-transform: uppercase;
-}
-.eyebrow { margin: 0 0 8px; }
-.intro h1, .home-section h2, .page-header h1, .post-title, .post-content h2 {
-  font-family: Georgia, "Times New Roman", serif;
-  font-weight: 600;
-  letter-spacing: -.025em;
+.bio-text { grid-area: text; }
+.portrait { grid-area: photo; width: 168px; height: 168px; object-fit: cover; border-radius: 4px; margin-top: 8px; }
+.bio h1 { font-family: var(--serif); font-size: 34px; font-weight: 700; line-height: 1.15; letter-spacing: -.01em; color: var(--primary); margin: 0 0 6px; }
+.affiliation { font-family: var(--sans); font-size: 15px; line-height: 1.5; color: var(--secondary); margin: 0 0 18px; }
+.bio p { margin: 0 0 13px; }
+.profile-links { font-family: var(--sans); font-size: 15px; margin-top: 18px !important; }
+.profile-links span { color: #aaa; margin: 0 5px; }
+
+/* Sections */
+.home-section { padding: 22px 0 8px; scroll-margin-top: 24px; }
+.home-section h2, .post-content h2 {
+  font-family: var(--serif);
+  font-size: 23px;
+  font-weight: 700;
   color: var(--primary);
+  letter-spacing: 0;
+  margin: 0 0 14px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid var(--border);
 }
-.intro h1 { font-size: clamp(36px, 4.4vw, 51px); line-height: 1.12; margin: 0 0 13px; }
-.appointment { font-size: 17px; line-height: 1.45; margin: 0 0 19px; color: var(--secondary); }
-.research-statement { font-size: 18px; line-height: 1.62; max-width: 660px; margin: 0 0 19px; }
-.profile-links { display: flex; flex-wrap: wrap; column-gap: 20px; row-gap: 7px; margin: 0; font-size: 15px; }
-.profile-links a, .section-heading a, .more-link a, .home-section > p a, .paper-links a, .bib-links a, .resource-list a {
-  color: var(--paper-link);
-  text-decoration: underline;
-}
-.portrait { width: 192px; height: 192px; object-fit: cover; border-radius: 5px; margin-top: 14px; }
+.home-section p { margin: 0 0 13px; }
+.section-heading { display: flex; align-items: baseline; justify-content: space-between; gap: 16px; border-bottom: 1px solid var(--border); margin-bottom: 14px; }
+.section-heading h2 { border-bottom: 0; margin-bottom: 0; }
+.section-heading a { font-family: var(--sans); font-size: 14px; }
 
-.home-section { padding: 30px 0 36px; border-top: 1px solid var(--border); scroll-margin-top: 30px; }
-.home-section h2 { font-size: 29px; line-height: 1.2; margin: 0 0 21px; }
-.section-heading { display: flex; align-items: baseline; justify-content: space-between; gap: 15px; }
-.section-heading a { font-size: 14px; }
-.paper-list, .bibliography { list-style: none; margin: 0; padding: 0; }
-.paper { padding: 16px 0 20px; border-top: 1px solid var(--border); }
-.paper:first-child { padding-top: 7px; border-top: 0; }
-.paper h3 { font-size: 18px; font-weight: 600; line-height: 1.4; margin: 4px 0 5px; }
-.paper h3 a, .bib-title { color: var(--paper-link); text-decoration: none; }
-.paper h3 a:hover, .bib-title:hover { text-decoration: underline; }
-.paper p { max-width: 800px; margin: 5px 0 0; line-height: 1.54; }
-.paper .paper-authors, .bib-authors { font-size: 14px; color: var(--secondary); }
-.paper .paper-links, .bib-links { display: flex; flex-wrap: wrap; gap: 18px; font-size: 14px; margin-top: 7px; }
-.more-link { margin: 13px 0 0; }
-.research-lines { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 25px; }
-.research-lines h3 { font-size: 17px; line-height: 1.4; margin: 0 0 8px; }
-.research-lines p { margin: 0; font-size: 15px; line-height: 1.65; color: var(--secondary); }
-#about p { max-width: 750px; margin: 0 0 15px; }
+/* News */
+.news { list-style: none; margin: 0; padding: 0; }
+.news li { display: grid; grid-template-columns: 82px minmax(0, 1fr); gap: 12px; margin: 0 0 7px; font-size: 16px; line-height: 1.5; }
+.news-date { font-family: var(--sans); font-size: 14px; color: var(--secondary); padding-top: 1px; white-space: nowrap; }
 
-body.list .main { max-width: 830px; }
-.post-single { max-width: 780px; margin: 0 auto; }
-.page-header, .post-header { margin-top: 55px; }
-.page-header h1, .post-title { font-size: 42px; line-height: 1.15; }
-.post-description { color: var(--secondary); font-size: 16px; }
-.post-content { color: var(--content); }
-.post-content h2 { font-size: 26px; margin: 40px 0 15px; }
-.post-content a { color: var(--paper-link); }
-.post-content .bibliography { padding: 0; margin: 0; }
-.post-content .bibliography li { margin: 0; padding: 16px 0 17px; border-top: 1px solid var(--border); }
-.bib-title { display: block; font-size: 17px; font-weight: 600; line-height: 1.44; margin: 4px 0; }
-.bib-authors { display: block; line-height: 1.5; }
-.post-content .bib-title { box-shadow: none; }
-.post-content .bib-links { margin: 6px 0 0; }
-.post-content .resource-list { padding-left: 21px; }
-.post-content .resource-list li { margin-bottom: 11px; }
-.footer { border-top: 1px solid var(--border); color: var(--secondary); font-size: 12px; }
+/* Publications */
+.pubs, .post-content .pubs { list-style: none; margin: 0; padding: 0; }
+.pubs li, .post-content .pubs li { margin: 0 0 17px; padding: 0; line-height: 1.45; }
+.pub-title, .post-content .pub-title { display: block; font-weight: 700; color: var(--link); box-shadow: none; }
+.pub-authors { display: block; font-size: 15.5px; color: var(--content); margin-top: 2px; }
+.pub-authors strong { font-weight: 700; }
+.pub-meta { display: block; font-size: 15.5px; color: var(--secondary); margin-top: 1px; }
+.pub-meta em { font-style: italic; }
+.award { font-family: var(--sans); font-size: 12.5px; font-weight: 600; color: var(--award); margin-left: 4px; }
+.pub-links { font-family: var(--sans); font-size: 14px; margin-left: 10px; }
+.pub-links a { margin-right: 11px; box-shadow: none; }
 
-@media (max-width: 700px) {
-  :root { --header-height: 60px; }
-  .main { padding: 0 20px 50px; }
-  .intro { grid-template-columns: minmax(0, 1fr) 120px; gap: 18px; padding: 42px 0 33px; }
-  .portrait { width: 120px; height: 120px; }
-  .research-lines { grid-template-columns: 1fr; gap: 20px; }
-  .page-header, .post-header { margin-top: 35px; }
-}
-@media (max-width: 480px) {
-  .intro { grid-template-columns: 1fr 94px; gap: 12px; padding: 33px 0 30px; }
-  .intro h1 { font-size: 34px; }
-  .portrait { width: 94px; height: 94px; margin-top: 8px; }
-  .appointment { font-size: 15px; }
-  .research-statement { font-size: 16px; }
-  .section-heading { align-items: start; }
-  .home-section h2 { font-size: 26px; }
-  .paper h3 { font-size: 17px; }
+/* Publications page */
+body.list .main { max-width: calc(var(--main-width) + 48px); }
+.page-header, .post-header { margin: 44px 0 10px; }
+.page-header h1, .post-title { font-family: var(--serif); font-size: 34px; font-weight: 700; letter-spacing: -.01em; color: var(--primary); }
+.post-description { display: none; }
+.post-content { font-family: var(--serif); color: var(--content); }
+.post-content p { margin: 0 0 14px; }
+.post-content h2 { margin: 34px 0 14px; }
+.post-content a { color: var(--link); box-shadow: none; }
+.post-content a:hover { text-decoration: underline; }
+.post-content .resources { padding-left: 20px; }
+.post-content .resources li { margin-bottom: 9px; }
+
+.footer { border-top: 1px solid var(--border); color: var(--secondary); font-family: var(--sans); font-size: 12.5px; }
+.footer a { color: var(--secondary); }
+
+@media (max-width: 640px) {
+  body { font-size: 16.5px; }
+  .main { padding: 0 18px 44px; }
+  .bio { grid-template-columns: 1fr; grid-template-areas: "photo" "text"; gap: 18px; padding-top: 30px; }
+  .portrait { width: 120px; height: 120px; margin-top: 0; }
+  .bio h1 { font-size: 30px; }
+  .news li { grid-template-columns: 1fr; gap: 0; margin-bottom: 11px; }
+  .pub-links { display: block; margin: 2px 0 0; }
+  .page-header, .post-header { margin-top: 30px; }
 }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
