@@ -11,7 +11,7 @@ description: "Inderjeet Singh, Principal Researcher in AI Security at Fujitsu Re
     <p class="research-statement">I study how AI systems fail under adversarial pressure and how to evaluate and defend them. My recent work examines attacks on agentic retrieval systems and language models, with earlier work on physical attacks and robust visual recognition.</p>
     <p class="profile-links"><a href="https://scholar.google.com/citations?user=eoxiMqQAAAAJ&amp;hl=en">Google Scholar</a><a href="/publications/">Publications</a><a href="https://github.com/intherejeet">GitHub</a><a href="https://www.linkedin.com/in/intherejeet/">LinkedIn</a></p>
   </div>
-  <img class="portrait" src="/images/profile-2025.png" width="200" height="200" alt="Portrait of Inderjeet Singh" fetchpriority="high">
+  <img class="portrait" src="/images/profile-2025.webp" width="200" height="200" alt="Portrait of Inderjeet Singh" fetchpriority="high">
 </section>
 
 <section class="home-section" id="publications" aria-labelledby="selected-title">
