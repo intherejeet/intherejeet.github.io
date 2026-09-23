@@ -1,40 +1,43 @@
 ---
 title: "Publications"
-description: "Peer-reviewed papers, patents and pre-prints"
+description: "Papers, preprints, open benchmarks, and a granted patent."
 ---
 
-Below is a selected list of my scholarly outputs.  For a complete and always-up-to-date record please refer to my [Google Scholar profile](https://scholar.google.com/citations?user=eoxiMqQAAAAJ&hl=en).
+This page lists peer-reviewed work separately from preprints and other research outputs. For a broader record, see [Google Scholar](https://scholar.google.com/citations?user=eoxiMqQAAAAJ&hl=en).
 
-### Journal & Conference Papers
+## Peer-reviewed papers
 
-• **Learning to Collaborate: An Orchestrated-Decentralized Framework for Peer-to-Peer LLM Federation** (with Eleonore Vissol-Gaudin, Andikan Otung, Motoyoshi Sekiya). In *Proceedings of the 2026 AAAI Conference on Artificial Intelligence (AAAI)*.
+<ol class="bibliography">
+  <li><span class="paper-venue">IJCNN 2026, oral</span><a class="bib-title" href="https://arxiv.org/abs/2606.26793">MIRROR: Novelty-Constrained Memory-Guided MCTS Red-Teaming for Agentic RAG</a><span class="bib-authors"><strong>Inderjeet Singh</strong>, Andrés Murillo, Motoyoshi Sekiya, Yuki Unno, Junichi Suga.</span><span class="bib-links"><a href="https://arxiv.org/abs/2606.26793">Preprint</a><a href="https://github.com/FujitsuResearch/mirror">Code</a><a href="https://huggingface.co/datasets/Fujitsu/agentic-rag-redteam-bench">Benchmark</a></span></li>
+  <li><span class="paper-venue">AAAI 2026</span><a class="bib-title" href="https://ojs.aaai.org/index.php/AAAI/article/view/39742">Learning to Collaborate: An Orchestrated-Decentralized Framework for Peer-to-Peer LLM Federation</a><span class="bib-authors"><strong>Inderjeet Singh</strong>, Eleonore Vissol-Gaudin, Andikan Otung, Motoyoshi Sekiya.</span><span class="bib-links"><a href="https://ojs.aaai.org/index.php/AAAI/article/view/39742">Paper</a><a href="https://github.com/FujitsuResearch/knexa-fl">Code</a></span></li>
+  <li><span class="paper-venue">EMNLP 2025</span><a class="bib-title" href="https://aclanthology.org/2025.emnlp-main.1250/">TFDP: Token-Efficient Disparity Audits for Autoregressive LLMs via Single-Token Masked Evaluation</a><span class="bib-authors"><strong>Inderjeet Singh</strong>, Ramya Srinivasan, Roman Vainshtein, Hisashi Kojima.</span><span class="bib-links"><a href="https://aclanthology.org/2025.emnlp-main.1250/">Paper</a><a href="https://huggingface.co/datasets/Fujitsu/PDD-Extended-Bench">Data</a></span></li>
+  <li><span class="paper-venue">ACL Findings 2025</span><a class="bib-title" href="https://aclanthology.org/2025.findings-acl.1223/">DIESEL: A Lightweight Inference-Time Safety Enhancement for Language Models</a><span class="bib-authors">Ben Ganon, Alon Zolfi, Omer Hofman, <strong>Inderjeet Singh</strong>, Hisashi Kojima, Yuval Elovici, Asaf Shabtai.</span><span class="bib-links"><a href="https://aclanthology.org/2025.findings-acl.1223/">Paper</a></span></li>
+  <li><span class="paper-venue">RAIE at ICSE 2025</span><a class="bib-title" href="https://doi.org/10.1109/RAIE66699.2025.00005">Insights and Current Gaps in Open-Source LLM Vulnerability Scanners: A Comparative Analysis</a><span class="bib-authors">Jonathan Brokman, Omer Hofman, Orel Rachmil, <strong>Inderjeet Singh</strong>, et al.</span><span class="bib-links"><a href="https://doi.org/10.1109/RAIE66699.2025.00005">Paper</a></span></li>
+  <li><span class="paper-venue">BMVC 2024, oral</span><a class="bib-title" href="https://bmvc2024.org/proceedings/584/">ATLANTIS: A Framework for Automated Targeted Language-guided Augmentation Training for Robust Image Search</a><span class="bib-authors"><strong>Inderjeet Singh</strong>, Roman Vainshtein, Alon Zolfi, Asaf Shabtai, et al.</span><span class="bib-links"><a href="https://bmvc2024.org/proceedings/584/">Paper</a><a href="https://github.com/intherejeet/ATLANTIS">Code</a></span></li>
+  <li><span class="paper-venue">ECCV 2024</span><a class="bib-title" href="https://doi.org/10.1007/978-3-031-73226-3_1">MONTRAGE: Monitoring Training for Attribution of Generative Diffusion Models</a><span class="bib-authors">Jonathan Brokman, Omer Hofman, Roman Vainshtein, Amit Giloni, Takashi Shimizu, <strong>Inderjeet Singh</strong>, et al.</span><span class="bib-links"><a href="https://doi.org/10.1007/978-3-031-73226-3_1">Paper</a></span></li>
+  <li><span class="paper-venue">ACML 2024</span><a class="bib-title" href="https://proceedings.mlr.press/v222/singh24a.html">Advancing Deep Metric Learning With Adversarial Robustness</a><span class="bib-authors"><strong>Inderjeet Singh</strong>, Kazuya Kakizaki, Toshinori Araki.</span><span class="bib-links"><a href="https://proceedings.mlr.press/v222/singh24a.html">Paper</a><a href="https://github.com/intherejeet/MDProp">Code</a></span></li>
+  <li><span class="paper-venue">ACM Computing Surveys 2023</span><a class="bib-title" href="https://doi.org/10.1145/3559104">Evaluating the Cybersecurity Risk of Real-world, Machine Learning Production Systems</a><span class="bib-authors">Ron Bitton, Nadav Maman, <strong>Inderjeet Singh</strong>, Satoru Momiyama, Yuval Elovici, Asaf Shabtai.</span><span class="bib-links"><a href="https://doi.org/10.1145/3559104">Paper</a></span></li>
+  <li><span class="paper-venue">WACV Workshops 2022</span><a class="bib-title" href="https://doi.org/10.1109/WACVW54805.2022.00036">Powerful Physical Adversarial Examples Against Practical Face Recognition Systems</a><span class="bib-authors"><strong>Inderjeet Singh</strong>, Toshinori Araki, Kazuya Kakizaki.</span><span class="bib-links"><a href="https://doi.org/10.1109/WACVW54805.2022.00036">Paper</a></span></li>
+  <li><span class="paper-venue">BIOSIG 2021</span><a class="bib-title" href="https://doi.org/10.1109/BIOSIG52210.2021.9548291">On Brightness Agnostic Adversarial Examples Against Face Recognition Systems</a><span class="bib-authors"><strong>Inderjeet Singh</strong>, Satoru Momiyama, Kazuya Kakizaki, Toshinori Araki.</span><span class="bib-links"><a href="https://doi.org/10.1109/BIOSIG52210.2021.9548291">Paper</a></span></li>
+  <li><span class="paper-venue">BIOSIG 2021</span><a class="bib-title" href="https://doi.org/10.1109/BIOSIG52210.2021.9548310">Toward Practical Adversarial Attacks on Face Verification Systems</a><span class="bib-authors">Kazuya Kakizaki, Takayuki Miyagawa, <strong>Inderjeet Singh</strong>, Jun Sakuma.</span><span class="bib-links"><a href="https://doi.org/10.1109/BIOSIG52210.2021.9548310">Paper</a></span></li>
+</ol>
 
-• **TFDP: Token-Efficient Disparity Audits for Autoregressive LLMs via Single-Token Masked Evaluation** (with Ramya Srinivasan, Roman Vainshtein, Hisashi Kojima). In *Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing (EMNLP)*, pp. 24609-24626, Suzhou, China. [ACL Anthology](https://aclanthology.org/2025.emnlp-main.1250/) | [PDF](https://aclanthology.org/2025.emnlp-main.1250.pdf) | [DOI](https://doi.org/10.18653/v1/2025.emnlp-main.1250)
+## Preprints
 
-• **Evaluating the Cybersecurity Risk of Real-world, Machine Learning Production Systems**. *ACM Computing Surveys* **55** (9), 1-36, 2023. [Publisher](https://doi.org/10.1145/3558106) | [arXiv](https://arxiv.org/abs/2107.01806)
+<ol class="bibliography">
+  <li><span class="paper-venue">2026, preprint</span><a class="bib-title" href="https://arxiv.org/abs/2602.21447">Adversarial Intent is a Latent Variable: Stateful Trust Inference for Securing Multimodal Agentic RAG</a><span class="bib-authors"><strong>Inderjeet Singh</strong>, Vikas Pahuja, Aishvariya Priya Rathina Sabapathy, Chiara Picardi, et al.</span><span class="bib-links"><a href="https://arxiv.org/abs/2602.21447">arXiv</a></span></li>
+  <li><span class="paper-venue">2026, preprint</span><a class="bib-title" href="https://arxiv.org/abs/2606.18532">AI Sandboxes: A Threat Model, Taxonomy, and Measurement Framework</a><span class="bib-authors"><strong>Inderjeet Singh</strong>, Haitham Mahmoud, Andrés Murillo.</span><span class="bib-links"><a href="https://arxiv.org/abs/2606.18532">arXiv</a></span></li>
+  <li><span class="paper-venue">2023, preprint</span><a class="bib-title" href="https://arxiv.org/abs/2304.05048">Simultaneous Adversarial Attacks on Multiple Face Recognition System Components</a><span class="bib-authors"><strong>Inderjeet Singh</strong>, Kazuya Kakizaki, Toshinori Araki.</span><span class="bib-links"><a href="https://arxiv.org/abs/2304.05048">arXiv</a></span></li>
+</ol>
 
-• **A Framework for Evaluating the Cybersecurity Risk of Real-world, Machine Learning Production Systems**. *arXiv preprint* arXiv:2107.01806, 2021. [PDF](https://arxiv.org/abs/2107.01806)
+## Open benchmarks and software
 
-• **Dodging Attack Using Carefully Crafted Natural Makeup**. *arXiv preprint* arXiv:2109.06467, 2021. [PDF](https://arxiv.org/abs/2109.06467)
+<ul class="resource-list">
+  <li><a href="https://huggingface.co/datasets/Fujitsu/agentic-rag-redteam-bench">ART-SafeBench</a> | Agentic RAG red-teaming records across text, image, direct-query, and orchestrator attack surfaces. Released with MIRROR.</li>
+  <li><a href="https://huggingface.co/datasets/Fujitsu/PDD-Extended-Bench">PDD-Extended Bench</a> | Contrastive probes for TFDP disparity audits.</li>
+  <li><a href="https://github.com/FujitsuResearch/knexa-fl">KNEXA-FL</a> | Open-source implementation of the AAAI 2026 work on peer-to-peer LLM federation.</li>
+</ul>
 
-• **Toward Practical Adversarial Attacks on Face Verification Systems**. In *Proc. BIOSIG 2021*, pp. 1-6, IEEE. [PDF](https://dl.gi.de/items/9ac568e3-3146-42b1-9664-cac401404ab4)
+## Patent
 
-• **On Brightness-Agnostic Adversarial Examples Against Face Recognition Systems**. In *Proc. BIOSIG 2021*, pp. 1-5, IEEE. [IEEE Xplore](https://ieeexplore.ieee.org/document/9587040)
-
-• **Powerful Physical Adversarial Examples Against Practical Face Recognition Systems**. In *Proc. WACV 2022*, pp. 301-310. [OpenAccess](https://openaccess.thecvf.com/content/WACV2022/html/Singh_Powerful_Physical_Adversarial_Examples_Against_Practical_Face_Recognition_Systems_WACV_2022_paper.html)
-
-• **Simultaneous Adversarial Attacks on Multiple Face Recognition System Components**. *arXiv preprint* arXiv:2304.05048, 2023. [PDF](https://arxiv.org/abs/2304.05048)
-
-• **Anomaly Detection Using Capsule Networks for High-dimensional Datasets**. *arXiv preprint* arXiv:2112.13514, 2021. [PDF](https://arxiv.org/abs/2112.13514)
-
-### Open Datasets & Benchmarks
-
-• **Agentic RAG Red Teaming Dataset** (with Vikas Pahuja, Aishvariya Priya Rathina Sabapathy). Fujitsu Research, 2025. 36K+ successful adversarial RAG scenarios spanning retrieval poisoning, direct queries, agent orchestration, and OCR-mediated attacks for safety evaluation. [Hugging Face](https://huggingface.co/datasets/Fujitsu/agentic-rag-redteam-bench) | [DOI](https://doi.org/10.57967/hf/6395)
-
-• **PDD-Extended Bench (Proverbs Disparity Dataset)** (with Ramya Srinivasan, Roman Vainshtein, Hisashi Kojima). EMNLP 2025 companion dataset. Minimally contrastive, single-token masked proverbs across climate misinformation and gender equality topics for TFDP disparity audits. [Hugging Face](https://huggingface.co/datasets/Fujitsu/PDD-Extended-Bench) | [DOI](https://doi.org/10.57967/hf/6465)
-
-### Patents
-
-• **Facial Recognition Adversarial Patch Adjustment**. US Patent, 2024. [USPTO](https://patents.google.com/?q=facial+recognition+adversarial+patch+adjustment)
-
-• **Adversarial Image Generation Apparatus, Control Method, and Computer-readable Storage Medium**. WO 2023 286251 A1, 2023. [PatentScope](https://patentscope.wipo.int/search/en/detail.jsf?docId=WO2023286251) 
+<a href="https://patents.google.com/patent/US12183118B2/en">US 12,183,118 B2: Facial recognition adversarial patch adjustment</a>. Granted 31 December 2024.
