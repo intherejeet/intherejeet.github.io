@@ -1,6 +1,6 @@
 ---
 title: "Inderjeet Singh"
-description: "Inderjeet Singh is a Principal Researcher in AI Security at Fujitsu Research of Europe, working on adversarial machine learning and the security of LLM agents."
+description: "Inderjeet Singh is a Principal Researcher in AI Security at Fujitsu Research of Europe, working on physical AI security for robotic and space systems and on the security of language models, agents, and computer vision."
 ---
 
 <section class="bio" aria-labelledby="intro-name">
@@ -8,7 +8,7 @@ description: "Inderjeet Singh is a Principal Researcher in AI Security at Fujits
   <div class="bio-text">
     <h1 id="intro-name">Inderjeet Singh</h1>
     <p class="affiliation">Principal Researcher, AI Security<br>Fujitsu Research of Europe</p>
-    <p>I work on adversarial machine learning. My current research studies how LLM agents and retrieval-augmented generation (RAG) systems can be attacked, how to measure those failures, and how to defend against them.</p>
+    <p>I work on AI security and adversarial machine learning. My primary focus is now physical AI security, where I study the security of AI-enabled robotic and space systems. I continue to work on the security of large language models, agentic retrieval-augmented generation (RAG), and computer vision.</p>
     <p>Before joining Fujitsu in 2023, I spent almost four years at NEC Secure System Platform Laboratories in Japan, working on digital and physical adversarial attacks against face recognition. I hold an M.Tech in Industrial Engineering and Operations Research from IIT Bombay, where I received the Institute Silver Medal.</p>
     <p class="profile-links"><a href="https://scholar.google.com/citations?user=eoxiMqQAAAAJ&amp;hl=en">Google Scholar</a> <span aria-hidden="true">/</span> <a href="https://github.com/intherejeet">GitHub</a> <span aria-hidden="true">/</span> <a href="https://www.linkedin.com/in/intherejeet/">LinkedIn</a> <span aria-hidden="true">/</span> <a href="/publications/">Publications</a></p>
   </div>
@@ -30,7 +30,7 @@ description: "Inderjeet Singh is a Principal Researcher in AI Security at Fujits
 
 <section class="home-section" id="research" aria-labelledby="research-title">
   <h2 id="research-title">Research</h2>
-  <p>My research asks how AI systems fail when an adversary is part of their environment, and what evidence is needed before we call a system secure. Most of my current work concerns agentic RAG, where an attacker can act through a poisoned document, an image, a user query, or the orchestration layer. <a href="https://arxiv.org/abs/2606.26793">MIRROR</a> searches these attack surfaces automatically, and the released benchmark makes the resulting attacks reproducible. On defence, I model adversarial intent as a latent state that a trust agent infers across retrieval, planning, and generation, and I have worked on inference-time safety for language models.</p>
+  <p>My research asks how AI systems fail when an adversary is part of their environment, and what evidence is needed before we call a system secure. My main current direction applies this question to physical AI, especially robotic and space systems, where a compromised model can cause physical effects. My published work on language models concerns agentic RAG, where an attacker can act through a poisoned document, an image, a user query, or the orchestration layer. <a href="https://arxiv.org/abs/2606.26793">MIRROR</a> searches these attack surfaces automatically, and the released benchmark makes the resulting attacks reproducible. On defence, I model adversarial intent as a latent state that a trust agent infers across retrieval, planning, and generation, and I have worked on inference-time safety for language models.</p>
   <p>My earlier work at NEC studied physical adversarial examples against face recognition, attacks that remain effective under changes in lighting, and adversarial robustness for deep metric learning and image retrieval. I am also interested in how security claims for AI systems should be evaluated, a question my recent preprint develops for AI sandboxes.</p>
 </section>
 
